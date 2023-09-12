@@ -1,0 +1,130 @@
+,Tag,ObjectID,Creation Date,Stream,Month,Site Type,Stream Width,Mesohabitat,Depth,Velocity,Substrate,Substrate Feature,Surface Turbulence,Aquatic Vegetation,Large Woody Debris,Terrestrial Vegetation,Undercut Bank,Instream Cover,Canopy Cover,Longitude,Latitude,Notes,Data Change,Species,Weight,Length,Capture Method,Capture Date,Release,Notes.y
+16,178,155,5/30/2022 22:07,Clear,May,Occupied,11.076,Pool,10,NA,Bedrock,0,0,0,0,0,0,0,No,34.538157,111.687191,NA,removed extra '34.' from longitude ,Black Bass,117,221,Backpack Shocker,11/28/2022,Start to 2nd Pool,NA
+79,NA,242,5/31/2022 0:00,Clear,May,Available,8.995,Pool,23,0.1,Cobble,0,0,0,0.1,0,0,0.1,No,34.535834,111.678637,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+15,177,248,5/31/2022 0:00,Clear,May,Occupied,11.547,Pool,42,0.1,Gravel,0.2,0,0,0,0,0,0.2,Yes,34.535578,111.67804,NA,Changed date to correct date,Desert Sucker,227,274,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole
+98,NA,221,5/31/2022 23:06,Clear,May,Available,7.591,Pool,42,0.08,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.536661,111.680799,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41,NA,138,5/30/2022 20:43,Clear,May,Available,8.833,Pool,46,0.01,Pebble,0.2,0,0,0,0,0,0.2,No,34.538116,111.68806,NA,Confirmed pool with photos,NA,NA,NA,NA,NA,NA,NA
+6,165,243,5/31/2022 0:00,Clear,May,Occupied,14.069,Pool,50,0.06,Cobble,0,0,0,0,0,0,0,No,34.535849,111.678583,NA,Changed date to correct date,Black Bass,79,193,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+18,185,191,5/31/2022 18:49,Clear,May,Occupied,9.408,Pool,52,0,Pebble,0.1,0,0,0,0,0,0.1,No,34.538609,111.684171,NA,NA,Black Bass,88,201,Backpack Shocker,11/28/2022,Camp Crossing,NA
+105,NA,190,5/31/2022 18:46,Clear,May,Available,13.392,Pool,53,0,Pebble,0.1,0,0,0,0,0,0.1,No,34.538562,111.684312,NA,NA,NA,NA,NA,NA,NA,NA,NA
+126,NA,223,5/31/2022 23:15,Clear,May,Available,11.585,Pool,54,0.03,Pebble,0,0,0,0,0,0,0,Yes,34.536543,111.680713,NA,NA,NA,NA,NA,NA,NA,NA,NA
+49,NA,146,5/30/2022 21:27,Clear,May,Available,11.95,Pool,56,0.02,Bedrock,0,0,0,0,0,0,0,No,34.538146,111.687392,NA,NA,NA,NA,NA,NA,NA,NA,NA
+108,NA,197,5/31/2022 20:36,Clear,May,Available,6.352,Pool,62,0.15,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.538642,111.683862,NA,NA,NA,NA,NA,NA,NA,NA,NA
+56,NA,153,5/30/2022 22:01,Clear,May,Available,10.675,Pool,64,0.12,Bedrock,0.4,0,0,0,0,0,0.4,Yes,34.538136,111.686956,NA,Confirmed boulder with photo,NA,NA,NA,NA,NA,NA,NA
+110,NA,195,5/31/2022 20:26,Clear,May,Available,6.288,Pool,64,0.03,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.538653,111.683842,NA,Equipment not capable of measureing .42,NA,NA,NA,NA,NA,NA,NA
+121,NA,222,5/31/2022 23:12,Clear,May,Available,9.812,Pool,65,0.1,Cobble,0,0,0,0,0,0,0,Yes,34.53661,111.680759,NA,NA,NA,NA,NA,NA,NA,NA,NA
+17,179,196,5/31/2022 20:29,Clear,May,Occupied,3.954,Pool,76,0.33,Boulder,0.7,0,0,0.1,0,0,0.8,No,34.538633,111.683703,Could not find washer,NA,Desert Sucker,225,273,Hoop Net,11/28/2022,Start to 2nd Pool,bottom pool- George
+52,NA,149,5/30/2022 21:40,Clear,May,Available,11,Pool,76,0,Boulder,0.65,0,0,0,0,0,0.65,Yes,34.538097,111.687196,NA,Pool width estimate based on other measurements ,NA,NA,NA,NA,NA,NA,NA
+54,NA,151,5/30/2022 21:51,Clear,May,Available,12.146,Pool,78,0.07,Bedrock,0,0,0,0,0,0,0,No,34.538087,111.687016,NA,NA,NA,NA,NA,NA,NA,NA,NA
+120,NA,225,5/31/2022 23:22,Clear,May,Available,15.497,Pool,78,0,Sand,0,0,0,0.134,0,0,0.134,No,34.536461,111.680433,NA,NA,NA,NA,NA,NA,NA,NA,NA
+42,NA,139,5/30/2022 20:50,Clear,May,Available,10.932,Pool,86,0,Sand,0,0,0,0,0,0,0,No,34.538114,111.687989,NA,NA,NA,NA,NA,NA,NA,NA,NA
+50,NA,147,5/30/2022 21:29,Clear,May,Available,11.43,Pool,86,0.06,Bedrock,0,0,0,0,0,0,0,No,34.538145,111.687329,NA,Confirmed no canopy with photo,NA,NA,NA,NA,NA,NA,NA
+68,NA,193,5/31/2022 20:18,Clear,May,Available,11.963,Pool,86,0.03,Gravel,0,0,0,0,0,0,0,No,34.538573,111.683987,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,160,194,5/31/2022 20:21,Clear,May,Occupied,6.419,Pool,90,0.04,Sand,0.6,0,0,0.2,0,0,0.8,Yes,34.538638,111.683855,NA,NA,Black Bass,77,186,Backpack Shocker,11/28/2022,Camp Crossing,NA
+82,NA,247,5/31/2022 0:00,Clear,May,Available,13.254,Pool,98,0.06,Bedrock,0,0,0,0,0,0,0,No,34.535729,111.678129,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+45,NA,142,5/30/2022 21:15,Clear,May,Available,14.325,Pool,100,0.2,Bedrock,0,0,0,0,0,0,0,No,34.538173,111.687777,NA,NA,NA,NA,NA,NA,NA,NA,NA
+81,NA,246,5/31/2022 0:00,Clear,May,Available,13.891,Pool,102,0.04,Bedrock,0,0,0,0,0,0,0,No,34.535818,111.678259,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+55,NA,152,5/30/2022 21:56,Clear,May,Available,9.655,Pool,104,0,Boulder,0.8,0,0,0,0,0,0.8,Yes,34.5381,111.686975,NA,NA,NA,NA,NA,NA,NA,NA,NA
+48,NA,145,5/30/2022 21:24,Clear,May,Available,15.204,Pool,114,0.05,Bedrock,0,0,0,0,0,0,0,Yes,34.538157,111.687481,NA,NA,NA,NA,NA,NA,NA,NA,NA
+80,NA,244,5/31/2022 0:00,Clear,May,Available,12.382,Pool,122,0.06,Bedrock,0.1,0,0,0,0,0,0.1,No,34.535821,111.678504,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+124,NA,224,5/31/2022 23:18,Clear,May,Available,14.027,Pool,126,0.02,Cobble,0,0,0,0,0,0,0,No,34.536455,111.680582,NA,NA,NA,NA,NA,NA,NA,NA,NA
+1,145,245,5/31/2022 0:00,Clear,May,Occupied,12.025,Pool,>150,0,Gravel,0,0,0,0,0,0,0,Yes,34.535812,111.678371,NA,Changed date to correct date,Black Bass,78,198,Backpack Shocker,11/28/2022,Camp Crossing,NA
+44,NA,141,5/30/2022 21:08,Clear,May,Available,15.707,Pool,>150,NA,Boulder,0,0,0,0.7,0,0,0.7,Yes,34.538261,111.687863,NA,NA,NA,NA,NA,NA,NA,NA,NA
+46,NA,143,5/30/2022 21:19,Clear,May,Available,15.5,Pool,>150,NA,NA,0,0,0,0,0,0,0,Yes,34.538136,111.687638,NA,Pool width estimate based on other measurements ,NA,NA,NA,NA,NA,NA,NA
+47,NA,144,5/30/2022 21:22,Clear,May,Available,19.192,Pool,>150,NA,NA,0,0,0,0,0,0,0,Yes,34.538164,111.687546,NA,NA,NA,NA,NA,NA,NA,NA,NA
+51,NA,148,5/30/2022 21:32,Clear,May,Available,11.826,Pool,>150,NA,Bedrock,0,0,0,0,0,0,0,Yes,34.538071,111.687253,NA,Confirmed bedrock with photo,NA,NA,NA,NA,NA,NA,NA
+53,NA,150,5/30/2022 21:46,Clear,May,Available,10.688,Pool,>150,NA,NA,0,0,0,0,0,0,0,Yes,34.538131,111.687056,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,NA,192,5/31/2022 20:13,Clear,May,Available,11.86,Pool,>150,NA,NA,0,0,0,0,0,0,0,No,34.538524,111.684075,NA,NA,NA,NA,NA,NA,NA,NA,NA
+103,NA,226,5/31/2022 23:26,Clear,May,Available,23.503,Pool,>150,0,NA,0,0,0,0,0,0,0,Yes,34.536374,111.68027,NA,NA,NA,NA,NA,NA,NA,NA,NA
+127,NA,227,5/31/2022 23:30,Clear,May,Available,10.39,Pool,>150,0,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.536284,111.680189,NA,NA,NA,NA,NA,NA,NA,NA,NA
+106,NA,204,5/31/2022 21:21,Clear,May,Available,6.4,Riffle,3,0.09,Pebble,0.3,0,0,0,0,0,0.3,No,34.538368,111.682811,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76,NA,238,5/31/2022 0:00,Clear,May,Available,7.985,Riffle,11,0.56,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.536,111.679128,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+34,NA,131,5/30/2022 20:02,Clear,May,Available,3.376,Riffle,14,0.44,Pebble,0,0,0,0,0,0,0,Yes,34.53815,111.688639,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38,NA,135,5/30/2022 20:34,Clear,May,Available,4.5,Riffle,14,0,Gravel,0.05,0,0,0,0,0,0.05,Yes,34.538137,111.688325,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39,NA,136,5/30/2022 20:36,Clear,May,Available,5.592,Riffle,14,0.16,Pebble,0.4,0,0,0.2,0,0,0.6,Yes,34.538111,111.688243,NA,Confirmed canoy with photo,NA,NA,NA,NA,NA,NA,NA
+40,NA,137,5/30/2022 20:41,Clear,May,Available,7.579,Riffle,16,0.07,Cobble,0.15,0,0,0.5,0,0,0.65,Yes,34.538138,111.68816,NA,NA,NA,NA,NA,NA,NA,NA,NA
+62,NA,159,5/30/2022 23:04,Clear,May,Available,9.49,Riffle,18,0.26,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538053,111.68645,NA,NA,NA,NA,NA,NA,NA,NA,NA
+11,171,176,5/31/2022 17:47,Clear,May,Occupied,10.7,Riffle,20,0.09,Cobble,0.1,0,0,0,0,0,0.1,No,34.538548,111.689341,NA,NA,Black Bass,95,202,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+35,NA,132,5/30/2022 20:15,Clear,May,Available,5.822,Riffle,20,0.1,Pebble,0,0,0,0,0,0,0,No,34.538181,111.688567,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73,NA,170,5/30/2022 23:39,Clear,May,Available,10.502,Riffle,20,0.25,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.5382,111.685651,NA,NA,NA,NA,NA,NA,NA,NA,NA
+36,NA,133,5/30/2022 20:17,Clear,May,Available,5.44,Riffle,22,0.04,Cobble,0.3,0,0,0,0,0,0.3,No,34.538116,111.688496,NA,Confirmed cobble with photo ,NA,NA,NA,NA,NA,NA,NA
+60,NA,157,5/30/2022 22:55,Clear,May,Available,14.115,Riffle,22,0.12,Cobble,0.5,0,0,0,0,0,0.5,Yes,34.538022,111.686575,NA,NA,NA,NA,NA,NA,NA,NA,NA
+58,NA,183,5/31/2022 18:24,Clear,May,Available,10.258,Riffle,23,0.14,Boulder,0.3,0,0,0,0,0,0.3,No,34.538427,111.684759,NA,NA,NA,NA,NA,NA,NA,NA,NA
+30,NA,127,5/30/2022 19:40,Clear,May,Available,4.917,Riffle,24,0.59,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538374,111.688223,NA,Confirmed canopy with photo,NA,NA,NA,NA,NA,NA,NA
+64,NA,161,5/30/2022 23:10,Clear,May,Available,9.589,Riffle,24,0.23,Cobble,0.1,0,0,0,0,0,0.1,No,34.538112,111.686306,NA,NA,NA,NA,NA,NA,NA,NA,NA
+93,NA,178,5/31/2022 18:03,Clear,May,Available,9.7,Riffle,24,0.08,Pebble,0.4,0,0,0,0,0,0.4,Yes,34.538287,111.685121,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25,NA,122,5/30/2022 19:09,Clear,May,Available,3.4765,Riffle,25,0.84,Cobble,0.3,0.3,0,0,0,0,0.6,Yes,34.538449,111.688646,NA,NA,NA,NA,NA,NA,NA,NA,NA
+27,NA,124,5/30/2022 19:25,Clear,May,Available,5.088,Riffle,25,0.24,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538461,111.688427,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33,NA,130,5/30/2022 19:56,Clear,May,Available,21.284,Riffle,26,0.08,Cobble,0.05,0,0,0,0,0,0.05,No,34.538219,111.687983,NA,Confirmed cobble with photo,NA,NA,NA,NA,NA,NA,NA
+59,NA,156,5/30/2022 22:47,Clear,May,Available,11.741,Riffle,26,0.34,Cobble,0.2,0.1,0,0,0,0,0.3,Yes,34.538021,111.686691,NA,NA,NA,NA,NA,NA,NA,NA,NA
+61,NA,158,5/30/2022 22:58,Clear,May,Available,9.685,Riffle,26,0.1,Boulder,0.3,0.1,0,0,0,0,0.4,Yes,34.53804,111.686489,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70,NA,167,5/30/2022 23:31,Clear,May,Available,8.713,Riffle,26,0.05,Cobble,0.3,0.05,0,0,0,0,0.35,Yes,34.538158,111.685907,NA,NA,NA,NA,NA,NA,NA,NA,NA
+77,NA,240,5/31/2022 0:00,Clear,May,Available,6.731,Riffle,26,0.18,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.535973,111.678957,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+115,NA,200,5/31/2022 20:48,Clear,May,Available,8.402,Riffle,26,0.65,Gravel,0.2,0.2,0,0,0,0,0.4,No,34.538638,111.683393,NA,NA,NA,NA,NA,NA,NA,NA,NA
+128,NA,235,5/31/2022 23:55,Clear,May,Available,6.605,Riffle,26,0.02,Boulder,0.2,0,0,0,0,0,0.2,Yes,34.536066,111.67969,NA,NA,NA,NA,NA,NA,NA,NA,NA
+75,NA,237,5/31/2022 0:00,Clear,May,Available,6.379,Riffle,30,0.27,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.535974,111.679321,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+89,NA,174,5/31/2022 17:38,Clear,May,Available,9.8,Riffle,30,0,Boulder,0.6,0,0,0,0,0,0.6,Yes,34.538548,111.689341,NA,NA,NA,NA,NA,NA,NA,NA,NA
+96,NA,185,5/31/2022 18:29,Clear,May,Available,7.489,Riffle,30,0.19,Cobble,0.5,0,0,0,0,0,0.5,No,34.53849,111.684637,NA,NA,NA,NA,NA,NA,NA,NA,NA
+113,NA,202,5/31/2022 21:09,Clear,May,Available,3.29,Riffle,30,0.31,Cobble,0.2,0.1,0,0,0,0,0.3,Yes,34.538553,111.68311,NA,NA,NA,NA,NA,NA,NA,NA,NA
+118,NA,203,5/31/2022 21:18,Clear,May,Available,10.84,Riffle,30,0.16,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.538449,111.682945,16 m intervals started,NA,NA,NA,NA,NA,NA,NA,NA
+119,NA,213,5/31/2022 22:16,Clear,May,Available,11.75,Riffle,30,0.09,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.537314,111.68173,NA,NA,NA,NA,NA,NA,NA,NA,NA
+116,NA,233,5/31/2022 23:47,Clear,May,Available,7.026,Riffle,31,0.17,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.536088,111.679874,NA,NA,NA,NA,NA,NA,NA,NA,NA
+43,NA,140,5/30/2022 20:52,Clear,May,Available,19.52,Riffle,32,0.25,Cobble,0,0,0,0.65,0,0,0.65,Yes,34.53826,111.687948,NA,Confirmed riffle cobble with photos,NA,NA,NA,NA,NA,NA,NA
+71,NA,168,5/30/2022 23:34,Clear,May,Available,10.49,Riffle,32,0.13,Cobble,0,0,0,0,0,0,0,Yes,34.538178,111.685828,NA,NA,NA,NA,NA,NA,NA,NA,NA
+92,NA,177,5/31/2022 17:50,Clear,May,Available,11.1,Riffle,32,0.17,Cobble,0.85,0,0,0.1,0,0,0.95,Yes,34.538548,111.689341,NA,changed >250 to >150,NA,NA,NA,NA,NA,NA,NA
+12,172,179,5/31/2022 18:06,Clear,May,Occupied,7.9,Riffle,34,0.4,Cobble,0.5,0,0,0,0,0,0.5,Yes,34.538306,111.685105,NA,NA,Black Bass,82,190,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+28,NA,125,5/30/2022 19:29,Clear,May,Available,4.253,Riffle,34,0.33,Boulder,0.6,0,0,0,0,0,0.6,Yes,34.53842,111.68835,NA,Confirmed canopy with photo,NA,NA,NA,NA,NA,NA,NA
+95,NA,218,5/31/2022 22:45,Clear,May,Available,8.816,Riffle,35,0.17,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.536879,111.681168,NA,NA,NA,NA,NA,NA,NA,NA,NA
+29,NA,126,5/30/2022 19:36,Clear,May,Available,4.89,Riffle,36,0.91,Cobble,0.75,0,0,0,0,0,0.75,Yes,34.538408,111.688288,NA,NA,NA,NA,NA,NA,NA,NA,NA
+63,NA,188,5/31/2022 18:40,Clear,May,Available,7.477,Riffle,36,0.03,Cobble,0.1,0,0,0.1,0,0,0.2,Yes,34.538573,111.68442,NA,NA,NA,NA,NA,NA,NA,NA,NA
+67,NA,164,5/30/2022 23:19,Clear,May,Available,9.454,Riffle,36,0,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.538133,111.68606,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,NA,181,5/31/2022 18:15,Clear,May,Available,6.6,Riffle,36,0.07,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.538352,111.684887,NA,NA,NA,NA,NA,NA,NA,NA,NA
+86,NA,211,5/31/2022 22:07,Clear,May,Available,8.46,Riffle,36,0.32,Gravel,0.2,0.1,0,0,0,0,0.3,No,34.537532,111.681928,NA,NA,NA,NA,NA,NA,NA,NA,NA
+99,NA,184,5/31/2022 18:27,Clear,May,Available,9.193,Riffle,36,0.1,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.538452,111.68466,NA,NA,NA,NA,NA,NA,NA,NA,NA
+107,NA,205,5/31/2022 21:30,Clear,May,Available,13.002,Riffle,36,0.16,Pebble,0.1,0,0,0,0,0,0.1,Yes,34.538261,111.682702,NA,removed 'm' from laltitude ,NA,NA,NA,NA,NA,NA,NA
+111,NA,220,5/31/2022 23:01,Clear,May,Available,4.9,Riffle,36,0.2,Cobble,0.5,0.2,0,0.1,0,0,0.8,No,34.53671,111.680946,NA,NA,NA,NA,NA,NA,NA,NA,NA
+122,NA,219,5/31/2022 22:52,Clear,May,Available,8.89,Riffle,36,0.3,Pebble,0.4,0.2,0,0,0,0,0.6,No,34.536796,111.681082,NA,NA,NA,NA,NA,NA,NA,NA,NA
+26,NA,123,5/30/2022 19:20,Clear,May,Available,5.1017,Riffle,38,0.51,Cobble,0.15,0,0,0,0,0,0.15,Yes,34.538478,111.688512,NA,NA,NA,NA,NA,NA,NA,NA,NA
+66,NA,163,5/30/2022 23:16,Clear,May,Available,8.091,Riffle,38,0.17,Cobble,0.2,0,0,0,0,0,0.2,No,34.53811,111.686153,NA,NA,NA,NA,NA,NA,NA,NA,NA
+72,NA,169,5/30/2022 23:36,Clear,May,Available,7.10534,Riffle,38,0.16,Gravel,0.25,0,0,0,0,0,0.25,No,34.538146,111.685754,NA,NA,NA,NA,NA,NA,NA,NA,NA
+78,NA,241,5/31/2022 0:00,Clear,May,Available,5.979,Riffle,38,0.08,Pebble,0.3,0,0,0,0,0,0.3,Yes,34.535898,111.678796,NA,Changed date to correct date,NA,NA,NA,NA,NA,NA,NA
+123,NA,236,5/31/2022 23:58,Clear,May,Available,8.045,Riffle,38,0.43,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.536019,111.679458,NA,NA,NA,NA,NA,NA,NA,NA,NA
+24,218,165,5/30/2022 23:24,Clear,May,Occupied,7.797,Riffle,40,0.84,Gravel,0.3,0.1,0,0,0,0,0.4,Yes,34.538129,111.686011,NA,NA,Black Bass,87,194,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+31,NA,128,5/30/2022 19:42,Clear,May,Available,5.438,Riffle,40,0.55,Cobble,0.3,0.9,0,0.1,0,0,1.3,Yes,34.538324,111.688148,NA,NA,NA,NA,NA,NA,NA,NA,NA
+125,NA,215,5/31/2022 22:25,Clear,May,Available,11.919,Riffle,40,0.33,Pebble,0.1,0,0,0,0,0,0.1,No,34.537092,111.6815,NA,NA,NA,NA,NA,NA,NA,NA,NA
+65,NA,162,5/30/2022 23:12,Clear,May,Available,8.064,Riffle,41,0.23,Boulder,0.1,0,0,0,0,0,0.1,Yes,35.538112,111.68631,NA,NA,NA,NA,NA,NA,NA,NA,NA
+69,NA,166,5/30/2022 23:27,Clear,May,Available,8.632,Riffle,42,0.4,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.53812,111.685976,NA,NA,NA,NA,NA,NA,NA,NA,NA
+97,NA,182,5/31/2022 18:21,Clear,May,Available,10.838,Riffle,42,0.02,Pebble,0.3,0,0,0,0,0,0.3,Yes,34.538404,111.684824,NA,NA,NA,NA,NA,NA,NA,NA,NA
+114,NA,212,5/31/2022 22:10,Clear,May,Available,8.156,Riffle,42,0.2,Gravel,0.1,0,0,0,0,0,0.1,Yes,34.53743,111.681815,NA,NA,NA,NA,NA,NA,NA,NA,NA
+84,NA,209,5/31/2022 21:53,Clear,May,Available,10.341,Riffle,43,0.13,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.53778,111.682259,NA,NA,NA,NA,NA,NA,NA,NA,NA
+87,NA,172,5/31/2022 17:31,Clear,May,Available,9.7,Riffle,43,0.3,Pebble,0.5,0,0,0,0,0,0.5,Yes,34.538589,111.68929,NA,NA,NA,NA,NA,NA,NA,NA,NA
+129,NA,228,5/31/2022 23:34,Clear,May,Available,9.157,Riffle,44,0.2,Boulder,0.4,0,0,0,0.3,0,0.7,Yes,34.536096,111.680134,NA,NA,NA,NA,NA,NA,NA,NA,NA
+85,NA,210,5/31/2022 22:05,Clear,May,Available,7.5,Riffle,45,0.07,Gravel,0.1,0,0,0,0,0,0.1,Yes,34.537661,111.682122,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57,NA,154,5/30/2022 22:04,Clear,May,Available,6.274,Riffle,46,0.03,Boulder,0.2,0,0,0,0,0,0.2,Yes,34.538065,111.686823,NA,NA,NA,NA,NA,NA,NA,NA,NA
+7,166,171,5/30/2022 23:45,Clear,May,Occupied,8.173,Riffle,48,0,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.538263,111.685514,NA,NA,Black Bass,79,188,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,NA
+100,NA,189,5/31/2022 18:43,Clear,May,Available,5.24,Riffle,49,0.19,Cobble,0.1,0,0,0,0,0,0.1,No,34.538573,111.68442,NA,NA,NA,NA,NA,NA,NA,NA,NA
+112,NA,214,5/31/2022 22:21,Clear,May,Available,12.905,Riffle,49,0.16,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.537243,111.681637,NA,NA,NA,NA,NA,NA,NA,NA,NA
+4,162,208,5/31/2022 21:48,Clear,May,Occupied,8.7,Riffle,50,0,Pebble,0.2,0,0,0,0,0,0.2,Yes,34.53787,111.682338,NA,NA,Black Bass,89,204,Backpack Shocker,11/28/2022,Start to 2nd Pool,internal clear liquid
+8,167,229,5/31/2022 23:37,Clear,May,Occupied,10.108,Riffle,50,0.17,Gravel,0.4,0,0,0,0,0,0.4,No,34.536096,111.680134,NA,NA,Desert Sucker,188,248,Backpack Shocker,11/28/2022,Camp Crossing,NA
+37,NA,134,5/30/2022 20:26,Clear,May,Available,4.837,Riffle,50,0.04,Pebble,0.2,0,0,0,0,0,0.2,No,34.538119,111.688431,NA,NA,NA,NA,NA,NA,NA,NA,NA
+88,NA,173,5/31/2022 17:34,Clear,May,Available,10.4,Riffle,50,0.18,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538589,111.68929,NA,NA,NA,NA,NA,NA,NA,NA,NA
+102,NA,187,5/31/2022 18:37,Clear,May,Available,7.705,Riffle,51,0.13,Boulder,0.6,0,0,0.3,0.1,0,1,No,34.538521,111.684475,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32,NA,129,5/30/2022 19:50,Clear,May,Available,3.479,Riffle,52,0.19,Cobble,0.3,0.95,0,0,0,0,1.25,Yes,34.538255,111.688059,NA,NA,NA,NA,NA,NA,NA,NA,NA
+109,NA,198,5/31/2022 20:39,Clear,May,Available,3.434,Riffle,52,0.3,Boulder,0,0.9,0,0,0,0,0.9,No,34.538639,111.6836,NA,NA,NA,NA,NA,NA,NA,NA,NA
+117,NA,230,5/31/2022 23:40,Clear,May,Available,9.105,Riffle,52,0.1,Boulder,0.2,0,0,0,0,0,0.2,Yes,34.536082,111.679932,NA,NA,NA,NA,NA,NA,NA,NA,NA
+14,176,160,5/30/2022 23:06,Clear,May,Occupied,13.244,Riffle,53,0.2,Pebble,0.4,0,0,0,0,0,0.4,No,34.538096,111.68639,NA,NA,Desert Sucker,186,252,Backpack Shocker,11/28/2022,Honey Hole,NA
+90,NA,175,5/31/2022 17:43,Clear,May,Available,8,Riffle,53,0.22,Cobble,0.55,0,0,0,0,0,0.55,Yes,34.538548,111.689341,NA,NA,NA,NA,NA,NA,NA,NA,NA
+9,167,232,5/31/2022 23:45,Clear,May,Occupied,8.731,Riffle,54,0.27,Pebble,0.7,0,0,0,0,0,0.7,Yes,34.536088,111.679874,NA,NA,Desert Sucker,188,248,Backpack Shocker,11/28/2022,Camp Crossing,NA
+19,189,239,5/31/2022 0:00,Clear,May,Occupied,5.738,Riffle,54,0.45,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.535965,111.679,NA,Changed date to correct date,Desert Sucker,160,240,Backpack Shocker,11/28/2022,Honey Hole,NA
+21,191,234,5/31/2022 23:51,Clear,May,Occupied,6.911,Riffle,54,0.01,Pebble,0.4,1,0,0,0,0,1.4,Yes,34.536028,111.679635,NA,NA,Desert Sucker,168,245,Backpack Shocker,11/28/2022,Honey Hole,NA
+91,NA,216,5/31/2022 22:31,Clear,May,Available,8.609,Riffle,54,0.23,Boulder,0.2,0.1,0,0.2,0,0,0.5,Yes,34.537008,111.681367,NA,NA,NA,NA,NA,NA,NA,NA,NA
+101,NA,186,5/31/2022 18:34,Clear,May,Available,12.193,Riffle,54,0.16,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.538501,111.684584,NA,NA,NA,NA,NA,NA,NA,NA,NA
+23,200,231,5/31/2022 23:43,Clear,May,Occupied,9.105,Riffle,56,0.32,Boulder,0.2,0,0,0.1,0,0,0.3,Yes,34.536082,111.679932,NA,NA,Desert Sucker,262,277,Backpack Shocker,11/28/2022,Honey Hole,NA
+104,NA,206,5/31/2022 21:34,Clear,May,Available,11.165,Riffle,58,0.15,Pebble,0.25,0,0,0,0,0,0.25,No,34.538102,111.682665,NA,NA,NA,NA,NA,NA,NA,NA,NA
+13,175,180,5/31/2022 18:10,Clear,May,Occupied,5.5,Riffle,60,0.19,Cobble,0.8,0,0,0.5,0,0,1.3,Yes,34.538339,111.685008,NA,NA,Black Bass,73,187,Backpack Shocker,11/28/2022,Start to 2nd Pool,NA
+74,NA,199,5/31/2022 20:47,Clear,May,Available,3.627,Riffle,60,0.88,Bedrock,0.3,0,0,0,0,0,0.3,Yes,34.538648,111.683496,NA,NA,NA,NA,NA,NA,NA,NA,NA
+22,198,201,5/31/2022 20:51,Clear,May,Occupied,6.362,Run,71,0.17,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.53862,111.683324,Visually confirmed,Changed Riffle to Run,Black Bass,99,195,Backpack Shocker,11/28/2022,Camp Crossing,NA
+20,190,207,5/31/2022 21:41,Clear,May,Occupied,10.96,Riffle,23,0.11,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.538008,111.682475,Visually confirmed group of 8,Changed depth of 83 to 23 based on photo,Desert Sucker,186,247,Backpack Shocker,11/28/2022,Honey Hole,NA
+3,161,217,5/31/2022 22:35,Clear,May,Occupied,10.675,Pool,86,0.11,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.537022,111.681273,163 169 visual confirmed. 161 tucked under boulder.,Changed riffle to pool based on photo and knowledge of area. Split 3 tags in same spot into 3 different data points,Desert Sucker,224,263,Backpack Shocker,11/28/2022,Camp Crossing,NA
+5,163,217,5/31/2022 22:35,Clear,May,Occupied,10.675,Pool,86,0.11,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.537022,111.681273,163 169 visual confirmed. 161 tucked under boulder.,Changed riffle to pool based on photo and knowledge of area. Split 3 tags in same spot into 3 different data points,Desert Sucker,239,277,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole
+10,169,217,5/31/2022 22:35,Clear,May,Occupied,10.675,Pool,86,0.11,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.537022,111.681273,163 169 visual confirmed. 161 tucked under boulder.,Changed riffle to pool based on photo and knowledge of area. Split 3 tags in same spot into 3 different data points,Desert Sucker,224,256,Backpack Shocker,11/28/2022,Camp Crossing,NA

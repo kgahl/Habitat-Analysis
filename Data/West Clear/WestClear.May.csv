@@ -1,0 +1,130 @@
+ObjectID,Creation Date,Stream,Site Type ,Tag,Stream Width (m),Mesohabitat,Depth (cm),Velocity (m/s),Substrate,Substrate Feature,Surface Turbulence ,Aquatic Vegetation,Large Woody Debris,Terrestrial Vegetation ,Undercut Bank,Instream Cover,NA,Canopy Cover,Longitude (N),Latitude (W),Notes,Data Change
+122,5/30/2022 19:09,West Clear,Available,NA,3.4765,Riffle,25,0.84,Cobble,0.3,0.3,0,0,0,0,0.6,No,Yes,34.538449,111.688646,,
+123,5/30/2022 19:20,West Clear,Available,NA,5.1017,Riffle,38,0.51,Cobble,0.15,0,0,0,0,0,0.15,No,Yes,34.538478,111.688512,,
+124,5/30/2022 19:25,West Clear,Available,NA,5.088,Riffle,25,0.24,Cobble,0.4,0,0,0,0,0,0.4,No,Yes,34.538461,111.688427,,
+125,5/30/2022 19:29,West Clear,Available,NA,4.253,Riffle,34,0.33,Boulder,0.6,0,0,0,0,0,0.6,No,Yes,34.53842,111.68835e,,Confirmed canopy with photo
+126,5/30/2022 19:36,West Clear,Available,NA,4.89,Riffle,36,0.91,Cobble,0.75,0,0,0,0,0,0.75,No,Yes,34.538408,111.688288,,
+127,5/30/2022 19:40,West Clear,Available,NA,4.917,Riffle,24,0.59,Cobble,0.4,0,0,0,0,0,0.4,No,Yes,34.538374,111.688223,,Confirmed canopy with photo
+128,5/30/2022 19:42,West Clear,Available,NA,5.438,Riffle,40,0.55,Cobble,0.3,0.9,0,0.1,0,0,1.3,No,Yes,34.538324,111.688148,,
+129,5/30/2022 19:50,West Clear,Available,NA,3.479,Riffle,52,0.19,Cobble,0.3,0.95,0,0,0,0,1.25,No,Yes,34.538255,111.688059,,
+130,5/30/2022 19:56,West Clear,Available,NA,21.284,Riffle,26,0.08,Cobble,0.05,0,0,0,0,0,0.05,No,No,34.538219,111.687983,,Confirmed cobble with photo
+131,5/30/2022 20:02,West Clear,Available,NA,3.376,Riffle,14,0.44,Pebble,0,0,0,0,0,0,0,No,Yes,34.53815,111.688639,,
+132,5/30/2022 20:15,West Clear,Available,NA,5.822,Riffle,20,0.1,Pebble,0,0,0,0,0,0,0,No,No,34.538181,111.688567,,
+133,5/30/2022 20:17,West Clear,Available,NA,5.44,Riffle,22,0.04,Cobble,0.3,0,0,0,0,0,0.3,No,No,34.538116,111.688496,,Confirmed cobble with photo 
+134,5/30/2022 20:26,West Clear,Available,NA,4.837,Riffle,50,0.04,Pebble,0.2,0,0,0,0,0,0.2,No,No,34.538119,111.688431,,
+135,5/30/2022 20:34,West Clear,Available,NA,4.5,Riffle,14,0,Gravel,0.05,0,0,0,0,0,0.05,No,Yes,34.538137,111.688325,,
+136,5/30/2022 20:36,West Clear,Available,NA,5.592,Riffle,14,0.16,Pebble,0.4,0,0,0.2,0,0,0.6,No,Yes,34.538111,111.688243,,Confirmed canoy with photo
+137,5/30/2022 20:41,West Clear,Available,NA,7.579,Riffle,16,0.07,Cobble,0.15,0,0,0.5,0,0,0.65,No,Yes,34.538138,111.68816,,
+138,5/30/2022 20:43,West Clear,Available,NA,8.833,Pool,46,0.01,Pebble,0.2,0,0,0,0,0,0.2,No,No,34.538116,111.68806,,Confirmed pool with photos
+139,5/30/2022 20:50,West Clear,Available,NA,10.932,Pool,86,0,Sand,0,0,0,0,0,0,0,No,No,34.538114,111.687989,,
+140,5/30/2022 20:52,West Clear,Available,NA,19.52,Riffle,32,0.25,Cobble,0,0,0,0.65,0,0,0.65,No,Yes,34.53826,111.687948,,Confirmed riffle cobble with photos
+141,5/30/2022 21:08,West Clear,Available,NA,15.707,Pool,>150,NA,Boulder,0,0,0,0.7,0,0,0.7,No,Yes,34.538261,111.687863,,
+142,5/30/2022 21:15,West Clear,Available,NA,14.325,Pool,100,0.2,Bedrock,0,0,0,0,0,0,0,No,No,34.538173,111.687777,,
+143,5/30/2022 21:19,West Clear,Available,NA,15.5,Pool,>150,NA,NA,0,0,0,0,0,0,0,No,Yes,34.538136,111.687638,,Pool width estimate based on other measurements 
+144,5/30/2022 21:22,West Clear,Available,NA,19.192,Pool,>150,NA,NA,0,0,0,0,0,0,0,yes,Yes,34.538164,111.687546,,
+145,5/30/2022 21:24,West Clear,Available,NA,15.204,Pool,114,0.05,Bedrock,0,0,0,0,0,0,0,No,Yes,34.538157,111.687481,,
+146,5/30/2022 21:27,West Clear,Available,NA,11.95,Pool,56,0.02,Bedrock,0,0,0,0,0,0,0,No,No,34.538146,111.687392,,
+147,5/30/2022 21:29,West Clear,Available,NA,11.43,Pool,86,0.06,Bedrock,0,0,0,0,0,0,0,No,No,34.538145,111.687329,,Confirmed no canopy with photo
+148,5/30/2022 21:32,West Clear,Available,NA,11.826,Pool,>150,NA,Bedrock,0,0,0,0,0,0,0,No,Yes,34.538071,111.687253,,Confirmed bedrock with photo
+149,5/30/2022 21:40,West Clear,Available,NA,11,Pool,76,0,Boulder,0.65,0,0,0,0,0,0.65,No,Yes,34.538097,111.687196,,Pool width estimate based on other measurements 
+150,5/30/2022 21:46,West Clear,Available,NA,10.688,Pool,>150,NA,NA,0,0,0,0,0,0,0,NA,Yes,34.538131,111.687056,,
+151,5/30/2022 21:51,West Clear,Available,NA,12.146,Pool,78,0.07,Bedrock,0,0,0,0,0,0,0,No,No,34.538087,111.687016,,
+152,5/30/2022 21:56,West Clear,Available,NA,9.655,Pool,104,0,Boulder,0.8,0,0,0,0,0,0.8,No,Yes,34.5381,111.686975,,
+153,5/30/2022 22:01,West Clear,Available,NA,10.675,Pool,64,0.12,Bedrock,0.4,0,0,0,0,0,0.4,No,Yes,34.538136,111.686956,,Confirmed boulder with photo
+154,5/30/2022 22:04,West Clear,Available,NA,6.274,Riffle,46,0.03,Boulder,0.2,0,0,0,0,0,0.2,No,Yes,34.538065,111.686823,,
+155,5/30/2022 22:07,West Clear,Occupied,178,11.076,Pool,10,NA,Bedrock,0,0,0,0,0,0,0,No,No,34.538157,111.687191,,removed extra '34.' from longitude 
+156,5/30/2022 22:47,West Clear,Available,NA,11.741,Riffle,26,0.34,Cobble,0.2,0.1,0,0,0,0,0.3,No,Yes,34.538021,111.686691,,
+157,5/30/2022 22:55,West Clear,Available,NA,14.115,Riffle,22,0.12,Cobble,0.5,0,0,0,0,0,0.5,No,Yes,34.538022,111.686575,,
+158,5/30/2022 22:58,West Clear,Available,NA,9.685,Riffle,26,0.1,Boulder,0.3,0.1,0,0,0,0,0.4,No,Yes,34.53804,111.686489,,
+159,5/30/2022 23:04,West Clear,Available,NA,9.49,Riffle,18,0.26,Cobble,0.4,0,0,0,0,0,0.4,No,Yes,34.538053,111.68645,,
+160,5/30/2022 23:06,West Clear,Occupied,176,13.244,Riffle,53,0.2,Pebble,0.4,0,0,0,0,0,0.4,No,No,34.538096,111.68639,,
+161,5/30/2022 23:10,West Clear,Available,NA,9.589,Riffle,24,0.23,Cobble,0.1,0,0,0,0,0,0.1,No,No,34.538112,111.686306,,
+162,5/30/2022 23:12,West Clear,Available,NA,8.064,Riffle,41,0.23,Boulder,0.1,0,0,0,0,0,0.1,No,Yes,35.538112,111.68631,,
+163,5/30/2022 23:16,West Clear,Available,NA,8.091,Riffle,38,0.17,Cobble,0.2,0,0,0,0,0,0.2,No,No,34.53811,111.686153,,
+164,5/30/2022 23:19,West Clear,Available,NA,9.454,Riffle,36,0,Boulder,0.1,0,0,0,0,0,0.1,No,Yes,34.538133,111.68606,,
+165,5/30/2022 23:24,West Clear,Occupied,218,7.797,Riffle,40,0.84,Gravel,0.3,0.1,0,0,0,0,0.4,No,Yes,34.538129,111.686011,,
+166,5/30/2022 23:27,West Clear,Available,NA,8.632,Riffle,42,0.4,Cobble,0.4,0,0,0,0,0,0.4,No,Yes,34.53812,111.685976,,
+167,5/30/2022 23:31,West Clear,Available,NA,8.713,Riffle,26,0.05,Cobble,0.3,0.05,0,0,0,0,0.35,No,Yes,34.538158,111.685907,,
+168,5/30/2022 23:34,West Clear,Available,NA,10.49,Riffle,32,0.13,Cobble,0,0,0,0,0,0,0,No,Yes,34.538178,111.685828,,
+169,5/30/2022 23:36,West Clear,Available,NA,7.10534.,Riffle,38,0.16,Gravel,0.25,0,0,0,0,0,0.25,No,No,34.538146,111.685754,,
+170,5/30/2022 23:39,West Clear,Available,NA,10.502,Riffle,20,0.25,Boulder,0.1,0,0,0,0,0,0.1,No,Yes,34.5382,111.685651,,
+171,5/30/2022 23:45,West Clear,Occupied,166,8.173,Riffle,48,0,Cobble,0.1,0,0,0,0,0,0.1,No,Yes,34.538263,111.685514,,
+237,5/31/2022 0:00,West Clear,Available,NA,6.379,Riffle,30,0.27,Boulder,0.3,0,0,0,0,0,0.3,No,Yes,34.535974,111.679321,,Changed date to correct date
+238,5/31/2022 0:00,West Clear,Available,NA,7.985,Riffle,11,0.56,Boulder,0.5,0,0,0,0,0,0.5,No,Yes,34.536,111.679128,,Changed date to correct date
+240,5/31/2022 0:00,West Clear,Available,NA,6.731,Riffle,26,0.18,Boulder,0.3,0,0,0,0,0,0.3,No,Yes,34.535973,111.678957,,Changed date to correct date
+241,5/31/2022 0:00,West Clear,Available,NA,5.979,Riffle,38,0.08,Pebble,0.3,0,0,0,0,0,0.3,No,Yes,34.535898,111.678796,,Changed date to correct date
+242,5/31/2022 0:00,West Clear,Available,NA,8.995,Pool,23,0.1,Cobble,0,0,0,0.1,0,0,0.1,No,No,34.535834,111.678637,,Changed date to correct date
+244,5/31/2022 0:00,West Clear,Available,NA,12.382,Pool,122,0.06,Bedrock,0.1,0,0,0,0,0,0.1,No,No,34.535821,111.678504,,Changed date to correct date
+246,5/31/2022 0:00,West Clear,Available,NA,13.891,Pool,102,0.04,Bedrock,0,0,0,0,0,0,0,No,No,34.535818,111.678259,,Changed date to correct date
+247,5/31/2022 0:00,West Clear,Available,NA,13.254,Pool,98,0.06,Bedrock,0,0,0,0,0,0,0,No,No,34.535729,111.678129,,Changed date to correct date
+245,5/31/2022 0:00,West Clear,Occupied,145,12.025,Pool,>150,0,Gravel,0,0,0,0,0,0,0,No,Yes,34.535812,111.678371,,Changed date to correct date
+243,5/31/2022 0:00,West Clear,Occupied,165,14.069,Pool,50,0.06,Cobble,0,0,0,0,0,0,0,No,No,34.535849,111.678583,,Changed date to correct date
+248,5/31/2022 0:00,West Clear,Occupied,177,11.547,Pool,42,0.1,Gravel,0.2,0,0,0,0,0,0.2,No,Yes,34.535578,111.67804,,Changed date to correct date
+239,5/31/2022 0:00,West Clear,Occupied,189,5.738,Riffle,54,0.45,Boulder,0.3,0,0,0,0,0,0.3,No,Yes,34.535965,111.679,,Changed date to correct date
+172,5/31/2022 17:31,West Clear,Available,NA,9.7,Riffle,43,0.3,Pebble,0.5,0,0,0,0,0,0.5,No,Yes,34.538589,111.68929,,
+173,5/31/2022 17:34,West Clear,Available,NA,10.4,Riffle,50,0.18,Cobble,0.4,0,0,0,0,0,0.4,No,Yes,34.538589,111.68929,,
+174,5/31/2022 17:38,West Clear,Available,NA,9.8,Riffle,30,0,Boulder,0.6,0,0,0,0,0,0.6,No,Yes,34.538548,111.689341,,
+175,5/31/2022 17:43,West Clear,Available,NA,8,Riffle,53,0.22,Cobble,0.55,0,0,0,0,0,0.55,No,Yes,34.538548,111.689341,,
+176,5/31/2022 17:47,West Clear,Occupied,171,10.7,Riffle,20,0.09,Cobble,0.1,0,0,0,0,0,0.1,No,No,34.538548,111.689341,,
+177,5/31/2022 17:50,West Clear,Available,NA,11.1,Riffle,32,0.17,Cobble,0.85,0,0,0.1,0,0,0.95,No,Yes,34.538548,111.689341,,changed >250 to >150
+178,5/31/2022 18:03,West Clear,Available,NA,9.7,Riffle,24,0.08,Pebble,0.4,0,0,0,0,0,0.4,No,Yes,34.538287,111.685121,,
+179,5/31/2022 18:06,West Clear,Occupied,172,7.9,Riffle,34,0.4,Cobble,0.5,0,0,0,0,0,0.5,No,Yes,34.538306,111.685105,,
+180,5/31/2022 18:10,West Clear,Occupied,175,5.5,Riffle,60,0.19,Cobble,0.8,0,0,0.5,0,0,1.3,No,Yes,34.538339,111.685008,,
+181,5/31/2022 18:15,West Clear,Available,NA,6.6,Riffle,36,0.07,Boulder,0.4,0,0,0,0,0,0.4,No,Yes,34.538352,111.684887,,
+182,5/31/2022 18:21,West Clear,Available,NA,10.838,Riffle,42,0.02,Pebble,0.3,0,0,0,0,0,0.3,No,Yes,34.538404,111.684824,,
+183,5/31/2022 18:24,West Clear,Available,NA,10.258,Riffle,23,0.14,Boulder,0.3,0,0,0,0,0,0.3,No,No,34.538427,111.684759,,
+184,5/31/2022 18:27,West Clear,Available,NA,9.193,Riffle,36,0.1,Cobble,0.2,0,0,0,0,0,0.2,No,Yes,34.538452,111.68466,,
+185,5/31/2022 18:29,West Clear,Available,NA,7.489,Riffle,30,0.19,Cobble,0.5,0,0,0,0,0,0.5,No,No,34.53849,111.684637,,
+186,5/31/2022 18:34,West Clear,Available,NA,12.193,Riffle,54,0.16,Cobble,0.1,0,0,0,0,0,0.1,No,Yes,34.538501,111.684584,,
+187,5/31/2022 18:37,West Clear,Available,NA,7.705,Riffle,51,0.13,Boulder,0.6,0,0,0.3,0.1,0,1,No,No,34.538521,111.684475,,
+188,5/31/2022 18:40,West Clear,Available,NA,7.477,Riffle,36,0.03,Cobble,0.1,0,0,0.1,0,0,0.2,No,Yes,34.538573,111.68442,,
+189,5/31/2022 18:43,West Clear,Available,NA,5.24,Riffle,49,0.19,Cobble,0.1,0,0,0,0,0,0.1,No,No,34.538573,111.68442,,
+190,5/31/2022 18:46,West Clear,Available,NA,13.392,Pool,53,0,Pebble,0.1,0,0,0,0,0,0.1,No,No,34.538562i,111.684312,,
+191,5/31/2022 18:49,West Clear,Occupied,185,9.408,Pool,52,0,Pebble,0.1,0,0,0,0,0,0.1,No,No,34.538609,111.684171,,
+192,5/31/2022 20:13,West Clear,Available,NA,11.86,Pool,>150,NA,NA,0,0,0,0,0,0,0,NA,No,34.538524,111.684075,,
+193,5/31/2022 20:18,West Clear,Available,NA,11.963,Pool,86,0.03,Gravel,0,0,0,0,0,0,0,No,No,34.538573,111.683987,,
+194,5/31/2022 20:21,West Clear,Occupied,160,6.419,Pool,90,0.04,Sand,0.6,0,0,0.2,0,0,0.8,No,Yes,34.538638,111.683855,,
+195,5/31/2022 20:26,West Clear,Available,NA,6.288,Pool,64,0.03,Boulder,0.4,0,0,0,0,0,0.4,No,Yes,34.538653,111.683842,,Equipment not capable of measureing .42
+196,5/31/2022 20:29,West Clear,Occupied,179,3.954,Pool,76,0.33,Boulder,0.7,0,0,0.1,0,0,0.8,No,No,34.538633,111.683703,Could not find washer,
+197,5/31/2022 20:36,West Clear,Available,NA,6.352,Pool,62,0.15,Boulder,0.4,0,0,0,0,0,0.4,No,Yes,34.538642,111.683862,,
+198,5/31/2022 20:39,West Clear,Available,NA,3.434,Riffle,52,0.3,Boulder,0,0.9,0,0,0,0,0.9,No,No,34.538639,111.6836,,
+199,5/31/2022 20:47,West Clear,Available,NA,3.627,Riffle,60,0.88,Bedrock,0.3,0,0,0,0,0,0.3,No,Yes,34.538648,111.683496,,
+200,5/31/2022 20:48,West Clear,Available,NA,8.402,Riffle,26,0.65,Gravel,0.2,0.2,0,0,0,0,0.4,No,No,34.538638,111.683393,,
+201,5/31/2022 20:51,West Clear,Occupied,198,6.362,Riffle,71,0.17,Cobble,0.3,0,0,0,0,0,0.3,No,Yes,34.53862,111.683324,Visually confirmed,
+202,5/31/2022 21:09,West Clear,Available,NA,3.29,Riffle,30,0.31,Cobble,0.2,0.1,0,0,0,0,0.3,No,Yes,34.538553,111.68311,,
+203,5/31/2022 21:18,West Clear,Available,NA,10.84,Riffle,30,0.16,Boulder,0.4,0,0,0,0,0,0.4,No,Yes,34.538449,111.682945,16 m intervals started,
+204,5/31/2022 21:21,West Clear,Available,NA,6.4,Riffle,3,0.09,Pebble,0.3,0,0,0,0,0,0.3,No,No,34.538368,111.682811,,
+205,5/31/2022 21:30,West Clear,Available,NA,13.002,Riffle,36,0.16,Pebble,0.1,0,0,0,0,0,0.1,No,Yes,34.538261,111.682702,,removed 'm' from laltitude 
+206,5/31/2022 21:34,West Clear,Available,NA,11.165,Riffle,58,0.15,Pebble,0.25,0,0,0,0,0,0.25,No,No,34.538102,111.682665,,
+207,5/31/2022 21:41,West Clear,Occupied,190,10.96,Riffle,83,0.11,Cobble,0.1,0,0,0,0,0,0.1,No,Yes,34.538008,111.682475,Visually confirmed group of 8,
+208,5/31/2022 21:48,West Clear,Occupied,162,8.7,Riffle,50,0,Pebble,0.2,0,0,0,0,0,0.2,No,Yes,34.53787,111.682338,,
+209,5/31/2022 21:53,West Clear,Available,NA,10.341,Riffle,43,0.13,Cobble,0.3,0,0,0,0,0,0.3,No,Yes,34.53778,111.682259,,
+210,5/31/2022 22:05,West Clear,Available,NA,7.5,Riffle,45,0.07,Gravel,0.1,0,0,0,0,0,0.1,No,Yes,34.537661,111.682122,,
+211,5/31/2022 22:07,West Clear,Available,NA,8.46,Riffle,36,0.32,Gravel,0.2,0.1,0,0,0,0,0.3,No,No,34.537532,111.681928,,
+212,5/31/2022 22:10,West Clear,Available,NA,8.156,Riffle,42,0.2,Gravel,0.1,0,0,0,0,0,0.1,No,Yes,34.53743,111.681815,,
+213,5/31/2022 22:16,West Clear,Available,NA,11.75,Riffle,30,0.09,Boulder,0.1,0,0,0,0,0,0.1,No,Yes,34.537314,111.68173,,
+214,5/31/2022 22:21,West Clear,Available,NA,12.905,Riffle,49,0.16,Boulder,0.1,0,0,0,0,0,0.1,No,Yes,34.537243,111.681637,,
+215,5/31/2022 22:25,West Clear,Available,NA,11.919,Riffle,40,0.33,Pebble,0.1,0,0,0,0,0,0.1,No,No,34.537092,111.6815,,
+216,5/31/2022 22:31,West Clear,Available,NA,8.609,Riffle,54,0.23,Boulder,0.2,0.1,0,0.2,0,0,0.5,No,Yes,34.537008,111.681367,,
+217,5/31/2022 22:35,West Clear,Occupied,161,10.675,Riffle,86,0.11,Boulder,0.5,0,0,0,0,0,0.5,No,Yes,34.537022,111.681273,163 169 visual confirmed. 161 tucked under boulder.,Split 3 tags in same spot into 3 different data points
+217,5/31/2022 22:35,West Clear,Occupied,163,10.675,Riffle,86,0.11,Boulder,0.5,0,0,0,0,0,0.5,No,Yes,34.537022,111.681273,163 169 visual confirmed. 161 tucked under boulder.,Split 3 tags in same spot into 3 different data points
+217,5/31/2022 22:35,West Clear,Occupied,169,10.675,Riffle,86,0.11,Boulder,0.5,0,0,0,0,0,0.5,No,Yes,34.537022,111.681273,163 169 visual confirmed. 161 tucked under boulder.,Split 3 tags in same spot into 3 different data points
+218,5/31/2022 22:45,West Clear,Available,NA,8.816,Riffle,35,0.17,Boulder,0.5,0,0,0,0,0,0.5,No,Yes,34.536879,111.681168,,
+219,5/31/2022 22:52,West Clear,Available,NA,8.89,Riffle,36,0.3,Pebble,0.4,0.2,0,0,0,0,0.6,No,No,34.536796,111.681082,,
+220,5/31/2022 23:01,West Clear,Available,NA,4.9,Riffle,36,0.2,Cobble,0.5,0.2,0,0.1,0,0,0.8,No,No,34.53671,111.680946,,
+221,5/31/2022 23:06,West Clear,Available,NA,7.591,Pool,42,0.08,Boulder,0.3,0,0,0,0,0,0.3,No,Yes,34.536661,111.680799,,
+222,5/31/2022 23:12,West Clear,Available,NA,9.812,Pool,65,0.1,Cobble,0,0,0,0,0,0,0,No,Yes,34.53661,111.680759,,
+223,5/31/2022 23:15,West Clear,Available,NA,11.585,Pool,54,0.03,Pebble,0,0,0,0,0,0,0,No,Yes,34.536543,111.680713,,
+224,5/31/2022 23:18,West Clear,Available,NA,14.027,Pool,126,0.02,Cobble,0,0,0,0,0,0,0,No,No,34.536455,111.680582,,
+225,5/31/2022 23:22,West Clear,Available,NA,15.497,Pool,78,0,Sand,0,0,0,0.134,0,0,0.134,No,No,34.536461,111.680433,,
+226,5/31/2022 23:26,West Clear,Available,NA,23.503,Pool,>150,0,NA,0,0,0,0,0,0,0,NA,Yes,34.536374,111.68027,,
+227,5/31/2022 23:30,West Clear,Available,NA,10.39,Pool,>150,0,Boulder,0.3,0,0,0,0,0,0.3,No,Yes,34.536284,111.680189,,
+228,5/31/2022 23:34,West Clear,Available,na,9.157,Riffle,44,0.2,Boulder,0.4,0,0,0,0.3,0,0.7,No,Yes,34.536096,111.680134,,
+229,5/31/2022 23:37,West Clear,Occupied,167,10.108,Riffle,50,0.17,Gravel,0.4,0,0,0,0,0,0.4,No,No,34.536096,111.680134,,
+230,5/31/2022 23:40,West Clear,Available,NA,9.105,Riffle,52,0.1,Boulder,0.2,0,0,0,0,0,0.2,No,Yes,34.536082,111.679932,,
+231,5/31/2022 23:43,West Clear,Occupied,200,9.105,Riffle,56,0.32,Boulder,0.2,0,0,0.1,0,0,0.3,No,Yes,34.536082,111.679932,,
+232,5/31/2022 23:45,West Clear,Occupied,167,8.731,Riffle,54,0.27,Pebble,0.7,0,0,0,0,0,0.7,No,Yes,34.536088,111.679874,,
+233,5/31/2022 23:47,West Clear,Available,NA,7.026,Riffle,31,0.17,Cobble,0.2,0,0,0,0,0,0.2,No,Yes,34.536088,111.679874,,
+234,5/31/2022 23:51,West Clear,Occupied,191,6.911,Riffle,54,0.01,Pebble,0.4,1,0,0,0,0,1.4,No,Yes,34.536028,111.679635,,
+235,5/31/2022 23:55,West Clear,Available,NA,6.605,Riffle,26,0.02,Boulder,0.2,0,0,0,0,0,0.2,No,Yes,34.536066,111.67969,,
+236,5/31/2022 23:58,West Clear,Available,NA,8.045,Riffle,38,0.43,Cobble,0.3,0,0,0,0,0,0.3,No,Yes,34.536019,111.679458,,

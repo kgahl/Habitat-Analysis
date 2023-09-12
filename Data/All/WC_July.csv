@@ -1,0 +1,166 @@
+,Tag,ObjectID,Creation Date,Stream,Month,Site Type,Stream Width,Mesohabitat,Depth,Velocity,Substrate,Substrate Feature,Surface Turbulence,Aquatic Vegetation,Large Woody Debris,Terrestrial Vegetation,Undercut Bank,Instream Cover,Canopy Cover,Longitude,Latitude,Notes,Data Change,Species,Weight,Length,Capture Method,Capture Date,Release,Notes.y
+1,145,408,7/21/2022 22:29,Clear ,July,Occupied,11.5,Pool,76,0.03,Silt,0,0,0,0,0,0,0,No,34.535735,111.678309,NA,NA,Black Bass,78,198,Backpack Shocker,11/28/2022,Camp Crossing,NA
+2,157,299,7/20/2022 17:59,Clear ,July,Occupied,6.997,Riffle,63,0.42,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.538295,111.685342,NA,"Changed to occupied, tag 157 is in WC and is not present anywhere else on data sheet. ",Black Bass,98,208,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+3,158,374,7/21/2022 18:59,Clear ,July,Occupied,10.6,Pool,72,0.11,Cobble,0,0,0,0,0,0,0,Yes,34.536686,111.680793,NA,NA,Desert Sucker,247,278,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole
+4,160,323,7/20/2022 21:09,Clear ,July,Occupied,5.1,Run,110,0.1,Gravel,0.2,0,0,0,0,0,0.2,No,34.538641,111.683854,NA,NA,Black Bass,77,186,Backpack Shocker,11/28/2022,Camp Crossing,NA
+5,161,353,7/21/2022 17:58,Clear ,July,Occupied,7,Riffle,50,0.33,Boulder,0,0,0,0.6,0,0,0.6,Yes,34.537691,111.682139,NA,NA,Desert Sucker,224,263,Backpack Shocker,11/28/2022,Camp Crossing,NA
+6,162,348,7/21/2022 17:46,Clear ,July,Occupied,10.6,Run,56,0,Boulder,0.2,0,0,0.1,0,0,0.3,Yes,34.537898,111.682338,Visually confirmed with group of 10,NA,Black Bass,89,204,Backpack Shocker,11/28/2022,Start to 2nd Pool,internal clear liquid
+7,165,405,7/21/2022 22:19,Clear ,July,Occupied,11.3,Pool,82,0.02,Silt,0,0,0,0,0,0,0,Yes,34.535806,111.678495,NA,NA,Black Bass,79,193,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+8,166,295,7/20/2022 17:41,Clear ,July,Occupied,9.239,Riffle,59,0.26,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.538256,111.685547,NA,NA,Black Bass,79,188,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,NA
+9,167,383,7/21/2022 21:03,Clear ,July,Occupied,10.2,Pool,124,0.14,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.536166,111.680218,Visually confirmed with group of 8,NA,Desert Sucker,188,248,Backpack Shocker,11/28/2022,Camp Crossing,NA
+10,168,304,7/20/2022 18:48,Clear ,July,Occupied,7.928,Riffle,46,0.42,Boulder,0.1,0,0,0,0,0,0.1,No,34.538348,111.685074,NA,NA,Black Bass,76,184,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+11,171,303,7/20/2022 18:44,Clear ,July,Occupied,7.159,Riffle,38,0.35,Gravel,0.05,0,0,0,0,0,0.05,Yes,34.538356,111.685083,NA,NA,Black Bass,95,202,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+12,172,298,7/20/2022 17:56,Clear ,July,Occupied,7.758,Riffle,63,0.2,Cobble,0.1,0,0,0,0,0,0.1,No,34.538284,111.685358,NA,NA,Black Bass,82,190,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+13,175,305,7/20/2022 18:51,Clear ,July,Occupied,6.334,Riffle,66,0.18,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538346,111.685006,NA,NA,Black Bass,73,187,Backpack Shocker,11/28/2022,Start to 2nd Pool,NA
+14,177,382,7/21/2022 21:00,Clear ,July,Occupied,10.2,Pool,48,0.02,Sand,0,0,0,0,0,0,0,Yes,34.536157,111.680181,Visually confirmed,NA,Desert Sucker,227,274,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole
+15,178,273,7/19/2022 21:32,Clear ,July,Occupied,11.891,Pool,Na,Na,Silt,0.4,0,0,0,0,0,0.4,Yes,34.538177,111.68723,NA,NA,Black Bass,117,221,Backpack Shocker,11/28/2022,Start to 2nd Pool,NA
+16,179,322,7/20/2022 21:03,Clear ,July,Occupied,6.6,Run,129,0.24,Cobble,0.6,0,0,0,0,0,0.6,No,34.538641,111.683854,NA,NA,Desert Sucker,225,273,Hoop Net,11/28/2022,Start to 2nd Pool,bottom pool- George
+17,185,317,7/20/2022 20:38,Clear ,July,Occupied,12.43,Pool,67,0.05,Boulder,0.1,0,0,0,0,0,0.1,No,34.538583,111.68415,NA,NA,Black Bass,88,201,Backpack Shocker,11/28/2022,Camp Crossing,NA
+18,190,345,7/21/2022 17:38,Clear ,July,Occupied,11.8,Run,94,0.09,Gravel,0.1,0,0,0,0,0,0.1,Yes,34.537988,111.682451,NA,NA,Desert Sucker,186,247,Backpack Shocker,11/28/2022,Honey Hole,NA
+19,191,402,7/21/2022 22:09,Clear ,July,Occupied,10.1,Riffle,34,0.1,Cobble,0.1,0.9,0,0,0,0,1,Yes,34.535863,111.678678,NA,NA,Desert Sucker,168,245,Backpack Shocker,11/28/2022,Honey Hole,NA
+20,198,330,7/20/2022 22:05,Clear ,July,Occupied,NA,Riffle,58,0.12,Cobble,0.2,0,0,0,0,0,0.2,No,34.538671,111.683305,NA,NA,Black Bass,99,195,Backpack Shocker,11/28/2022,Camp Crossing,NA
+21,200,384,7/21/2022 21:07,Clear ,July,Occupied,10.2,Pool,124,0.14,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.536166,111.680218,Visually confirmed with group of 8,NA,Desert Sucker,262,277,Backpack Shocker,11/28/2022,Honey Hole,NA
+22,218,288,7/20/2022 16:59,Clear ,July,Occupied,9.199,Riffle,42,0.27,Gravel,0.1,0,0,0,0,0,0.1,Yes,34.538169,111.686113,NA,NA,Black Bass,87,194,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA
+23,NA,264,7/8/2022 18:55,Clear ,July,Available,15.37,Pool,>150,Na,Silt,0,0,0,0,0,0,0,Yes,34.53674,111.688021,NA- too murkey to see ,Moved 'too murkey' to notes from NA,NA,NA,NA,NA,NA,NA,NA
+24,NA,249,7/19/2022 16:49,Clear ,July,Available,6.25,Riffle,16,0,Cobble,0.6,0,0,0,0,0,0.6,No,34.538398,111.688884,NA,NA,NA,NA,NA,NA,NA,NA,NA
+25,NA,250,7/19/2022 17:01,Clear ,July,Available,7.56,Pool,32,0.3,Cobble,0.4,0,0,0,0,0,0.4,No,34.538367,111.688795,NA,NA,NA,NA,NA,NA,NA,NA,NA
+26,NA,251,7/19/2022 17:11,Clear ,July,Available,6.25,Pool,110,0.18,Cobble,0.6,0,0,0,0,0,0.6,No,34.538407,111.688735,NA,NA,NA,NA,NA,NA,NA,NA,NA
+27,NA,252,7/19/2022 17:24,Clear ,July,Available,5.34,Pool,34,0,Gravel,0.2,0,0,0.01,0,0,0.21,No,34.538454,111.688655,NA,NA,NA,NA,NA,NA,NA,NA,NA
+28,NA,253,7/19/2022 17:28,Clear ,July,Available,6.18,Riffle,54,0.25,Cobble,0.1,0,0,0,0.05,0,0.15,Yes,34.538481,111.688526,NA,NA,NA,NA,NA,NA,NA,NA,NA
+29,NA,254,7/19/2022 17:34,Clear ,July,Available,4.68,Riffle,36,0.83,Boulder,0,0.3,0.15,0,0,0,0.45,Yes,34.538467,111.68846,NA,NA,NA,NA,NA,NA,NA,NA,NA
+30,NA,255,7/19/2022 17:50,Clear ,July,Available,4.8,Riffle,50,0.96,Boulder,0.4,0.6,0,0,0.1,0,1.1,Yes,34.538428,111.688412,NA,NA,NA,NA,NA,NA,NA,NA,NA
+31,NA,256,7/19/2022 17:54,Clear ,July,Available,4.3,Riffle,20,1.29,Boulder,0.4,0.6,0.2,0,0,0,1.2,Yes,34.53841,111.688352,NA,NA,NA,NA,NA,NA,NA,NA,NA
+32,NA,257,7/19/2022 17:59,Clear ,July,Available,5,Riffle,16,0.24,Cobble,0.5,0.1,0,0.01,0.05,0,0.66,No,34.538435,111.68829,NA,NA,NA,NA,NA,NA,NA,NA,NA
+33,NA,258,7/19/2022 18:08,Clear ,July,Available,5.06,Riffle,44,0.09,Cobble,0.4,0,0,0.05,0,0,0.45,Yes,34.538389,111.688163,NA,NA,NA,NA,NA,NA,NA,NA,NA
+34,NA,259,7/19/2022 18:13,Clear ,July,Available,5.33,Riffle,36,1.02,Cobble,0.5,0.6,0,0,0.04,0,1.14,Yes,34.538342,111.688166,NA,NA,NA,NA,NA,NA,NA,NA,NA
+35,NA,260,7/19/2022 18:24,Clear ,July,Available,5.08,Riffle,22,1.32,Boulder,0.4,0.2,0,0.05,0,0,0.65,Yes,34.538292,111.688055,NA,NA,NA,NA,NA,NA,NA,NA,NA
+36,NA,261,7/19/2022 18:39,Clear ,July,Available,18.04,Pool,110,0,Silt,0.05,0,0,0,0,0,0.05,No,34.538196,111.688025,NA,NA,NA,NA,NA,NA,NA,NA,NA
+37,NA,262,7/19/2022 18:44,Clear ,July,Available,8.61,Pool,56,0,Silt,0.2,0,0,0,0,0,0.2,No,34.538182,111.688099,NA,NA,NA,NA,NA,NA,NA,NA,NA
+38,NA,263,7/19/2022 18:45,Clear ,July,Available,6.18,Pool,20,0,Silt,0.05,0,0.4,0,0,0,0.45,No,34.538172,111.688182,NA,NA,NA,NA,NA,NA,NA,NA,NA
+39,NA,265,7/19/2022 18:58,Clear ,July,Available,10.98,Pool,>150,NA,Silt,0.2,0,0,0,0,0,0.2,No,34.53674,111.688021,NA,NA,NA,NA,NA,NA,NA,NA,NA
+40,NA,266,7/19/2022 20:34,Clear ,July,Available,14.74,Pool,>150,0,Silt,0.1,0,0,0.1,0,0,0.2,No,34.53674,111.688021,NA,NA,NA,NA,NA,NA,NA,NA,NA
+41,NA,267,7/19/2022 20:40,Clear ,July,Available,15.447,Pool,115,0,Bedrock,0,0,0,0,0,0,0,No,34.53674,111.688021,NA,NA,NA,NA,NA,NA,NA,NA,NA
+42,NA,268,7/19/2022 20:46,Clear ,July,Available,13.366,Pool,150,0,Bedrock,0.1,0,0,0,0,0,0.1,No,34.540186,111.704343,NA,NA,NA,NA,NA,NA,NA,NA,NA
+43,NA,269,7/19/2022 20:52,Clear ,July,Available,16.064,Pool,>150,0,Silt,0,0,0,0.2,0,0,0.2,No,34.540186,111.704343,NA,NA,NA,NA,NA,NA,NA,NA,NA
+44,NA,270,7/19/2022 20:59,Clear ,July,Available,14.45,Pool,60,0,Bedrock,0.05,0,0,0,0,0,0.05,No,34.538221,111.687491,NA,NA,NA,NA,NA,NA,NA,NA,NA
+45,NA,271,7/19/2022 21:03,Clear ,July,Available,11.85,Pool,>150,0,Silt,0,0,0,0.4,0,0,0.4,Yes,34.538216,111.687348,NA,NA,NA,NA,NA,NA,NA,NA,NA
+46,NA,272,7/19/2022 21:29,Clear ,July,Available,12.36,Pool,>150,0,Bedrock,0.2,0,0,0,0,0,0.2,No,34.538191,111.687243,NA,NA,NA,NA,NA,NA,NA,NA,NA
+47,NA,274,7/19/2022 21:39,Clear ,July,Available,11.63,Pool,104,0,Silt,0.3,0,0,0,0,0,0.3,Yes,34.538166,111.687167,NA,NA,NA,NA,NA,NA,NA,NA,NA
+48,NA,275,7/19/2022 21:49,Clear ,July,Available,12.257,Pool,>150,0,Boulder,0.3,0,0,0.6,0,0,0.9,Yes,34.538166,111.687095,NA,NA,NA,NA,NA,NA,NA,NA,NA
+49,NA,276,7/19/2022 22:16,Clear ,July,Available,13.407,Pool,123,0,Bedrock,0.1,0,0,0,0,0,0.1,No,34.538062,111.687044,NA,NA,NA,NA,NA,NA,NA,NA,NA
+50,NA,277,7/19/2022 22:19,Clear ,July,Available,9.23,Pool,>150,0,Bedrock,0.2,0,0,0.05,0,0,0.25,No,34.538016,111.686947,NA,NA,NA,NA,NA,NA,NA,NA,NA
+51,NA,278,7/19/2022 22:29,Clear ,July,Available,9.44,Pool,54,0.18,Bedrock,0,0,0,0,0,0,0,No,34.537961,111.686873,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52,NA,279,7/19/2022 22:32,Clear ,July,Available,7.9,Riffle,40,0.21,Gravel,0.5,0,0,0,0,0,0.5,Yes,34.537951,111.686807,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53,NA,280,7/19/2022 22:36,Clear ,July,Available,12.23,Riffle,14,0.04,Pebble,0.5,0,0,0.05,0,0,0.55,Yes,34.537978,111.686719,NA,NA,NA,NA,NA,NA,NA,NA,NA
+54,NA,281,7/19/2022 22:42,Clear ,July,Available,11.7,Riffle,50,0.14,Cobble,0.4,0.1,0,0,0,0,0.5,No,34.537987,111.686615,NA,NA,NA,NA,NA,NA,NA,NA,NA
+55,NA,282,7/19/2022 22:49,Clear ,July,Available,7.02,Riffle,22,0,Cobble,0.2,0,0,0.5,0,0,0.7,Yes,34.538033,111.686562,NA,NA,NA,NA,NA,NA,NA,NA,NA
+56,NA,283,7/19/2022 23:03,Clear ,July,Available,10.64,Riffle,14,0.17,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.538065,111.68648,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57,NA,284,7/19/2022 23:09,Clear ,July,Available,10.25,Riffle,26,0.04,Silt,0.2,0,0,0,0,0,0.2,No,34.538077,111.686355,NA,NA,NA,NA,NA,NA,NA,NA,NA
+58,NA,285,7/19/2022 23:17,Clear ,July,Available,7,Riffle,54,0,Sand,0.1,0,0,0,0,0,0.1,Yes,34.53811,111.686291,NA,NA,NA,NA,NA,NA,NA,NA,NA
+59,NA,286,7/20/2022 16:43,Clear ,July,Available,8.78,Riffle,40,0.32,Gravel,0.2,0,0,0.6,0,0,0.8,Yes,34.53778,111.685945,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60,NA,287,7/20/2022 16:55,Clear ,July,Available,7.95,Riffle,24,0,Gravel,0.1,0,0,0.05,0,0,0.15,Yes,34.538157,111.686037,NA,NA,NA,NA,NA,NA,NA,NA,NA
+61,NA,289,7/20/2022 17:06,Clear ,July,Available,6.696,Riffle,46,0.58,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.538157,111.685927,NA,NA,NA,NA,NA,NA,NA,NA,NA
+62,NA,290,7/20/2022 17:11,Clear ,July,Available,9.449,Riffle,26,0,Silt,0.3,0,0,0.2,0,0,0.5,Yes,34.538136,111.685854,NA,NA,NA,NA,NA,NA,NA,NA,NA
+63,NA,291,7/20/2022 17:22,Clear ,July,Available,9.767,Riffle,26,0,Gravel,0.2,0,0.02,0,0,0,0.22,No,34.58812,111.685871,NA,NA,NA,NA,NA,NA,NA,NA,NA
+64,NA,292,7/20/2022 17:25,Clear ,July,Available,5.37,Riffle,14,0.16,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.538193,111.685738,NA,NA,NA,NA,NA,NA,NA,NA,NA
+65,NA,293,7/20/2022 17:31,Clear ,July,Available,9.019,Riffle,10,0,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.538182,111.685684,NA,NA,NA,NA,NA,NA,NA,NA,NA
+66,NA,294,7/20/2022 17:36,Clear ,July,Available,9.474,Riffle,42,0.13,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.538358,111.685613,NA,NA,NA,NA,NA,NA,NA,NA,NA
+67,NA,296,7/20/2022 17:45,Clear ,July,Available,8.949,Riffle,34,0.11,Boulder,0.1,0,0.05,0,0,0,0.15,Yes,34.538256,111.685486,NA,NA,NA,NA,NA,NA,NA,NA,NA
+68,NA,297,7/20/2022 17:51,Clear ,July,Available,7.235,Riffle,20,0,Cobble,0.4,0,0,0.05,0,0,0.45,Yes,34.538238,111.685356,NA,NA,NA,NA,NA,NA,NA,NA,NA
+69,NA,347,7/21/2022 17:43,Clear ,July,Available,9.7,Run,64,0.12,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.537888,111.682407,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70,NA,300,7/20/2022 18:28,Clear ,July,Available,NA,Riffle,42,0.23,Pebble,0.2,0,0,0,0,0,0.2,No,34.538283,111.685281,NA,Added 'NA' to blank stream width,NA,NA,NA,NA,NA,NA,NA
+71,NA,301,7/20/2022 18:30,Clear ,July,Available,11.765,Riffle,13,0.13,Pebble,0.1,0,0,0,0,0,0.1,Yes,34.538402,111.68525,NA,NA,NA,NA,NA,NA,NA,NA,NA
+72,NA,302,7/20/2022 18:36,Clear ,July,Available,12.32,Riffle,37,0.01,Cobble,0.1,0,0,0.05,0,0,0.15,No,34.538309,111.685145,NA,NA,NA,NA,NA,NA,NA,NA,NA
+73,NA,306,7/20/2022 18:54,Clear ,July,Available,6.248,Riffle,48,0.22,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.538324,111.685019,NA,NA,NA,NA,NA,NA,NA,NA,NA
+74,NA,307,7/20/2022 19:48,Clear ,July,Available,5.5,Riffle,26,0.93,Boulder,0.4,0.4,0,0,0,0,0.8,No,34.53835,111.684943,NA,NA,NA,NA,NA,NA,NA,NA,NA
+75,NA,308,7/20/2022 19:55,Clear ,July,Available,8.65,Riffle,30,0.11,Cobble,0.3,0.5,0,0,0,0,0.8,No,34.538376,111.684804,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76,NA,309,7/20/2022 20:01,Clear ,July,Available,8.28,Riffle,30,0.49,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.538417,111.684837,NA,NA,NA,NA,NA,NA,NA,NA,NA
+77,NA,310,7/20/2022 20:08,Clear ,July,Available,9.45,Riffle,45,0.3,Cobble,0.2,0,0,0,0.1,0,0.3,Yes,34.538416,111.684634,NA,NA,NA,NA,NA,NA,NA,NA,NA
+78,NA,311,7/20/2022 20:13,Clear ,July,Available,12.1,Riffle,32,0.04,Gravel,0.3,0,0,0,0,0,0.3,No,34.538424,111.684528,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79,NA,312,7/20/2022 20:17,Clear ,July,Available,9.65,Riffle,22,NA,Cobble,0.1,0,0,0.3,0,0,0.4,Yes,34.538522,111.684503,NA,NA,NA,NA,NA,NA,NA,NA,NA
+80,NA,313,7/20/2022 20:23,Clear ,July,Available,6.8,Riffle,40,0.77,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538506,111.684435,NA,NA,NA,NA,NA,NA,NA,NA,NA
+81,NA,314,7/20/2022 20:28,Clear ,July,Available,7.04,Riffle,46,0.01,Cobble,0.3,0,0,0,0,0,0.3,No,34.538574,111.684348,NA,NA,NA,NA,NA,NA,NA,NA,NA
+82,NA,315,7/20/2022 20:29,Clear ,July,Available,8.2,Riffle,68,0,Gravel,0.2,0,0,0,0.05,0,0.25,No,34.53854,111.684233,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,NA,316,7/20/2022 20:33,Clear ,July,Available,11.7,Pool,35,0.16,Gravel,0.1,0,0,0.05,0,0,0.15,No,34.538566,111.684203,NA,NA,NA,NA,NA,NA,NA,NA,NA
+84,NA,318,7/20/2022 20:45,Clear ,July,Available,12.55,Pool,62,0.03,Bedrock,0,0,0.3,0,0.1,0,0.4,No,34.538558,111.684182,NA,NA,NA,NA,NA,NA,NA,NA,NA
+85,NA,319,7/20/2022 20:49,Clear ,July,Available,11.116,Pool,60,0,Cobble,0.2,0,0,0.1,0,0,0.3,No,34.538552,111.684069,NA,changed 'O' velocity to '0',NA,NA,NA,NA,NA,NA,NA
+86,NA,320,7/20/2022 20:53,Clear ,July,Available,9.58,Pool,80,0,Sand,0.05,0,0,0,0,0,0.05,No,34.538592,111.683958,NA,NA,NA,NA,NA,NA,NA,NA,NA
+87,NA,321,7/20/2022 20:57,Clear ,July,Available,6.56,Run,41,0.32,Boulder,0.4,0,0,0,0.05,0,0.45,Yes,34.538602,111.683882,NA,NA,NA,NA,NA,NA,NA,NA,NA
+88,NA,324,7/20/2022 21:27,Clear ,July,Available,5.23,Run,84,0.05,Cobble,0.3,0,0,0.1,0,0,0.4,No,34.538627,111.683767,NA,Deleted extra latitude digit,NA,NA,NA,NA,NA,NA,NA
+89,NA,325,7/20/2022 21:35,Clear ,July,Available,4.02,Run,60,0.21,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.538659,111.683659,NA,NA,NA,NA,NA,NA,NA,NA,NA
+90,NA,326,7/20/2022 21:40,Clear ,July,Available,4.06,Riffle,10,0.93,Bedrock,0,0,0.05,0,0,0,0.05,Yes,34.538665,111.683567,NA,NA,NA,NA,NA,NA,NA,NA,NA
+91,NA,327,7/20/2022 21:40,Clear ,July,Available,4.06,Riffle,10,0.93,Bedrock,0,0,0.05,0,0,0,0.05,Yes,34.538665,111.683567,NA,NA,NA,NA,NA,NA,NA,NA,NA
+92,NA,328,7/20/2022 21:47,Clear ,July,Available,3.7,Riffle,42,0.61,Bedrock,0.05,0,0.05,0,0,0,0.1,Yes,34.538662,111.683486,NA,NA,NA,NA,NA,NA,NA,NA,NA
+93,NA,329,7/20/2022 21:55,Clear ,July,Available,6.27,Riffle,24,0.19,Cobble,0.4,0,0.1,0,0,0,0.5,No,34.538701,111.683387,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,NA,331,7/20/2022 22:22,Clear ,July,Available,NA,Riffle,34,0.05,Pebble,0.4,0,0,0,0,0,0.4,No,34.538617,111.683302,NA,NA,NA,NA,NA,NA,NA,NA,NA
+95,NA,332,7/20/2022 22:30,Clear ,July,Available,Na,Run,84,0.4,Cobble,0.2,0,0,0,0,0,0.2,No,34.538629,111.683244,NA,removed 0 from no in NA,NA,NA,NA,NA,NA,NA,NA
+96,NA,333,7/20/2022 22:33,Clear ,July,Available,NA,Riffle,14,0.04,Cobble,0.4,0,0,0.05,0,0,0.45,Yes,34.538497,111.683159,NA,NA,NA,NA,NA,NA,NA,NA,NA
+97,NA,334,7/20/2022 22:39,Clear ,July,Available,NA,Riffle,42,0.16,Gravel,0.2,0,0,0,0,0,0.2,Yes,34.538503,111.6831,NA,NA,NA,NA,NA,NA,NA,NA,NA
+98,NA,335,7/20/2022 22:50,Clear ,July,Available,NA,Riffle,47,0.46,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.538446,111.683041,NA,NA,NA,NA,NA,NA,NA,NA,NA
+99,NA,336,7/20/2022 22:53,Clear ,July,Available,NA,Riffle,32,0.22,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538381,111.682954,NA,NA,NA,NA,NA,NA,NA,NA,NA
+100,NA,337,7/20/2022 22:58,Clear ,July,Available,NA,Riffle,20,0.83,Cobble,0.5,0.1,0,0,0,0,0.6,No,34.53834,111.682905,NA,NA,NA,NA,NA,NA,NA,NA,NA
+101,NA,338,7/20/2022 23:04,Clear ,July,Available,NA,Riffle,28,0.09,Cobble,0.2,0,0,0,0,0,0.2,No,34.53831,111.682858,NA,NA,NA,NA,NA,NA,NA,NA,NA
+102,NA,339,7/21/2022 17:07,Clear ,July,Available,15.6,Riffle,42,0.62,Cobble,0.4,0,0,0,0,0,0.4,No,34.538322,111.682838,NA,NA,NA,NA,NA,NA,NA,NA,NA
+103,NA,340,7/21/2022 17:23,Clear ,July,Available,10.7,Riffle,40,0.33,Pebble,0.1,0,0,0,0,0,0.1,No,34.538252,111.682748,NA,NA,NA,NA,NA,NA,NA,NA,NA
+104,NA,341,7/21/2022 17:25,Clear ,July,Available,10.2,Riffle,44,0.24,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.538202,111.682691,NA,NA,NA,NA,NA,NA,NA,NA,NA
+105,NA,342,7/21/2022 17:29,Clear ,July,Available,13.2,Riffle,14,0.08,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.538163,111.682594,NA,NA,NA,NA,NA,NA,NA,NA,NA
+106,NA,343,7/21/2022 17:30,Clear ,July,Available,10.9,Riffle,48,0.16,Gravel,0.4,0,0,0.1,0,0,0.5,Yes,34.538081,111.682575,NA,NA,NA,NA,NA,NA,NA,NA,NA
+107,NA,344,7/21/2022 17:33,Clear ,July,Available,11.8,Run,64,0.02,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.538029,111.682506,NA,NA,NA,NA,NA,NA,NA,NA,NA
+108,NA,346,7/21/2022 17:40,Clear ,July,Available,10.5,Run,66,0,Boulder,0,0,0.7,0,0,0,0.7,Yes,34.537948,111.682477,NA,NA,NA,NA,NA,NA,NA,NA,NA
+109,NA,393,7/21/2022 21:39,Clear ,July,Available,6.8,Riffle,36,0.05,Gravel,0.1,0,0,0,0.3,0,0.4,Yes,34.536049,111.679415,NA,NA,NA,NA,NA,NA,NA,NA,NA
+110,NA,349,7/21/2022 17:49,Clear ,July,Available,10.6,Run,78,0.11,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.537869,111.682311,NA,NA,NA,NA,NA,NA,NA,NA,NA
+111,NA,350,7/21/2022 17:51,Clear ,July,Available,8.4,Riffle,56,0.15,Cobble,0,0,0.4,0,0,0,0.4,Yes,34.537824,111.682222,NA,NA,NA,NA,NA,NA,NA,NA,NA
+112,NA,351,7/21/2022 17:53,Clear ,July,Available,10,Riffle,50,0,Cobble,0.3,0,0,0.3,0,0,0.6,Yes,34.537731,111.682216,NA,NA,NA,NA,NA,NA,NA,NA,NA
+113,NA,352,7/21/2022 17:56,Clear ,July,Available,7,Riffle,48,0,Gravel,0,0,0,0.4,0,0,0.4,Yes,34.537691,111.682154,NA,NA,NA,NA,NA,NA,NA,NA,NA
+114,NA,354,7/21/2022 18:00,Clear ,July,Available,10.3,Riffle,60,0.11,Boulder,0.2,0,0,0.7,0,0,0.9,Yes,34.537629,111.682061,NA,NA,NA,NA,NA,NA,NA,NA,NA
+115,NA,355,7/21/2022 18:03,Clear ,July,Available,7.3,Riffle,50,0.47,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.537583,111.6822,NA,Add zero to end of latitude (excel dropped),NA,NA,NA,NA,NA,NA,NA
+116,NA,356,7/21/2022 18:06,Clear ,July,Available,4.4,Riffle,54,0.2,Boulder,0,0,0,0,0,0,0,Yes,34.537527,111.681947,NA,NA,NA,NA,NA,NA,NA,NA,NA
+117,NA,357,7/21/2022 18:08,Clear ,July,Available,8.1,Riffle,42,0,Sand,0.2,0,0.1,0,0,0,0.3,Yes,34.537483,111.681866,NA,NA,NA,NA,NA,NA,NA,NA,NA
+118,NA,358,7/21/2022 18:11,Clear ,July,Available,11,Riffle,48,0.01,Cobble,0.5,0,0,0,0,0,0.5,Yes,34.537426,111.681806,NA,NA,NA,NA,NA,NA,NA,NA,NA
+119,NA,359,7/21/2022 18:13,Clear ,July,Available,10.5,Riffle,42,0.19,Pebble,0.3,0,0,0,0,0,0.3,Yes,34.537388,111.681749,NA,NA,NA,NA,NA,NA,NA,NA,NA
+120,NA,360,7/21/2022 18:17,Clear ,July,Available,10.9,Riffle,26,0.2,Gravel,0.1,0,0,0,0,0,0.1,Yes,34.537286,111.681712,NA,NA,NA,NA,NA,NA,NA,NA,NA
+121,NA,361,7/21/2022 18:18,Clear ,July,Available,10.2,Riffle,30,0.12,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.537255,111.681671,NA,NA,NA,NA,NA,NA,NA,NA,NA
+122,NA,362,7/21/2022 18:21,Clear ,July,Available,9.9,Riffle,12,0.23,Boulder,0.2,0,0,0,0,0,0.2,Yes,34.537258,111.681591,NA,NA,NA,NA,NA,NA,NA,NA,NA
+123,NA,363,7/21/2022 18:24,Clear ,July,Available,10.9,Riffle,72,0.28,Boulder,0,0,0,0,0.2,0,0.2,Yes,34.537156,111.681511,NA,NA,NA,NA,NA,NA,NA,NA,NA
+124,NA,364,7/21/2022 18:27,Clear ,July,Available,8.7,Riffle,68,0.27,Boulder,0.7,0,0,0,0,0,0.7,Yes,34.537085,111.681403,NA,NA,NA,NA,NA,NA,NA,NA,NA
+125,NA,365,7/21/2022 18:30,Clear ,July,Available,10.15,Riffle,28,0,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.537045,111.681388,NA,NA,NA,NA,NA,NA,NA,NA,NA
+126,NA,366,7/21/2022 18:33,Clear ,July,Available,9,Riffle,34,0,Boulder,0.2,0,0,0,0,0,0.2,Yes,34.537004,111.681327,NA,NA,NA,NA,NA,NA,NA,NA,NA
+127,NA,367,7/21/2022 18:36,Clear ,July,Available,7.9,Riffle,28,0.04,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.536964,111.681224,NA,NA,NA,NA,NA,NA,NA,NA,NA
+128,NA,368,7/21/2022 18:39,Clear ,July,Available,8.9,Riffle,28,0.19,Cobble,0,0,0,0,0,0,0,Yes,34.536992,111.681126,NA,NA,NA,NA,NA,NA,NA,NA,NA
+129,NA,369,7/21/2022 18:42,Clear ,July,Available,9.7,Riffle,32,0.3,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.536867,111.681071,NA,NA,NA,NA,NA,NA,NA,NA,NA
+130,NA,370,7/21/2022 18:46,Clear ,July,Available,5.5,Riffle,24,0.05,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.53679,111.681034,NA,NA,NA,NA,NA,NA,NA,NA,NA
+131,NA,371,7/21/2022 18:47,Clear ,July,Available,9.4,Riffle,36,0.58,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.53672,111.680952,NA,NA,NA,NA,NA,NA,NA,NA,NA
+132,NA,372,7/21/2022 18:53,Clear ,July,Available,8.4,Riffle,50,0.11,Pebble,0.1,0,0,0,0,0,0.1,No,34.536711,111.680892,NA,NA,NA,NA,NA,NA,NA,NA,NA
+133,NA,373,7/21/2022 18:54,Clear ,July,Available,10.6,Pool,62,0.03,Sand,0,0,0,0,0,0,0,Yes,34.536699,111.680769,NA,NA,NA,NA,NA,NA,NA,NA,NA
+134,NA,375,7/21/2022 20:20,Clear ,July,Available,19.3,Pool,52,0.06,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.536542,111.680673,NA,NA,NA,NA,NA,NA,NA,NA,NA
+135,NA,376,7/21/2022 20:23,Clear ,July,Available,15.6,Pool,132,0,Bedrock,0,0,0,0,0,0,0,No,34.536442,111.680646,NA,NA,NA,NA,NA,NA,NA,NA,NA
+136,NA,377,7/21/2022 20:28,Clear ,July,Available,14.3,Pool,110,0,Silt,0,0,0.1,0,0,0,0.1,No,34.536443,111.680513,NA,NA,NA,NA,NA,NA,NA,NA,NA
+137,NA,378,7/21/2022 20:34,Clear ,July,Available,15.9,Pool,62,0,Bedrock,0.2,0,0,0,0,0,0.2,No,34.536318,111.680458,NA,NA,NA,NA,NA,NA,NA,NA,NA
+138,NA,379,7/21/2022 20:38,Clear ,July,Available,17.5,Pool,>150,0,Bedrock,0,0,0,0,0,0,0,No,34.536258,111.680452,NA,NA,NA,NA,NA,NA,NA,NA,NA
+139,NA,380,7/21/2022 20:48,Clear ,July,Available,NA,Pool,>150,0,Bedrock,0,0,0,0,0,0,0,No,34.536298,111.680358,NA,NA,NA,NA,NA,NA,NA,NA,NA
+140,NA,381,7/21/2022 20:55,Clear ,July,Available,9.7,Pool,78,0,Silt,0,0,0,0.9,0,0,0.9,Yes,34.536209,111.680194,NA,NA,NA,NA,NA,NA,NA,NA,NA
+141,NA,385,7/21/2022 21:10,Clear ,July,Available,10.2,Pool,82,0.24,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.536157,111.680212,NA,NA,NA,NA,NA,NA,NA,NA,NA
+142,NA,386,7/21/2022 21:13,Clear ,July,Available,9.4,Riffle,34,0.65,Boulder,0.5,0,0,0,0,0,0.5,No,34.536124,111.68012,NA,NA,NA,NA,NA,NA,NA,NA,NA
+143,NA,387,7/21/2022 21:19,Clear ,July,Available,8.4,Riffle,16,0.04,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.536108,111.680018,NA,NA,NA,NA,NA,NA,NA,NA,NA
+144,NA,388,7/21/2022 21:22,Clear ,July,Available,7.9,Riffle,32,0.3,Pebble,0.6,0,0,0,0,0,0.6,Yes,34.536059,111.679924,NA,NA,NA,NA,NA,NA,NA,NA,NA
+145,NA,389,7/21/2022 21:25,Clear ,July,Available,5.6,Riffle,32,0.53,Gravel,0.1,0,0,0,0.3,0,0.4,Yes,34.536057,111.679838,NA,NA,NA,NA,NA,NA,NA,NA,NA
+146,NA,390,7/21/2022 21:29,Clear ,July,Available,8.1,Riffle,32,0.05,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.536107,111.67972,NA,NA,NA,NA,NA,NA,NA,NA,NA
+147,NA,391,7/21/2022 21:30,Clear ,July,Available,7.1,Riffle,28,0.22,Gravel,0.2,0,0,0,0,0,0.2,Yes,34.536089,111.679614,NA,NA,NA,NA,NA,NA,NA,NA,NA
+148,NA,392,7/21/2022 21:34,Clear ,July,Available,8.1,Riffle,26,0.35,Boulder,0.7,0,0,0,0,0,0.7,Yes,34.536036,111.679548,NA,NA,NA,NA,NA,NA,NA,NA,NA
+149,NA,409,7/21/2022 22:31,Clear ,July,Available,12.1,Pool,32,0.02,Bedrock,0,0,0,0,0,0,0,No,34.535772,111.678247,NA,NA,NA,NA,NA,NA,NA,NA,NA
+150,NA,394,7/21/2022 21:41,Clear ,July,Available,5.2,Riffle,16,0.1,Boulder,0.7,0,0,0,0,0,0.7,No,34.536031,111.679328,NA,NA,NA,NA,NA,NA,NA,NA,NA
+151,NA,395,7/21/2022 21:43,Clear ,July,Available,7.9,Riffle,30,0.29,Boulder,0,0,0,0.2,0,0,0.2,Yes,34.536027,111.67922,NA,NA,NA,NA,NA,NA,NA,NA,NA
+152,NA,396,7/21/2022 21:50,Clear ,July,Available,6.9,Riffle,26,0.44,Boulder,0.4,0,0,0,0,0,0.4,Yes,34.536014,111.679129,NA,NA,NA,NA,NA,NA,NA,NA,NA
+153,NA,397,7/21/2022 21:54,Clear ,July,Available,7.6,Riffle,40,0.02,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.535978,111.679051,NA,NA,NA,NA,NA,NA,NA,NA,NA
+154,NA,398,7/21/2022 21:56,Clear ,July,Available,6.7,Riffle,28,0.46,Boulder,0.3,0,0,0,0,0,0.3,Yes,34.535963,111.678968,NA,NA,NA,NA,NA,NA,NA,NA,NA
+155,NA,399,7/21/2022 22:00,Clear ,July,Available,10.8,Riffle,26,0.32,Boulder,0.3,0,0,0.1,0,0,0.4,Yes,34.535951,111.678882,NA,NA,NA,NA,NA,NA,NA,NA,NA
+156,NA,400,7/21/2022 22:03,Clear ,July,Available,6.6,Riffle,54,0.21,Boulder,0.3,0,0,0.1,0,0,0.4,Yes,34.535886,111.678803,NA,NA,NA,NA,NA,NA,NA,NA,NA
+157,NA,401,7/21/2022 22:06,Clear ,July,Available,8.2,Riffle,10,0.25,Cobble,0.1,0,0,0,0.5,0,0.6,No,34.535902,111.678689,NA,NA,NA,NA,NA,NA,NA,NA,NA
+158,NA,403,7/21/2022 22:11,Clear ,July,Available,13.4,Pool,62,0.01,Cobble,0.3,0,0,0,0,0,0.3,No,34.535915,111.67857,NA,NA,NA,NA,NA,NA,NA,NA,NA
+159,NA,404,7/21/2022 22:15,Clear ,July,Available,11.6,Pool,86,0.05,Silt,0,0,0.3,0,0,0,0.3,Yes,34.535815,111.678515,NA,NA,NA,NA,NA,NA,NA,NA,NA
+160,NA,406,7/21/2022 22:22,Clear ,July,Available,12.2,Pool,44,0.04,Bedrock,0,0,0,0,0,0,0,No,34.535827,111.678397,NA,NA,NA,NA,NA,NA,NA,NA,NA
+161,NA,407,7/21/2022 22:27,Clear ,July,Available,12,Pool,78,0.02,Silt,0,0,0,0,0,0,0,No,34.535748,111.678339,NA,NA,NA,NA,NA,NA,NA,NA,NA
+162,NA,413,7/21/2022 22:52,Clear ,July,Available,11.7,Pool,48,0.03,Boulder,0.1,0,0,0,0,0,0.1,Yes,34.535606,111.678025,NA,NA,NA,NA,NA,NA,NA,NA,NA
+163,NA,410,7/21/2022 22:37,Clear ,July,Available,11.7,Pool,34,0,Silt,0,0,0,0,0.3,0,0.3,No,34.535645,111.678211,NA,NA,NA,NA,NA,NA,NA,NA,NA
+164,NA,411,7/21/2022 22:43,Clear ,July,Available,12,Pool,106,0.02,Gravel,0.2,0,0,0,0,0,0.2,Yes,34.535645,111.678152,NA,NA,NA,NA,NA,NA,NA,NA,NA
+165,NA,412,7/21/2022 22:48,Clear ,July,Available,11.5,Pool,84,0.05,Bedrock,0,0,0,0,0,0,0,Yes,34.535665,111.678059,NA,NA,NA,NA,NA,NA,NA,NA,NA

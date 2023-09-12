@@ -1,0 +1,72 @@
+,ObjectID,Stream,Month,Creation Date,Tag,Site Type,Species,Mesohabitat,Stream Width,Substrate,Substrate Feature,Surface Turbulence ,Aquatic Vegetation,Large Woody Debris,Terrestrial Vegetation ,Undercut Bank,Instream Cover,Canopy Cover,Depth,Velocity,Longitude,Latitude,Notes,Weight,Length,Capture Method,Capture Date,Release,Data Change
+3,45,Beaver,June,6/21/2023 11:27,224,Occupied,Black Bass,Pool,11.3,Boulder,0,0,0,0,0,0,0,Yes,>150,0,34.674206,111.672199,,,263,E-fishing,11/5/2022,,
+6,73,Beaver,June,6/21/2023 14:20,NA,Available,NA,Pool,9.1,Cobble,0.4,0,0,0,0,0,0.4,Yes,8,NA,34.674072,111.6718,,,,,,,
+22,89,Beaver,June,6/21/2023 15:48,NA,Available,NA,Pool,15.6,Cobble,0,0,0,0,0,0,0,Yes,>150,NA,34.674052,111.67055,,,,,,,
+23,90,Beaver,June,6/21/2023 15:50,NA,Available,NA,Pool,11.9,Bedrock,0,0,0,0,0,0,0,Yes,>150,NA,34.674033,111.670528,,,,,,,
+36,254,Beaver,June,6/23/2023 11:19,NA,Available,NA,Pool,8.1,Boulder,0.2,0,0,0.4,0,0,0.6,No,6,Na,34.673054,111.668538,,,,,,,
+42,261,Beaver,June,6/23/2023 11:39,NA,Available,NA,Pool,4.6,Boulder,0,0,0,0,0,0,0,Yes,>150,Na,34.672779,111.668115,,,,,,,
+47,268,Beaver,June,6/23/2023 12:03,NA,Available,NA,Pool,13.9,Bedrock,0,0,0,0,0,0,0,No,>150,Na,34.67257,111.667693,,,,,,,
+61,52,Beaver,June,6/21/2023 11:49,NA,Available,NA,Pool,12.7,Gravel,0,0,0,0,0,0,0,Yes,>150,NA,,,,,,,,,Available location randomly selected from snorkeling transects 
+65,127,Beaver,June,6/22/2023 14:17,NA,Available,NA,Pool,9.7,Bedrock,0,0,0,0,0,0,0,No,4,NA,34.673956,111.670243,,,,,,,Available location randomly selected from snorkeling transects 
+53,8,Beaver,June ,6/14/2023 15:30,NA,Available,NA,Pool,7,Bedrock,0,0,0,0,0,0,0,Yes,72,0.05,0,0,,,,,,,Velocity change from 5.0 to 0.05. Available location randomly selected from snorkeling transects 
+4,71,Beaver,June,6/21/2023 14:11,NA,Available,NA,Pool,8.8,Cobble,0,0,0,0,0,0,0,Yes,34,0.11,34.67393,111.671713,,,,,,,
+7,74,Beaver,June,6/21/2023 14:26,NA,Available,NA,Pool,7.8,Boulder,0.5,0,0,0,0,0,0.5,Yes,40,0.11,34.674052,111.671717,,,,,,,
+5,72,Beaver,June,6/21/2023 14:16,NA,Available,NA,Pool,6.3,Cobble,0,0,0,0,0,0,0,Yes,62,0.08,34.674017,111.671892,,,,,,,
+37,255,Beaver,June,6/23/2023 11:23,NA,Available,NA,Pool,10.1,Pebble,0.3,0,0,0,0,0,0.3,No,60,0.08,34.673008,111.668452,,,,,,,Changed velocity from 8.0 to .08
+25,243,Beaver,June,6/23/2023 10:36,NA,Available,NA,Pool,12.8,Cobble,0,0,0,0,0,0,0,Yes,78,0.04,34.674157,111.670052,,,,,,,
+54,23,Beaver,June ,6/14/2023 16:27,NA,Available,NA,Pool,,Bedrock,0.3,0,0,0,0,0,0.3,No,102,0.04,34.674812,111.672322,,,,,,,Available location randomly selected from snorkeling transects 
+58,10,Beaver,June,6/20/2023 17:18,NA,Available,NA,Pool,,Boulder,0.1,0,0,0,0,0,0.1,No,10,0.04,,,,,,,,,Available location randomly selected from snorkeling transects 
+27,245,Beaver,June,6/23/2023 10:47,NA,Available,NA,Pool,6.4,Bedrock,0,0,0,0,0,0,0,No,26,0.02,34.673397,111.669214,,,,,,,
+39,257,Beaver,June,6/23/2023 11:28,NA,Available,NA,Pool,8.6,Cobble,0.5,0,0,0,0,0,0.5,No,10,0.02,34.672891,111.668354,,,,,,,
+20,87,Beaver,June,6/21/2023 15:30,NA,Available,NA,Pool,13.8,Cobble,0,0,0,0,0,0,0,Yes,30,0.01,34.67399,111.67077,,,,,,,
+21,88,Beaver,June,6/21/2023 15:43,NA,Available,NA,Pool,9.7,Gravel,0,0,0,0,0,0,0,Yes,36,0.01,34.674028,111.670675,,,,,,,
+26,244,Beaver,June,6/23/2023 10:43,NA,Available,NA,Pool,9.8,Boulder,0.1,0,0,0,0,0,0.1,Yes,106,0.01,34.674157,111.670052,,,,,,,
+34,252,Beaver,June,6/23/2023 11:10,NA,Available,NA,Pool,9,Boulder,0,0,0,0,0,0,0,No,12,0.01,34.673134,111.668688,,,,,,,
+59,21,Beaver,June,6/21/2023 10:50,NA,Available,NA,Pool,13.3,Sand,0,0,0,0,0,0,0,Yes,53,0.01,,,,,,,,,Available location randomly selected from snorkeling transects 
+60,43,Beaver,June,6/21/2023 11:21,NA,Available,NA,Pool,12.4,Gravel,0,0,0,0,0,0,0,Yes,104,0.01,,,,,,,,,Available location randomly selected from snorkeling transects 
+63,102,Beaver,June,6/22/2023 13:24,NA,Available,NA,Pool,13.3,Gravel,0,0,0,0,0,0,0,Yes,128,0.01,,,,,,,,,Available location randomly selected from snorkeling transects 
+24,242,Beaver,June,6/23/2023 10:34,NA,Available,NA,Pool,10.4,Gravel,0.1,0,0,0,0,0,0.1,Yes,30,0,34.674157,111.670052,,,,,,,
+38,256,Beaver,June,6/23/2023 11:21,NA,Available,NA,Pool,10.5,Boulder,0.1,0,0,0,0,0,0.1,No,28,0,34.672915,111.668428,,,,,,,
+62,61,Beaver,June,6/21/2023 12:13,NA,Available,NA,Pool,11.7,Boulder,0,0,0,0,0,0,0,Yes,0,0,,,,,,,,,Available location randomly selected from snorkeling transects 
+64,111,Beaver,June,6/22/2023 13:43,NA,Available,NA,Pool,11.4,Boulder,0,0,0,0,0,0,0,Yes,120,0,,,,,,,,,Available location randomly selected from snorkeling transects 
+8,75,Beaver,June,6/21/2023 14:22,212,Occupied,Black Bass,Riffle,8.6,Cobble,0,0,0,0,0,0,0,Yes,44,0,34.674051,111.671698,,,228,E-fishing,11/5/2022,,
+19,86,Beaver,June,6/21/2023 15:20,222,Occupied,Desert Sucker,Riffle,12.9,Boulder,0.6,0,0,0,0,0,0.6,Yes,23,0.22,34.674089,111.670876,,,267,E-fishing,11/5/2022,,
+1,1,Beaver,June,6/20/2023 16:20,228,Occupied,Desert Sucker,Riffle,5.295,Cobble,0.3,0,0,0,0,0,0.3,No,40,0.21,34.673816,111.672279,Visually confirmed with 19 other DS,,221,E-fishing,11/5/2022,,
+41,259,Beaver,June,6/23/2023 11:33,204,Occupied,Desert Sucker,Riffle,4.5,Cobble,0.1,0,0,0,0,0,0.1,Yes,54,0.14,34.672845,111.668183,Visually confirmed with 30 other DS,,272,E-fishing,11/5/2022,,
+35,253,Beaver,June,6/23/2023 11:13,NA,Available,NA,Riffle,8.4,Boulder,0.6,0,0,0,0,0,0.6,No,4,0,34.673023,111.668651,,,,,,,Velocity NA to 0
+55,457,Beaver,June,6/15/2023 11:27,NA,Available,NA,Riffle,5.3,Cobble,0,0,0,0,0,0,0,Yes,2,0,34.674764,111.672249,,,,,,,Available location randomly selected from snorkeling transects. Velocity NA to 0 
+46,265,Beaver,June,6/23/2023 11:51,NA,Available,NA,Riffle,7.4,Boulder,0,0,0,0,0,0,0,No,10,0.48,34.672644,111.667929,,,,,,,
+18,85,Beaver,June,6/21/2023 15:19,NA,Available,NA,Riffle,12.9,Cobble,0.4,0,0,0,0,0,0.4,Yes,10,0.47,34.673998,111.670867,,,,,,,
+71,206,Beaver,June,6/22/2023 16:50,NA,Available,NA,Riffle,12.7,Boulder,0.2,0,0,0,0,0,0.2,Yes,10,0.39,,,,,,,,,Available location randomly selected from snorkeling transects 
+70,188,Beaver,June,6/22/2023 16:23,NA,Available,NA,Riffle,8.7,Cobble,0.4,0,0,0,0,0,0.4,No,14,0.34,,,,,,,,,Available location randomly selected from snorkeling transects 
+11,78,Beaver,June,6/21/2023 14:45,NA,Available,NA,Riffle,10,Cobble,0,0,0,0,0,0,0,No,28,0.23,34.674013,111.671438,,,,,,,
+10,77,Beaver,June,6/21/2023 14:42,NA,Available,NA,Riffle,9.3,Cobble,0.2,0,0,0,0,0,0.2,No,28,0.2,34.67402,111.671514,,,,,,,
+12,79,Beaver,June,6/21/2023 14:42,NA,Available,NA,Riffle,8.2,Cobble,0.1,0,0,0,0,0,0.1,Yes,53,0.18,34.673969,111.671349,,,,,,,
+51,272,Beaver,June,6/23/2023 12:18,NA,Available,NA,Riffle,3.15,Boulder,0.1,0,0,0,0,0,0.1,No,30,0.18,34.672691,111.667492,,,,,,,
+44,263,Beaver,June,6/23/2023 11:45,NA,Available,NA,Riffle,5.9,Cobble,0.3,0,0,0,0,0,0.3,Yes,48,0.15,34.672746,111.668064,,,,,,,
+9,76,Beaver,June,6/21/2023 14:35,NA,Available,NA,Riffle,8.6,Cobble,0.4,0,0,0,0,0,0.4,No,40,0.1,34.674036,111.671619,,,,,,,
+15,82,Beaver,June,6/21/2023 15:04,NA,Available,NA,Riffle,13,Bedrock,0.5,0,0,0,0,0,0.5,Yes,33,0.1,34.674012,111.671073,,,,,,,
+56,467,Beaver,June,6/15/2023 12:04,NA,Available,NA,Riffle,3.4,Cobble,0.3,0,0,0,0,0,0.3,No,30,0.09,0,0,,,,,,,Available location randomly selected from snorkeling transects 
+48,269,Beaver,June,6/23/2023 12:06,NA,Available,NA,Riffle,5.5,Boulder,0.5,0,0,0,0,0,0.5,Yes,42,0.08,34.672493,111.667653,,,,,,,
+30,248,Beaver,June,6/23/2023 10:58,NA,Available,NA,Riffle,7.4,Boulder,0.4,0,0,0,0,0,0.4,No,38,0.07,34.673287,111.668996,,,,,,,
+14,81,Beaver,June,6/21/2023 14:58,NA,Available,NA,Riffle,10.8,Boulder,0.5,0,0,0,0,0,0.5,Yes,30,0.05,34.673919,111.671152,,,,,,,
+40,258,Beaver,June,6/23/2023 11:30,NA,Available,NA,Riffle,5.9,Boulder,0.3,0,0,0,0,0,0.3,Yes,46,0.03,34.672876,111.668218,,,,,,,
+16,83,Beaver,June,6/21/2023 15:07,NA,Available,NA,Riffle,13,Boulder,0,0,0,0,0,0,0,No,16,0.01,34.674016,111.67101,,,,,,,
+28,246,Beaver,June,6/23/2023 10:53,NA,Available,NA,Riffle,7.5,Pebble,0.3,0,0,0,0,0,0.3,Yes,68,0.01,34.673398,111.669134,,,,,,,
+13,80,Beaver,June,6/21/2023 14:54,NA,Available,NA,Riffle,8.9,Cobble,0.1,0,0,0,0,0,0.1,No,10,0,34.674014,111.671306,,,,,,,
+17,84,Beaver,June,6/21/2023 15:11,NA,Available,NA,Riffle,11.9,Cobble,0.3,0,0,0,0,0,0.3,No,20,0,34.674062,111.670909,,,,,,,
+57,474,Beaver,June,6/15/2023 12:30,NA,Available,NA,Riffle,5.4,Boulder,0,0,0,0,0,0,0,No,0,0,34.67455,111.672313,,,,,,,Available location randomly selected from snorkeling transects 
+69,174,Beaver,June,6/22/2023 15:55,NA,Available,NA,Riffle,5.7,Boulder,0,0,0,0,0,0,0,Yes,0,0,,,,,,,,,Available location randomly selected from snorkeling transects 
+2,2,Beaver,June,6/20/2023 16:26,230,Occupied,Desert Sucker,Run,3.995,Cobble,0.4,0,0,0,0,0,0.4,Yes,36,0.06,34.674659,111.672255,,,259,E-fishing,11/5/2022,,
+43,262,Beaver,June,6/23/2023 11:42,203,Occupied,Desert Sucker,Run,4.3,Boulder,0.5,0,0,0,0,0,0.5,Yes,30,0.01,34.672767,111.668081,,,227,E-fishing,11/5/2022,,
+29,247,Beaver,June,6/23/2023 10:56,NA,Available,NA,Riffle,7.1,Boulder,0.3,0,0,0,0,0,0.3,No,4,0,34.673332,111.669073,,,,,,,"Velocity NA to 0, and Run to Riffle"
+32,250,Beaver,June,6/23/2023 11:04,NA,Available,NA,Riffle,6.3,Boulder,0.2,0.1,0,0,0,0,0.3,No,3,0,34.673205,111.668847,,,,,,,"Velocity NA to 0, and Run to Riffle"
+45,264,Beaver,June,6/23/2023 11:54,NA,Available,NA,Riffle,6.7,Boulder,0.2,0,0,0,0,0,0.2,Yes,1,0,34.672703,111.667972,,,,,,,"Velocity NA to 0, and Run to Riffle"
+49,270,Beaver,June,6/23/2023 12:10,NA,Available,NA,Riffle,4.5,Bedrock,0,0,0,0,0,0,0,No,0,0,34.672487,111.667563,,,,,,,"Velocity NA to 0, and Run to Riffle"
+68,161,Beaver,June,6/22/2023 15:29,NA,Available,NA,Run,3.3,Bedrock,0,0,0,0,0,0,0,Yes,14,0.91,34.673922,111.669951,,,,,,,Available location randomly selected from snorkeling transects 
+52,273,Beaver,June,6/23/2023 12:23,NA,Available,NA,Run,12,Boulder,0.1,0,0,0,0,0,0.1,Yes,28,0.9,34.672627,111.667431,,,,,,,
+33,251,Beaver,June,6/23/2023 11:07,NA,Available,NA,Run,7.5,Cobble,0.1,0,0,0,0,0,0.1,No,24,0.16,34.67316,111.668781,,,,,,,
+31,249,Beaver,June,6/23/2023 11:01,NA,Available,NA,Run,5.9,Boulder,0.7,0,0,0,0,0,0.7,No,10,0.15,34.673252,111.668913,,,,,,,
+66,144,Beaver,June,6/22/2023 14:53,NA,Available,NA,Run,4.2,Bedrock,0,0,0,0,0,0,0,No,10,0.13,34.673929,111.670154,,,,,,,Available location randomly selected from snorkeling transects 
+50,271,Beaver,June,6/23/2023 12:14,NA,Available,NA,Run,2.8,Cobble,0.3,0,0,0,0,0,0.3,Yes,20,0.02,34.672496,111.66745,,,,,,,
+67,152,Beaver,June,6/22/2023 15:14,NA,Available,NA,Run,6.8,Bedrock,0,0,0,0,0,0,0,No,0,0,34.673948,111.670035,,,,,,,Available location randomly selected from snorkeling transects 
