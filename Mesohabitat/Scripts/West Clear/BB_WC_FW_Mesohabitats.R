@@ -1,5 +1,5 @@
-#BB WB F 
-# Loop for resource selection function
+# BB WC F 
+# Resource Selection Analysis Loop
 
 # ~15 fish per month and ~3 months per season
 # ~45 total location per season
@@ -10,11 +10,26 @@ library(readr)
 
 ##### DATA #####
 
-NotAsFishy <- read_csv("~/Kaitlyn's Data Analysis/Analysis/Data Ready for HSC/Data-Ready-for-HSC/Output/NotAsFishy.csv", 
-                       col_types = cols(Velocity = col_double()))
+NotAsFishy <- read_csv("Output/NotAsFishy.csv")
 
-##### BB_WC_FW #####
-##Black Bass West Clear Creek Spawning (Sept - November) Riffle Data 
+
+#### Black Bass West Clear Creek Fall/Winter (Sept - Dec) Data 
+   # BB_WC_FW
+
+##List of Variables
+Species_ <- "Black Bass"
+Species_Abb <- "BB"
+Stream_ <- "Clear"
+Stream_Abb <- "WC"
+Season_ <- c('September', 'October', 'November', 'December')
+Season_Abb <- "FW"
+
+
+Results_File <- paste0("VelocityDepthSubstrate/Results/",                     #Makes file name based on current variables
+                       Species_Abb, "_",                           
+                       Stream_Abb, "_",
+                       Season_Abb, "_", "_Results.csv")
+
 
 #Combine all Black Bass and available data on WB <----- BB_AV_WC
 BB_WC <- NotAsFishy %>%                                                       #separate Clear Creek Black Bass

@@ -1,5 +1,5 @@
-#BB WC FW PO
-# Loop for resource selection function
+# BB WC FW PO
+# Resource Selection Analysis Loop
 
 # ~15 fish per month and ~3 months per season
 # ~45 total location per season
@@ -10,8 +10,8 @@ library(readr)
 
 ##### DATA #####
 
-NotAsFishy <- read_csv("~/School/Bonar Lab/Project/Data/Analysis/Data Ready for HSC/Data-Ready-for-HSC/Output/NotAsFishy.csv", 
-                       col_types = cols(Velocity = col_double()))
+NotAsFishy <- read_csv("Output/NotAsFishy.csv")
+
 str(NotAsFishy)
 head(NotAsFishy)
 
@@ -27,9 +27,10 @@ head(NotAsFishy)
   Season_ <- c('September', 'October', 'November', 'December')
   Season_Abb <- "FW"
   Mesohabitat_ <- "Pool"
-  Mesohabitat_Abb <- "PO"
+  Mesohabitat_Abb <- "POtest"
   
-  Results_File <- paste0("Output/", Species_Abb, "_",                           #Makes file name based on current variables
+  Results_File <- paste0("VelocityDepthSubstrate/Results/",                     #Makes file name based on current variables
+                        Species_Abb, "_",                           
                         Stream_Abb, "_",
                         Season_Abb, "_",
                         Mesohabitat_Abb, "_Results.csv")
@@ -456,7 +457,7 @@ for(i in 1:N_reps){                                                             
 
 ##### SAVE #####
 
-view(Storage)
+View(Storage)
 write_csv(Storage, file = Results_File)
 
 
