@@ -1,0 +1,11 @@
+Species_,Species_Abb,Stream_,Stream_Abb,Season_,Season_Abb
+Desert Sucker,DS,Clear,WC,"c('April','May','June','July')",SS
+Desert Sucker,DS,Clear,WC,"c('September', 'October', 'November', 'December')",FW
+Desert Sucker,DS,Beaver,WB,"c('April', 'May', 'June')",SS
+Desert Sucker,DS,Beaver,WB,"c('September', 'October', 'November')",F
+Desert Sucker,DS,Beaver,WB,"c('December', 'January', 'February')",W
+Black Bass,BB,Clear,WC,"c('April','May','June','July')",SS
+Black Bass,BB,Clear,WC,"c('September', 'October', 'November', 'December')",FW
+Black Bass,BB,Beaver,WB,"c('April', 'May', 'June')",SS
+Black Bass,BB,Beaver,WB,"c('September', 'October', 'November')",F
+Black Bass,BB,Beaver,WB,"c('December', 'January', 'February')",W
