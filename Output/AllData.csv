@@ -722,7 +722,7 @@ NA,Beaver,March,Available,NA,NA,Run,7.94,74,1.34,Boulder,0.7,0.3,0,0,0,0,1,Yes,3
 4,Beaver,May,Occupied,108,Black Bass,Pool,Na,62,0.03,Cobble,0.2,0,0,0,0,0,0.2,No,34.67296,111.668479,NA,5/18/2022 21:01,NA,109,215,Backpack Shocker,11/12/2022,NA,NA,75
 1,Beaver,May,Occupied,104,Black Bass,Pool,NA,64,0.03,Cobble,0,0,0,0,0,0,0,Yes,34.674004,111.670822,NA,5/17/2022 22:19,NA,140,217,Backpack Shocker,11/3/2022,NA,NA,36
 19,Beaver,May,Occupied,135,Black Bass,Pool,Na,64,0,Sand,0.3,0,0,0,0,0,0.3,Yes,34.673069,111.666302,NA,5/18/2022 0:00,Confirmed Date,95,197,Backpack Shocker,11/16/2022,NA,Pool,115
-10,Beaver,May,Occupied,120,Black Bass,Pool,Na,86,0.01,Gravel,0.05,0,0,0.05,0,0,0.1,No,34673454,111.669341,NA,5/18/2022 18:36,NA,77,182,Backpack Shocker,11/12/2022,NA,NA,63
+10,Beaver,May,Occupied,120,Black Bass,Pool,Na,86,0.01,Gravel,0.05,0,0,0.05,0,0,0.1,No,34.673454,111.669341,NA,5/18/2022 18:36,NA,77,182,Backpack Shocker,11/12/2022,NA,NA,63
 18,Beaver,May,Occupied,134,Black Bass,Pool,NA,88,0,Cobble,0,0,0,0,0,0,0,Yes,34.674054,111.670712,NA,5/17/2022 22:27,NA,107,226,Backpack Shocker,11/13/2022,NA,Pool,38
 12,Beaver,May,Occupied,123,Black Bass,Pool,Na,88,0.06,Cobble,0,0,0,0,0,0,0,Yes,34.6734811,111.669386,NA,5/18/2022 18:27,NA,115,218,Backpack Shocker,11/12/2022,NA,Riffles,62
 3,Beaver,May,Occupied,107,Black Bass,Pool,NA,>150,0,Silt,0,0,0,0,0,0,0,Yes,34.674093,111.672181,"Lat long taken on shore, not at location of fish",5/17/2022 19:54,NA,79,191,Backpack Shocker,11/3/2022,NA,NA,14
@@ -759,7 +759,7 @@ NA,Beaver,March,Available,NA,NA,Run,7.94,74,1.34,Boulder,0.7,0.3,0,0,0,0,1,Yes,3
 29,Beaver,May,Available,NA,NA,Pool,7.39,80,0.03,Cobble,0,0,0,0.05,0,0,0.05,No,34.674853,111.672343,NA,5/17/2022 18:43,NA,NA,NA,NA,NA,NA,NA,1
 38,Beaver,May,Available,NA,NA,Pool,16.75,88,0,Cobble,0,0,0,0,0,0,0,Yes,34.674327,111.672434,NA,5/17/2022 19:30,NA,NA,NA,NA,NA,NA,NA,10
 88,Beaver,May,Available,NA,NA,Pool,NA,90,0.03,Cobble,0,0,0,0.1,0,0,0.1,Yes,34.677719,111.695159,NA,5/18/2022 17:57,NA,NA,NA,NA,NA,NA,NA,60
-51,Beaver,May,Available,NA,NA,Pool,Na,90,0.01,Cobble,0,0,0,0.4,0,0,0.4,Yes,34.6729831,"111,668,397",NA,5/18/2022 21:07,NA,NA,NA,NA,NA,NA,NA,76
+51,Beaver,May,Available,NA,NA,Pool,Na,90,0.01,Cobble,0,0,0,0.4,0,0,0.4,Yes,34.6729831,112,NA,5/18/2022 21:07,NA,NA,NA,NA,NA,NA,NA,76
 67,Beaver,May,Available,NA,NA,Pool,NA,92,0.02,Cobble,0,0,0,0,0,0.3,0.3,Yes,34.674051,111.670683,NA,5/17/2022 22:31,NA,NA,NA,NA,NA,NA,NA,39
 39,Beaver,May,Available,NA,NA,Pool,17.75,112,0.02,Sand,0,0,0,0,0,0,0,Yes,34.67434,111.672385,NA,5/17/2022 19:38,NA,NA,NA,NA,NA,NA,NA,11
 74,Beaver,May,Available,NA,NA,Pool,Na,120,0,Silt,0.1,0,0,0,0,0,0.1,Yes,34.672573,111.667815,NA,5/18/2022 22:05,NA,NA,NA,NA,NA,NA,NA,86
@@ -803,10 +803,10 @@ NA,Beaver,March,Available,NA,NA,Run,7.94,74,1.34,Boulder,0.7,0.3,0,0,0,0,1,Yes,3
 49,Beaver,May,Available,NA,NA,Riffle,Na,20,0.33,Cobble,0,0,0,0,0,0,0,No,34.673374,111.669201,NA,5/18/2022 18:16,Removed NA from canopy,NA,NA,NA,NA,NA,NA,61
 35,Beaver,May,Available,NA,NA,Riffle,5.39,20,0.54,Cobble,0,0,0,0,0,0,0,Yes,34.674582,111.672285,NA,5/17/2022 19:18,NA,NA,NA,NA,NA,NA,NA,7
 60,Beaver,May,Available,NA,NA,Riffle,NA,20,0.63,Boulder,0,0,0,0,0,0.5,0.5,Yes,34.673997,111.67103,NA,5/17/2022 22:03,NA,NA,NA,NA,NA,NA,NA,32
-79,Beaver,May,Available,NA,NA,Riffle,NA,20,0.03,Cobble,0.2,0,0,0,0,0,0.2,No,34673424,"111,669,078",NA,5/18/2022 19:03,NA,NA,NA,NA,NA,NA,NA,64
+79,Beaver,May,Available,NA,NA,Riffle,NA,20,0.03,Cobble,0.2,0,0,0,0,0,0.2,No,34.673424,112,NA,5/18/2022 19:03,NA,NA,NA,NA,NA,NA,NA,64
 62,Beaver,May,Available,NA,NA,Riffle,NA,22,0.18,Pebble,0,0,0,0,0,0,0,Yes,34.673938,111.670882,NA,5/17/2022 22:11,NA,NA,NA,NA,NA,NA,NA,34
 56,Beaver,May,Available,NA,NA,Riffle,NA,24,0.48,Boulder,0,1,0,0,0,0,1,Yes,34.673988,111.6713,NA,5/17/2022 21:43,NA,NA,NA,NA,NA,NA,NA,28
-53,Beaver,May,Available,NA,NA,Riffle,Na,24,0.17,Boulder,0.4,0,0,0,0,0,0.4,No,34.672719,11q.666787,NA,5/18/2022 23:57,NA,NA,NA,NA,NA,NA,NA,105
+53,Beaver,May,Available,NA,NA,Riffle,Na,24,0.17,Boulder,0.4,0,0,0,0,0,0.4,No,34.672719,111.666787,NA,5/18/2022 23:57,NA,NA,NA,NA,NA,NA,NA,105
 81,Beaver,May,Available,NA,NA,Riffle,NA,26,0.16,Cobble,0,0,0,0.5,0,0,0.5,Yes,34.673674,111.669391,NA,5/17/2022 23:41,NA,NA,NA,NA,NA,NA,NA,57
 33,Beaver,May,Available,NA,NA,Riffle,5.61,26,0.25,Cobble,0,0,0,0,0,0,0,Yes,34.674613,111.672323,NA,5/17/2022 19:09,NA,NA,NA,NA,NA,NA,NA,5
 115,Beaver,May,Available,NA,NA,Riffle,Na,26,0.3,Cobble,0,0,0,0,0,0,0,No,34.672537,111.667595,NA,5/18/2022 23:05,NA,NA,NA,NA,NA,NA,NA,92
@@ -2619,7 +2619,7 @@ NA,Clear,March,Available,NA,NA,Run,7.14,59,0.18,Silt,0,0,0.1,0.2,0,0,0.3,Yes,34.
 1,Clear,September,Occupied,145,Black Bass,Pool,13.8,>150,Na,NA,0,0,0,0,0,0,0,Yes,34.535651,111.678163,NA,9/16/2022 0:10,Changed date to reflect original data,78,198,Backpack Shocker,11/28/2022,Camp Crossing,NA,290
 2,Clear,September,Occupied,156,Desert Sucker,Riffle,12.6,26,0.04,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.537951,111.686688,NA,9/16/2022 18:47,NA,203,262,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole,151
 3,Clear,September,Occupied,157,Black Bass,Riffle,6.3,28,0,Pebble,0.25,0,0,0,0,0,0.25,No,34.538173,111.685749,NA,9/16/2022 20:06,NA,98,208,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA,163
-4,Clear,September,Occupied,158,Desert Sucker,Run,8.3,53,0.05,Cobble,0.15,0,0,0,0,0,0.15,No,34.536957,11.681272,NA,9/16/2022 22:43,NA,247,278,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole,242
+4,Clear,September,Occupied,158,Desert Sucker,Run,8.3,53,0.05,Cobble,0.15,0,0,0,0,0,0.15,No,34.536957,111.681272,NA,9/16/2022 22:43,NA,247,278,Backpack Shocker,11/28/2022,4th Pool to Honey Hole,All DS in Honey Hole,242
 5,Clear,September,Occupied,160,Black Bass,Pool,11.3,59,0.04,Pebble,0,0,0,0,0,0,0,No,34.538547,111.68411,NA,9/16/2022 21:05,NA,77,186,Backpack Shocker,11/28/2022,Camp Crossing,NA,193
 6,Clear,September,Occupied,162,Black Bass,Pool,11.1,67,0.13,Boulder,0.2,0,0,0,0,0,0.2,Yes,34.53787,111.682395,NA,9/16/2022 22:09,NA,89,204,Backpack Shocker,11/28/2022,Start to 2nd Pool,internal clear liquid,222
 7,Clear,September,Occupied,165,Black Bass,Pool,10.5,46,0.05,Gravel,0,0,0,0,0,0,0,Yes,34.535927,111.678613,NA,9/16/2022 23:56,NA,79,193,Backpack Shocker,11/28/2022,2nd Pool to Almost Crossing,NA,282

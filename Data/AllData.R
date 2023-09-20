@@ -6,7 +6,7 @@ library(dplyr)
 
 ##### All data #####
 #Load in multiple files and combine into one file
-all <- list.files(path = "C:/Users/kaitl/OneDrive/Documents/School/Bonar Lab/Project/Data/Analysis/Data Ready for HSC/Data-Ready-for-HSC/Data/All", full.names = TRUE) %>%
+all <- list.files(path = "C:/Users/kaitl/OneDrive/Documents/School/Bonar Lab/Project/Analysis/Habitat - Telemetry/Habitat-Analysis/Data/All", full.names = TRUE) %>%
   lapply(read_csv) %>%
   lapply(\(x) mutate(x, across(.fns = as.character))) %>%
   bind_rows()
@@ -14,15 +14,15 @@ all <- list.files(path = "C:/Users/kaitl/OneDrive/Documents/School/Bonar Lab/Pro
 write_csv(all, file = "Output/AllData.csv")
 
 #All Data
-AllData = read.csv("~/School/Bonar Lab/Project/Data/Analysis/Data Ready for HSC/Data-Ready-for-HSC/Output/Alldata.csv", 
-                   na.strings =c('Na', 'NA', ''))                               #manually choose to change these to NA as in missing values rather than NA character
+AllData = read_csv("Output/AllData.csv", na =c('Na', 'NA', ''))
 
 #Change names, change characters to numerical coding, make changes to depth
 AllDataCoded <- AllData %>%
-  rename(Presence = 'Site.Type', Canopy = 'Canopy.Cover', Instream = 'Instream.Cover', Undercut = 'Undercut.Bank', 
-         TerrestrialVeg = 'Terrestrial.Vegetation', LWD = 'Large.Woody.Debris', StreamWidth = 'Stream.Width', 
-         AquaticVeg = 'Aquatic.Vegetation', SurfaceTurb = 'Surface.Turbulence', SubFeature = 'Substrate.Feature', 
-         DataID = '...1') %>% 
+  rename(Presence = 'Site Type', Canopy = 'Canopy Cover', Instream = 'Instream Cover', Undercut = 'Undercut Bank', 
+         TerrestrialVeg = 'Terrestrial Vegetation', LWD = 'Large Woody Debris', StreamWidth = 'Stream Width', 
+         AquaticVeg = 'Aquatic Vegetation', SurfaceTurb = 'Surface Turbulence', SubFeature = 'Substrate Feature', 
+         CreationDate = 'Creation Date', CaptureMethod = 'Capture Method', CaptureDate = 'Capture Date', 
+         DataID = '...1', DataChange = 'Data Change') %>% 
   mutate(Presence = recode(Presence, "Occupied" = "1", "Available" = "0"),
          Substrate = recode(Substrate, "Silt" = "1", "Sand" = "2", "Gravel" = "3", 
                    "Pebble" = "4", "Cobble" = "5", "Boulder" = "6", "Bedrock" = "7"),
@@ -32,8 +32,10 @@ AllDataCoded <- AllData %>%
 AllDataCoded$Depth = as.numeric(as.character(AllDataCoded$Depth))                 #make depth numeric instead of character
 NotAsFishy <- AllDataCoded %>%
   mutate(across(9, round, 0),                                                   #round up the depths that were converted from foot tenths and therefore have 3 decimals #needed to use column number (9) rather than name (Depth) 
-         Depth = replace(Depth, is.na(Depth) & Mesohabitat == 0, 151),          #if there is a ool and the Depth is NA replace NA with 151                                                                  
-         Instream = replace(Instream, Instream > '1.00', '1'))                  #change any instream cover >1.0 into 1.0
+         Depth = replace(Depth, is.na(Depth) & Mesohabitat == 0, 151),          #if there is a pool and the Depth is NA replace NA with 151                                                                  
+         Instream = replace(Instream, Instream > '1.00', '1'),                  #change any instream cover >1.0 into 1.0
+         Latitude = abs(Latitude),
+         Latitude = (Latitude * -1))                   
   
 NotAsFishy$Velocity = ifelse(NotAsFishy$Depth == 151 & is.na(NotAsFishy$Velocity), 0, NotAsFishy$Velocity)           #If depth in a pool is 151 (>150) and velocity is NA, make velocity 0
 
@@ -43,6 +45,21 @@ write_csv(NotAsFishy, file = "Output/NotAsFishy.csv")
 
 
 str(NotAsFishy)
+
+
+
+#### Filter for Occupied ####
+
+All_Movement_Data <- read_csv("Output/NotAsFishy.csv")
+
+All_Movement_Data = subset(All_Movement_Data, select = c(Stream, Month, Species, Tag, Mesohabitat, 
+                                                         Longitude, Latitude, Depth, Velocity, 
+                                                         Substrate, Instream, Canopy)) %>%
+   filter(All_Movement_Data$Presence == '1')
+
+
+write_csv(All_Movement_Data, file = "Output/All_Movement_Data.csv")
+
 
 
 ########## DS_WC_SP_RI Data ##########
@@ -231,4 +248,10 @@ write.csv(ClearLocation, file = "ClearLocationData.csv")
     
     #delete extra columns that were added when using read.csv instead of read_csv
     #select(-c(32, 33, 34, 35, 36, 37, 38))
+    
+    #DataID, Presence, StreamWidth, Depth, 
+    #Velocity, Substrate, Canopy, SubFeature, 
+    #SurfaceTurb, AquaticVeg, LWD, TerrestrialVeg, Undercut,
+    #Instream, Weight, Length, Notes, CaptureDate, CaptureMethod,
+    #CreationDate, DataChange, Release, Notes.y, ObjectID)
     
