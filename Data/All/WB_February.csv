@@ -1,45 +1,112 @@
-ObjectID,Stream,Month,Creation Date,Tag,Species,Site Type,Stream Width,Mesohabitat,Depth,Velocity,Substrate,Substrate Feature,Terrestrial Vegetation,Surface Turbulence,Large Woody Debris,Aquatic Vegetation,Undercut Bank,Instream Cover,Canopy Cover,Latitude,Longitude,Notes,Data Change,Weight,Length,Capture Method,Capture Date,Release,Notes.y
-42,Beaver,February,2/26/2022 0:00,NA,NA,Available,11,Pool,>150,0,Boulder,0,0,0,0,0,0,0,No,-111.670352,34.673957,Substrate is bedrock,No undercut bank column,NA,NA,NA,NA,NA,NA
-3,Beaver,February,2/26/2022 0:00,NA,NA,Available,6,Pool,>150,0,Sand,0,0,0,0,0,0,0,No,-111.672385,34.674838,NA,NA,NA,NA,NA,NA,NA,NA
-4,Beaver,February,2/26/2022 0:00,NA,NA,Available,4,Pool,63,0,Cobble,0,0,0,0,0,0,0,No,-111.672327,34.674802,NA,NA,NA,NA,NA,NA,NA,NA
-5,Beaver,February,2/26/2022 0:00,NA,NA,Available,2.6,Riffle,30,0.02,Boulder,0,0,0,0,0,0,0,Yes,-111.672293,34.674742,NA,NA,NA,NA,NA,NA,NA,NA
-6,Beaver,February,2/26/2022 0:00,NA,NA,Available,3.6,Riffle,15,0.04,Boulder,0.3,0,0.6,0,0,0,0.9,Yes,-111.672308,34.674673,NA,NA,NA,NA,NA,NA,NA,NA
-7,Beaver,February,2/26/2022 0:00,NA,NA,Available,2.7,Riffle,4,0.33,Pebble,0.3,0,0,0,0,0,0.3,Yes,-111.67235,34.674617,NA,NA,NA,NA,NA,NA,NA,NA
-8,Beaver,February,2/26/2022 0:00,NA,NA,Available,6.4,Riffle,18,0.12,Cobble,0.2,0,0,0,0,0,0.2,Yes,-111.672337,34.674517,NA,NA,NA,NA,NA,NA,NA,NA
-10,Beaver,February,2/26/2022 0:00,NA,NA,Available,8.4,Pool,49,0.07,Pebble,0,0,0,0,0,0,0,Yes,-111.672317,34.67447,NA,NA,NA,NA,NA,NA,NA,NA
-11,Beaver,February,2/26/2022 0:00,NA,NA,Available,NA,Pool,>150,0,Sand,0,0,0,0,0,0,0,Yes,-111.672268,34.674457,NA,NA,NA,NA,NA,NA,NA,NA
-12,Beaver,February,2/26/2022 0:00,NA,NA,Available,14,Pool,>150,0,Silt,0,0,0,0.5,0,0,0.5,Yes,-111.672253,34.674342,NA,NA,NA,NA,NA,NA,NA,NA
-13,Beaver,February,2/26/2022 0:00,NA,NA,Available,15,Pool,>150,0,Silt,0,0,0,0,0,0,0,No,-111.672228,34.67432,NA,NA,NA,NA,NA,NA,NA,NA
-14,Beaver,February,2/26/2022 0:00,NA,NA,Available,16,Pool,>150,0,Sand,0,0,0,0,0,0,0,Yes,-111.672152,34.674258,NA,NA,NA,NA,NA,NA,NA,NA
-15,Beaver,February,2/26/2022 0:00,NA,NA,Available,14,Pool,>150,0,Cobble,0,0,0,0,0,0,0,Yes,-111.672147,34.674133,NA,NA,NA,NA,NA,NA,NA,NA
-18,Beaver,February,2/26/2022 0:00,NA,NA,Available,12.3,Pool,4,0,Cobble,0.1,0,0,0,0,0,0.1,No,-111.671962,34.674172,NA,NA,NA,NA,NA,NA,NA,NA
-19,Beaver,February,2/26/2022 0:00,NA,NA,Available,9.3,Pool,15,0.03,Cobble,0.2,0,0,0,0,0,0.2,No,-111.671908,34.674102,NA,NA,NA,NA,NA,NA,NA,NA
-20,Beaver,February,2/26/2022 0:00,NA,NA,Available,10.7,Pool,28,0.01,Cobble,0,0,0,0,0,0,0,No,-111.671842,34.674082,NA,NA,NA,NA,NA,NA,NA,NA
-22,Beaver,February,2/26/2022 0:00,NA,NA,Available,6,Riffle,35,0,Boulder,0.7,0,0,0,0,0,0.7,Yes,-111.671798,34.67408,NA,NA,NA,NA,NA,NA,NA,NA
-23,Beaver,February,2/26/2022 0:00,NA,NA,Available,9.4,Riffle,8,0.23,Boulder,0.4,0,0,0,0,0,0.4,Yes,-111.67175,34.674095,NA,NA,NA,NA,NA,NA,NA,NA
-24,Beaver,February,2/26/2022 0:00,NA,NA,Available,9.1,Riffle,49,0.05,Cobble,0.3,0,0,0,0,0,0.3,No,-111.671593,34.674057,NA,NA,NA,NA,NA,NA,NA,NA
-25,Beaver,February,2/26/2022 0:00,NA,NA,Available,8.4,Riffle,33,0.21,Boulder,0.6,0,0,0,0,0,0.6,No,-111.671548,34.674068,NA,NA,NA,NA,NA,NA,NA,NA
-28,Beaver,February,2/26/2022 0:00,NA,NA,Available,7.1,Riffle,58,0.05,Cobble,0.1,0,0,0,0,0,0.1,Yes,-111.671468,34.674037,NA,NA,NA,NA,NA,NA,NA,NA
-29,Beaver,February,2/26/2022 0:00,NA,NA,Available,7,Riffle,21,0,Pebble,0,0,0,0,0,0,0,Yes,-111.671357,34.674013,NA,NA,NA,NA,NA,NA,NA,NA
-30,Beaver,February,2/26/2022 0:00,NA,NA,Available,9,Riffle,36,0.18,Cobble,0.1,0,0,0,0,0,0.1,No,-111.671263,34.673987,NA,NA,NA,NA,NA,NA,NA,NA
-31,Beaver,February,2/26/2022 0:00,NA,NA,Available,9.1,NA,18,0.12,Boulder,0.6,0,0,0,0,0,0.6,Yes,-111.671138,34.673977,NA,NA,NA,NA,NA,NA,NA,NA
-32,Beaver,February,2/26/2022 0:00,NA,NA,Available,11.1,Riffle,28,0.25,Boulder,0.8,0,0,0,0,0,0.8,Yes,-111.671058,34.674007,NA,NA,NA,NA,NA,NA,NA,NA
-33,Beaver,February,2/26/2022 0:00,NA,NA,Available,14.5,Riffle,30,0.18,Cobble,0.4,0,0.3,0,0,0,0.7,Yes,-111.67092,34.674048,NA,NA,NA,NA,NA,NA,NA,NA
-34,Beaver,February,2/26/2022 0:00,NA,NA,Available,12.5,Riffle,35,0.26,Boulder,0.8,0,0,0,0,0,0.8,No,-111.670877,34.674052,NA,NA,NA,NA,NA,NA,NA,NA
-35,Beaver,February,2/26/2022 0:00,NA,NA,Available,14.3,Pool,20,0.11,Cobble,0.1,0,0,0,0,0,0.1,Yes,-111.670782,34.673987,NA,NA,NA,NA,NA,NA,NA,NA
-36,Beaver,February,2/26/2022 0:00,NA,NA,Available,15,Pool,92,0.02,Pebble,0,0,0,0,0,0,0,Yes,-111.670703,34.67403,NA,NA,NA,NA,NA,NA,NA,NA
-37,Beaver,February,2/26/2022 0:00,NA,NA,Available,15,Pool,>150,0,Cobble,0,0.3,0,0,0,0,0.3,Yes,-111.670643,34.674062,NA,NA,NA,NA,NA,NA,NA,NA
-40,Beaver,February,2/26/2022 0:00,NA,NA,Available,15,Pool,>150,0,Boulder,0,0,0,0,0,0,0,Yes,-111.67046,34.673995,Substrate is bedrock,NA,NA,NA,NA,NA,NA,NA
-41,Beaver,February,2/26/2022 0:00,NA,NA,Available,15,Pool,20,0,Boulder,0,0,0,0,0,0,0,No,-111.670412,34.673968,Substrate is bedrock,NA,NA,NA,NA,NA,NA,NA
-43,Beaver,February,2/26/2022 0:00,NA,NA,Available,3.3,Pool,24,0,Boulder,0,0,0,0,0,0,0,Yes,-111.670352,34.673903,Substrate is bedrock,NA,NA,NA,NA,NA,NA,NA
-44,Beaver,February,2/26/2022 0:00,NA,NA,Available,5.3,Pool,23,0,Boulder,0,0,0,0,0,0,0,No,-111.670273,34.673887,Substrate is bedrock,NA,NA,NA,NA,NA,NA,NA
-45,Beaver,February,2/26/2022 0:00,NA,NA,Available,NA,Pool,71,0,Cobble,0,0,0,0,0,0,0,No,-111.670103,34.67386,Flow velocity may be off. flow meter may have broke at this point.,NA,NA,NA,NA,NA,NA,NA
-27,Beaver,February,2/26/2022 0:00,104,Black Bass,Occupied,7.1,Riffle,49,0.28,Cobble,0.2,0,0,0,0,0,0.2,Yes,-111.671495,34.674063,Base,NA,140,217,Backpack Shocker,11/3/2022,NA,NA
-16,Beaver,February,2/26/2022 0:00,107,Black Bass,Occupied,14,Pool,>150,0,Cobble,0,0,0,0,0,0,0,Yes,-111.672098,34.674138,NA,NA,79,191,Backpack Shocker,11/3/2022,NA,NA
-26,Beaver,February,2/26/2022 0:00,112,Black Bass,Occupied,8.3,Riffle,21,0.31,Boulder,0.75,0,0,0,0,0,0.75,Yes,-111.671508,34.674067,Treble,NA,90,192,Backpack Shocker,11/3/2022,NA,NA
-38,Beaver,February,2/26/2022 0:00,159,Black Bass,Occupied,15,Pool,>150,0,Sand,0,0,0,0,0,0,0,Yes,-111.67064,34.674063,NA,NA,138,228,Backpack Shocker,11/22/2022,NA,pool
-21,Beaver,February,2/26/2022 0:00,110,Desert Sucker,Occupied,10.7,Riffle,44,0.18,Cobble,0.1,0,0,0,0,0,0.1,Yes,-111.671808,34.674035,Verde,NA,121,256,Backpack Shocker,11/3/2022,NA,NA
-17,Beaver,February,2/26/2022 0:00,111,Desert Sucker,Occupied,12.3,Pool,74,0.06,Pebble,0.1,0,0,0,0,0,0.1,Yes,-111.671928,34.674143,Fern the fish,NA,114,207,Backpack Shocker,11/3/2022,NA,NA
-9,Beaver,February,2/26/2022 0:00,116,Desert Sucker,Occupied,17.3,Pool,43,0,Boulder,0.9,0,0,0,0,0,0.9,No,-111.672458,34.674412,Bimbo,NA,86,201,Backpack Shocker,11/3/2022,NA,NA
-2,Beaver,February,2/26/2022 0:00,117,Desert Sucker,Occupied,4.8,Riffle,20,0.37,Cobble,0.4,0.1,0,0,0,0,0.5,Yes,-111.672345,34.674698,Primo,Changed velocity from 30.37 to .37,121,221,Backpack Shocker,11/3/2022,NA,NA
-39,Beaver,February,2/26/2022 0:00,NA,NA,Available,15,Pool,63,0,Boulder,0,0,0,0,0,0,0,Yes,-111.670573,34.674023,Substrate is bedrock,Changed to Available,NA,NA,NA,NA,NA,NA
+ObjectID,Creation Date,Stream,Month,Site Type ,Tag,Stream Width,Mesohabitat,Depth,Velocity,Substrate,Substrate Feature,Surface Turbulence ,Aquatic Vegetation,Large Woody Debris,Terrestrial Vegetation ,Undercut Bank,Instream Cover,Canopy Cover,Longitude,Latitude,Notes,Data Change,Species ,Weight ,Length ,Capture Method ,Capture Date,Release ,Notes.y 
+65,2/19/2023 20:43,Beaver ,February,Occupied,133,10.56,Run,62,0.14,Cobble,0,0,0,0,0,0,0,No,34.673013,-111.668534,We dont get the joke,,Desert Sucker,75,193,Backpack Shocker,11/12/2021,,Riffles
+30,2/19/2023 18:16,Beaver ,February,Occupied,149,16.5,Pool,>150,Na,NA,0,0,0,0,0,0,0,Yes,34.674063,-111.670767,,,Desert Sucker,90,193,Backpack Shocker,11/16/2021,,skin tag?
+73,2/19/2023 21:01,Beaver ,February,Occupied,203,4.913,Riffle,29,0.61,Boulder,0,0.9,0,0,0,0,0.9,Yes,34.672787,-111.668134,,Changed to occupied,Desert Sucker,,227,E-fishing,11/5/2022,,
+81,2/19/2023 21:19,Beaver ,February,Occupied,204,5.496,Run,60,0,Gravel,0.5,0,0,0,0,0,0.5,Yes,34.672589,-111.667639,,,Desert Sucker,,272,E-fishing,11/5/2022,,
+67,2/19/2023 20:46,Beaver ,February,Occupied,208,10.264,Run,79,0.01,Pebble,0.2,0,0,0,0,0,0.2,No,34.672984,-111.668462,,"Changed to pebble, deleted gravel. Confirmed with photo",Black Bass,,270,E-fishing,11/5/2022,,
+39,2/19/2023 19:52,Beaver ,February,Occupied,209,4.045,Run,47,0.25,Cobble,0,0,0,0,0.05,0.15,0.2,No,34.673906,-111.670181,,,Desert Sucker,,239,E-fishing,11/5/2022,,"Mislabeled 200, is 209"
+35,2/19/2023 18:29,Beaver ,February,Occupied,211,9.9,Pool,>150,Na,NA,0,0,0,0,0,0,0,No,34.673981,-111.670347,,,Black Bass,,216,E-fishing,11/5/2022,,
+111,2/19/2023 22:28,Beaver ,February,Occupied,212,9.988,Run,45,0.09,Cobble,0,0,0,0,0,0,0,Yes,34.673658,-111.669296,The fish sturgeons,,Black Bass,,228,E-fishing,11/5/2022,,
+37,2/19/2023 18:33,Beaver ,February,Occupied,221,9.6,Pool,>150,Na,NA,0,0,0,0,0,0,0,No,34.673931,-111.670272,,,Desert Sucker,,250,E-fishing,11/5/2022,,
+25,2/19/2023 17:59,Beaver ,February,Occupied,222,11.8,Riffle,27,0,Pebble,0.15,0.2,0,0,0,0,0.35,Yes,34.673993,-111.671056,,Changed to occupied,Desert Sucker,,267,E-fishing,11/5/2022,,
+31,2/19/2023 18:20,Beaver ,February,Occupied,223,17,Pool,>150,Na,NA,0,0,0,0,0,0,0,Yes,34.674049,-111.670627,,,Black Bass,,243,E-fishing,11/5/2022,,
+41,2/19/2023 19:55,Beaver ,February,Occupied,224,4.796,Run,46,0.17,Boulder,0.15,0,0,0,0,0,0.15,Yes,34.673897,-111.670149,,,Black Bass,,263,E-fishing,11/5/2022,,
+18,2/19/2023 17:33,Beaver ,February,Occupied,225,7.45,Run,39,0.15,Pebble,0.1,0,0,0,0,0,0.1,Yes,34.674056,-111.671474,,,Black Bass,,266,E-fishing,11/5/2022,,
+24,2/19/2023 17:47,Beaver ,February,Occupied,226,9.7,Riffle,18,0.01,Gravel,0.15,0,0,0,0,0,0.15,No,34.674067,-111.671285,,,Black Bass,,253,E-fishing,11/5/2022,,
+1,2/19/2023 16:57,Beaver ,February,Available,NA,6.27,Run,84,0.09,Cobble,0,0,0,0,0,0,0,No,34.674924,-111.672329,,,,,,,,,
+2,2/19/2023 17:00,Beaver ,February,Available,NA,6.8,Run,55,0.2,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.674777,-111.672264,,,,,,,,,
+3,2/19/2023 17:03,Beaver ,February,Available,NA,5.1,Riffle,30,0.04,Cobble,0.1,0,0,0,0,0,0.1,Yes,34.674747,-111.672271,,,,,,,,,
+4,2/19/2023 17:05,Beaver ,February,Available,NA,3.9,Riffle,20,0.25,Cobble,0.05,0.3,0,0,0,0,0.35,Yes,34.674534,-111.672385,,,,,,,,,
+5,2/19/2023 17:08,Beaver ,February,Available,NA,4.8,Riffle,26,0.56,Cobble,0,0,0,0,0,0,0,Yes,34.674488,-111.672332,,,,,,,,,
+6,2/19/2023 17:10,Beaver ,February,Available,NA,9.3,Pool,53,0.18,Cobble,0,0,0,0,0,0,0,Yes,34.674592,-111.672187,,"Changed overhead to yes, confirmed with photo",,,,,,,
+7,2/19/2023 17:12,Beaver ,February,Available,NA,14.6,Pool,>150,Na,NA,0,0,0,0,0,0,0,Yes,34.674464,-111.672186,,,,,,,,,
+8,2/19/2023 17:14,Beaver ,February,Available,NA,13.9,Pool,107,0,Sand,0,0,0,0,0,0,0,Yes,34.674321,-111.672252,,,,,,,,,
+9,2/19/2023 17:16,Beaver ,February,Available,NA,15.1,Pool,>150,Na,Silt,0,0,0,0,0,0,0,No,34.674309,-111.672167,,,,,,,,,
+10,2/19/2023 17:17,Beaver ,February,Available,NA,20.5,Pool,>150,Na,Silt,0,0,0,0,0,0,0,Yes,34.674179,-111.672124,,,,,,,,,
+11,2/19/2023 17:19,Beaver ,February,Available,NA,13.1,Pool,42,0,Cobble,0,0,0,0,0,0,0,Yes,34.674099,-111.672091,,,,,,,,,
+12,2/19/2023 17:21,Beaver ,February,Available,NA,10.3,Pool,16,0.03,Pebble,0,0,0,0,0,0,0,Yes,34.674105,-111.671992,,,,,,,,,
+13,2/19/2023 17:23,Beaver ,February,Available,NA,9.2,Run,18,0,Gravel,0,0,0,0,0.05,0,0.05,No,34.674106,-111.681899,,,,,,,,,
+14,2/19/2023 17:25,Beaver ,February,Available,NA,9.2,Run,58,0.09,Cobble,0,0,0,0,0,0,0,Yes,34.674023,-111.67181,,,,,,,,,
+15,2/19/2023 17:27,Beaver ,February,Available,NA,8.8,Run,20,0.09,Cobble,0.15,0,0,0,0,0,0.15,Yes,34.674065,-111.671731,,,,,,,,,
+16,2/19/2023 17:29,Beaver ,February,Available,NA,6.4,Riffle,29,0.23,Cobble,0,0,0,0,0,0,0,Yes,34.674086,-111.671608,,,,,,,,,
+17,2/19/2023 17:31,Beaver ,February,Available,NA,7.45,Run,48,0.19,Cobble,0,0,0,0,0,0,0,No,34.674029,-111.671535,,,,,,,,,
+19,2/19/2023 17:37,Beaver ,February,Available,NA,7.54,Run,34,0,Cobble,0.1,0,0,0,0,0,0.1,No,34.674119,-111.671457,,,,,,,,,
+20,2/19/2023 17:38,Beaver ,February,Available,NA,5.8,Riffle,43,0,Boulder,0.1,0.5,0,0,0,0,0.6,Yes,34.674032,-111.67134,,,,,,,,,
+21,2/19/2023 17:40,Beaver ,February,Available,NA,8.4,Riffle,20,0.33,Cobble,0,0,0,0,0,0,0,Yes,34.673927,-111.671278,,,,,,,,,
+22,2/19/2023 17:42,Beaver ,February,Available,NA,11.6,Riffle,33,0.15,Cobble,0.05,0,0,0,0,0,0.05,Yes,34.673974,-111.671201,,,,,,,,,
+23,2/19/2023 17:44,Beaver ,February,Available,NA,11,Riffle,30,0.02,Boulder,0.5,0,0,0,0,0,0.5,Yes,34.673962,-111.671123,,,,,,,,,
+26,2/19/2023 18:05,Beaver ,February,Available,NA,13.4,Riffle,33,0.01,Cobble,0.3,0.1,0,0,0,0,0.4,Yes,34.674002,-111.671008,,,,,,,,,
+27,2/19/2023 18:07,Beaver ,February,Available,NA,11.7,Riffle,20,0.11,Cobble,0,0,0,0,0,0,0,Yes,34.674008,-111.67087,,,,,,,,,
+28,2/19/2023 18:10,Beaver ,February,Available,NA,13.3,Pool,35,0.14,Cobble,0.05,0,0,0,0,0,0.05,Yes,34.674007,-111.67086,,,,,,,,,
+29,2/19/2023 18:12,Beaver ,February,Available,NA,16.4,Pool,99,0.06,Cobble,0.15,0,0,0,0,0,0.15,Yes,34.674034,-111.670736,,,,,,,,,
+32,2/19/2023 18:23,Beaver ,February,Available,NA,17,Pool,>150,Na,NA,0,0,0,0,0,0,0,NA,34.67406,-111.670636,,,,,,,,,
+33,2/19/2023 18:25,Beaver ,February,Available,NA,15.4,Pool,>150,Na,NA,0,0,0,0,0,0,0,Yes,34.674008,-111.670506,,,,,,,,,
+34,2/19/2023 18:27,Beaver ,February,Available,NA,14.9,Pool,>150,Na,NA,0,0,0,0,0,0,0,No,34.673903,-111.670462,,,,,,,,,
+36,2/19/2023 18:31,Beaver ,February,Available,NA,10.7,Pool,79,0.07,Bedrock,0,0,0,0,0,0,0,No,34.673933,-111.670312,,,,,,,,,
+38,2/19/2023 18:35,Beaver ,February,Available,NA,3.535,Run,14,0.69,Bedrock,0,0,0,0,0,0,0,No,34.673929,-111.670185,,,,,,,,,
+40,2/19/2023 19:54,Beaver ,February,Available,NA,4.796,Run,46,0.38,Pebble,0,0,0,0,0,0,0,No,34.673895,-111.670152,,,,,,,,,
+42,2/19/2023 19:58,Beaver ,February,Available,NA,4.792,Riffle,48,0,Pebble,0.3,0,0,0,0,0,0.3,Yes,34.673877,-111.670044,,,,,,,,,
+43,2/19/2023 20:00,Beaver ,February,Available,NA,5.208,Riffle,25,0.3,Bedrock,0,0.05,0,0,0,0,0.05,Yes,34.673924,-111.669901,,,,,,,,,
+44,2/19/2023 20:02,Beaver ,February,Available,NA,4.049,Riffle,20,0.46,Cobble,0.15,0.1,0,0.1,0,0,0.35,Yes,34.673894,-111.669899,,,,,,,,,
+45,2/19/2023 20:05,Beaver ,February,Available,NA,10.317,Run,48,0.54,Gravel,0.15,0,0,0,0,0,0.15,Yes,34.673843,-111.669766,,,,,,,,,
+46,2/19/2023 20:07,Beaver ,February,Available,NA,8.468,Run,13,0.1,Pebble,0,0,0,0,0,0,0,Yes,34.673768,-111.669768,,,,,,,,,
+47,2/19/2023 20:09,Beaver ,February,Available,NA,11.303,Run,30,0.23,Cobble,0.05,0,0,0,0,0,0.05,Yes,34.673719,-111.669672,,,,,,,,,
+48,2/19/2023 20:10,Beaver ,February,Available,NA,11.182,Riffle,24,0.3,Cobble,0.5,0.05,0,0,0,0,0.55,No,34.673676,-111.669637,,,,,,,,,
+49,2/19/2023 20:13,Beaver ,February,Available,NA,9.334,Run,28,0.51,Cobble,0.4,0,0,0,0,0,0.4,Yes,34.673641,-111.669508,,,,,,,,,
+50,2/19/2023 20:14,Beaver ,February,Available,NA,10.842,Run,51,0.34,Cobble,0.05,0,0,0.1,0,0,0.15,Yes,34.673654,-111.669395,,,,,,,,,
+51,2/19/2023 20:17,Beaver ,February,Available,NA,11.017,Run,38,0.16,Cobble,0.05,0,0,0.05,0,0,0.1,Yes,34.673597,-111.669332,,,,,,,,,
+52,2/19/2023 20:18,Beaver ,February,Available,NA,12.178,Run,78,0.02,Silt,0,0,0,0,0,0,0,Yes,34.67358,-111.669283,,,,,,,,,
+53,2/19/2023 20:20,Beaver ,February,Available,NA,9.397,Run,25,0.02,Cobble,0,0,0,0,0,0,0,Yes,34.673554,-111.669251,,,,,,,,,
+54,2/19/2023 20:23,Beaver ,February,Available,NA,7.383,Run,32,0.28,Cobble,0,0,0,0,0,0,0,Yes,34.673476,-111.669194,,,,,,,,,
+55,2/19/2023 20:25,Beaver ,February,Available,NA,9.553,Riffle,42,0.01,Boulder,0.4,0.05,0,0,0,0,0.45,No,34.67342,-111.669116,,,,,,,,,
+56,2/19/2023 20:27,Beaver ,February,Available,NA,8.205,Run,30,0.06,Cobble,0,0,0,0,0,0,0,No,34.673355,-111.669043,,,,,,,,,
+57,2/19/2023 20:28,Beaver ,February,Available,NA,8.407,Run,67,0.14,Cobble,0,0,0,0,0,0,0,Yes,34.673287,-111.669006,,,,,,,,,
+58,2/19/2023 20:30,Beaver ,February,Available,NA,7.32,Run,49,0.09,Cobble,0,0,0,0,0,0,0,No,34.673258,-111.668937,,,,,,,,,
+59,2/19/2023 20:32,Beaver ,February,Available,NA,5.773,Riffle,31,0.22,Pebble,0.15,0,0,0,0,0,0.15,Yes,34.673206,-111.668893,,,,,,,,,
+60,2/19/2023 20:34,Beaver ,February,Available,NA,6.839,Riffle,24,0.65,Cobble,0.2,0.4,0,0,0,0,0.6,No,34.673178,-111.668814,,,,,,,,,
+61,2/19/2023 20:36,Beaver ,February,Available,NA,9.431,Riffle,30,0.95,Cobble,0.1,0.05,0,0,0,0,0.15,No,34.673106,-111.668757,,,,,,,,,
+62,2/19/2023 20:38,Beaver ,February,Available,NA,5.378,Run,26,0.04,Cobble,0,0,0,0,0,0,0,No,34.673064,-111.668696,,,,,,,,,
+63,2/19/2023 20:40,Beaver ,February,Available,NA,10.8,Run,26,0.34,Pebble,0,0,0,0,0,0,0,No,34.673022,-111.668638,,,,,,,,,
+64,2/19/2023 20:41,Beaver ,February,Available,NA,9.408,Run,40,0.22,Cobble,0,0,0,0,0,0,0,Yes,34.673001,-111.668559,,,,,,,,,
+66,2/19/2023 20:45,Beaver ,February,Available,NA,10.164,Run,26,0.04,Pebble,0,0,0,0,0,0,0,No,34.67297,-111.668498,,,,,,,,,
+68,2/19/2023 20:52,Beaver ,February,Available,NA,9.807,Run,60,0.06,Cobble,0,0,0,0,0,0,0,Yes,34.672935,-111.668463,Coati mundo,,,,,,,,
+69,2/19/2023 20:53,Beaver ,February,Available,NA,9.408,Run,40,0.05,Sand,0,0,0,0,0,0,0,No,34.672889,-111.668387,,,,,,,,,
+70,2/19/2023 20:56,Beaver ,February,Available,NA,8.456,Run,50,0.06,Cobble,0.5,0,0,0,0,0,0.5,No,34.672892,-111.668364,,,,,,,,,
+71,2/19/2023 20:58,Beaver ,February,Available,NA,6.018,Run,32,0,Pebble,0.05,0,0,0,0,0,0.05,Yes,34.672887,-111.668334,,,,,,,,,
+72,2/19/2023 21:00,Beaver ,February,Available,NA,5.039,Run,50,0,Cobble,0.2,0,0,0,0,0,0.2,Yes,34.672865,-111.668255,,,,,,,,,
+74,2/19/2023 21:04,Beaver ,February,Available,NA,6.22,Run,40,0.03,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.672773,-111.668149,,,,,,,,,
+75,2/19/2023 21:06,Beaver ,February,Available,NA,6.55,Riffle,34,0.57,Cobble,0.1,0.5,0,0,0,0,0.6,Yes,34.67272,-111.668005,,,,,,,,,
+76,2/19/2023 21:09,Beaver ,February,Available,NA,6.702,Run,27,0.01,Cobble,0,0,0,0,0,0,0,No,34.67263,-111.667908,,,,,,,,,
+77,2/19/2023 21:10,Beaver ,February,Available,NA,11.869,Pool,64,0.01,Pebble,0,0,0,0,0,0,0,Yes,34.672589,-111.667874,,Deleted no/kept yes in canopy. Confirmed with photo,,,,,,,
+78,2/19/2023 21:11,Beaver ,February,Available,NA,9.625,Pool,100,0,Sand,0,0,0,0,0,0,0,No,34.672554,-111.667795,,,,,,,,,
+79,2/19/2023 21:14,Beaver ,February,Available,NA,12.372,Pool,49,0,Silt,0,0,0,0.05,0,0,0.05,Yes,34.672531,-111.667714,,,,,,,,,
+80,2/19/2023 21:15,Beaver ,February,Available,NA,8.623,Pool,>150,NA,NA,0,0,0,0,0,0,0,Yes,34.672491,-111.667706,,"Substrate change to NA, confirmed with photo",,,,,,,
+82,2/19/2023 21:21,Beaver ,February,Available,NA,4.212,Run,56,0.15,Pebble,0.05,0,0,0,0,0,0.05,Yes,34.672551,-111.667636,,,,,,,,,
+83,2/19/2023 21:22,Beaver ,February,Available,NA,5.012,Run,22,0.52,Bedrock,0,0,0,0,0,0,0,Yes,34.672592,-111.667526,,,,,,,,,
+84,2/19/2023 21:24,Beaver ,February,Available,NA,3.559,Run,44,0.3,Cobble,0,0,0,0,0,0,0,No,34.672523,-111.667438,,,,,,,,,
+85,2/19/2023 21:26,Beaver ,February,Available,NA,4.037,Riffle,44,0.68,Cobble,0.2,0.3,0,0,0,0,0.5,No,34.67251,-111.667427,,,,,,,,,
+86,2/19/2023 21:28,Beaver ,February,Available,NA,9.953,Riffle,49,0.9,Cobble,0,0.1,0,0,0,0,0.1,Yes,34.672525,-111.667397,,,,,,,,,
+87,2/19/2023 21:30,Beaver ,February,Available,NA,14.31,Run,14,0.14,Pebble,0,0,0,0,0,0,0,Yes,34.672482,-111.667272,14 deep 14 wide. 14 fast. its the center of the vorteeeexxx,,,,,,,,
+88,2/19/2023 21:33,Beaver ,February,Available,NA,9.804,Run,32,0.26,Pebble,0,0,0,0,0,0,0,Yes,34.6725,-111.667149,,,,,,,,,
+89,2/19/2023 21:35,Beaver ,February,Available,NA,7.74,Run,42,0.18,Pebble,0,0,0,0,0,0,0,No,34.67256,-111.667134,,,,,,,,,
+90,2/19/2023 21:37,Beaver ,February,Available,NA,8.981,Run,40,0.12,Gravel,0.1,0,0,0,0,0,0.1,No,34.672563,-111.667042,,,,,,,,,
+91,2/19/2023 21:38,Beaver ,February,Available,NA,9.519,Run,64,0.04,Gravel,0.05,0,0,0,0,0,0.05,Yes,34.672563,-111.666936,,,,,,,,,
+92,2/19/2023 21:39,Beaver ,February,Available,NA,5.957,Run,40,0.59,Cobble,0.3,0,0,0,0,0,0.3,Yes,34.672628,-111.666884,,,,,,,,,
+93,2/19/2023 21:42,Beaver ,February,Available,NA,6.504,Riffle,43,0,Boulder,0.3,0.1,0,0,0,0,0.4,No,34.672659,-111.666835,,,,,,,,,
+94,2/19/2023 21:44,Beaver ,February,Available,NA,5.173,Riffle,29,0.17,Boulder,0.15,0.05,0,0,0,0,0.2,Yes,34.672716,-111.666767,,,,,,,,,
+95,2/19/2023 21:46,Beaver ,February,Available,NA,6.253,Riffle,44,0.58,Cobble,0.1,0.9,0,0,0,0,1,Yes,34.672791,-111.666719,,,,,,,,,
+96,2/19/2023 21:49,Beaver ,February,Available,NA,6.07,Run,35,0.18,Pebble,0,0,0,0,0,0,0,No,34.67284,-111.666618,,,,,,,,,
+97,2/19/2023 21:50,Beaver ,February,Available,NA,5.466,Run,14,0.2,Cobble,0,0,0,0,0,0,0,No,34.672881,-111.666512,,,,,,,,,
+98,2/19/2023 21:51,Beaver ,February,Available,NA,4.882,Run,11,0.36,Pebble,0,0,0,0,0,0,0,No,34.672912,-111.666465,,,,,,,,,
+99,2/19/2023 21:53,Beaver ,February,Available,NA,6.083,Run,39,0.11,Sand,0,0,0,0,0,0,0,No,34.67298,-111.66639,,,,,,,,,
+100,2/19/2023 21:54,Beaver ,February,Available,NA,6.884,Run,65,0.06,Gravel,0.05,0,0,0,0,0,0.05,No,34.673022,-111.666334,,,,,,,,,
+101,2/19/2023 21:56,Beaver ,February,Available,NA,7.332,Run,77,0.05,Pebble,0.05,0,0,0,0,0,0.05,No,34.673091,-111.666266,,,,,,,,,
+102,2/19/2023 21:59,Beaver ,February,Available,NA,6.51,Run,69,0.17,Boulder,0,0,0,0,0,0,0,Yes,34.673113,-111.666219,,,,,,,,,
+103,2/19/2023 22:00,Beaver ,February,Available,NA,5.736,Run,33,0,Cobble,0.05,0,0,0,0,0,0.05,No,34.673188,-111.666157,,,,,,,,,
+104,2/19/2023 22:02,Beaver ,February,Available,NA,5.233,Run,34,0.08,Pebble,0,0,0,0,0,0,0,No,34.673134,-111.666239,,,,,,,,,
+105,2/19/2023 22:04,Beaver ,February,Available,NA,6.091,Run,55,0.1,Boulder,0.4,0,0,0,0,0,0.4,No,34.673129,-111.66635,,,,,,,,,
+106,2/19/2023 22:06,Beaver ,February,Available,NA,5.617,Run,45,0.32,Cobble,0.05,0,0,0,0,0,0.05,No,34.67307,-111.666389,,,,,,,,,
+107,2/19/2023 22:07,Beaver ,February,Available,NA,3.372,Run,44,0.24,Bedrock,0,0,0,0,0,0,0,No,34.673048,-111.66646,,,,,,,,,
+108,2/19/2023 22:08,Beaver ,February,Available,NA,8.726,Run,36,0.02,Bedrock,0,0,0,0,0,0,0,No,34.673048,-111.666546,,"No for canopy, confirmed with photo",,,,,,,
+109,2/19/2023 22:11,Beaver ,February,Available,NA,9.647,Run,87,0,Bedrock,0,0,0,0,0,0,0,No,34.673026,-111.66662,,,,,,,,,
+110,2/19/2023 22:12,Beaver ,February,Available,NA,9.191,Pool,26,0,Bedrock,0,0,0,0,0,0,0,No,34.672972,-111.666724,,,,,,,,,

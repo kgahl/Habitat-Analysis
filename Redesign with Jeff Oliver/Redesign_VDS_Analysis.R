@@ -132,7 +132,7 @@ library(readr)
  ##Create data frame to store coefficients
   Prop_Sample <- 0.75                                                           #specify the proportion of point resampled (75%)  
   
-  N_reps <- 100
+  N_reps <- 10000
     
   Storage <- data.frame(Velocity = rep(NA,N_reps), Substrate = NA,
                           Depth = rep(NA,N_reps), Velocity_full = NA, 
@@ -782,7 +782,7 @@ if(Meso == 0){
   Results_File <- paste0(Species_Abb, "_",                           
                          Stream_Abb, "_",
                          Season_Abb, "_",
-                         Mesohabitat_Abb, "_StorageTest.csv")                   #Change _Storage.csv if distinguishing between different test runs
+                         Mesohabitat_Abb, "_StorageTest10k.csv")                   #Change _Storage.csv if distinguishing between different test runs
   
   write.csv(x = Storage, file = Results_File)
   
@@ -981,11 +981,11 @@ if(Meso == 0){
    }
 }
 
-##### Print #####
+  ##### Print #####
 #RUN ME BEFORE YOU FORGET (please)
    
 #Output to File
-write.csv(x = All_Rows, file = "AllVDSOutputTest.csv")
+write.csv(x = All_Rows, file = "AllVDSOutputTest10k.csv")
 
 
 
