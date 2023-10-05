@@ -1,0 +1,25 @@
+Species,Species_Abb,Stream,Stream_Abb,Group,Group_Abb,Mesohabitat,Mesohabitat_Abb
+Black Bass,BB,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,Riffle,RI
+Black Bass,BB,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,Pool,PO
+Black Bass,BB,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,Run,RU
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,Riffle,RI
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,Pool,PO
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,Run,RU
+Black Bass,BB,Clear,WC,"March,April,May,June,July,September,October,November",WestC,Riffle,RI
+Black Bass,BB,Clear,WC,"March,April,May,June,July,September,October,November",WestC,Pool,PO
+Black Bass,BB,Clear,WC,"March,April,May,June,July,September,October,November",WestC,Run,RU
+Desert Sucker,DS,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,Riffle,RI
+Desert Sucker,DS,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,Pool,PO
+Desert Sucker,DS,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,Run,RU
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,Riffle,RI
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,Pool,PO
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,Run,RU
+Desert Sucker,DS,Clear,WC,"March,April,May,June,July,September,October,November",WestC,Riffle,RI
+Desert Sucker,DS,Clear,WC,"March,April,May,June,July,September,October,November",WestC,Pool,PO
+Desert Sucker,DS,Clear,WC,"March,April,May,June,July,September,October,November",WestC,Run,RU
+Black Bass,BB,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,None,Meso
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,None,Meso
+Black Bass,BB,Clear,WC,"March,April,May,June,July,September,October,November",WestC,None,Meso
+Desert Sucker,DS,Combo,C,"January,February,March,April,May,June,July,September,October,November,December",Combine,None,Meso
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,September,October,November,December",WetB,None,Meso
+Desert Sucker,DS,Clear,WC,"March,April,May,June,July,September,October,November",WestC,None,Meso
