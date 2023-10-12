@@ -17,10 +17,10 @@ library(readr)
 
 ##Read In
   #All data available
-   NotAsFishy <- read_csv("Output/NotAsFishyAndCombo.csv")
+   NotAsFishy <- read_csv("Output/NotAsFishy.csv")
   
   #Read in data file with variable combinations 
-   Variable_Combos <- read.csv("HighLow Discharge/HighLowCombo_Variables.csv")
+   Variable_Combos <- read.csv("HighLow Discharge/HighLow_Variables.csv")
 
 ##Output 
   #Dataframe to write to file
@@ -174,9 +174,9 @@ library(readr)
                           Instream_t_stat_90 = NA, Instream_p_90 = NA,
                           
                           Canopy_5=NA, Canopy_95=NA,
-                          Canopy_5_Suit_Used=NA, Canopy_5_UnSuit_Avail=NA,
-                          Canopy_5_UnSuit_Used=NA, Canopy_5_Suit_Avail=NA,
-                          Canopy_t_stat_90 = NA, Canopy_p_90 = NA,
+                          Canopy_Chi = NA, Canopy_P = NA, Canopy_0.05 = NA, 
+                          Canopy_0.1 = NA, OccCan = NA, OccNoCan = NA, 
+                          AvailCan = NA, AvailNoCan = NA,
                         
                           Ratio_Pool = NA, Ratio_Riffle = NA, Ratio_Run = NA, 
                           Mesohabitat_Riffle = NA, Mesohabitat_Run = NA)
@@ -226,20 +226,23 @@ for(i in 1:N_reps){                                                             
   if(Meso == 1){
    
     #Pool
-    Avail_Prob_Pool <- (sum(na.omit(Avail_Data$Mesohabitat == 'Pool')/nrow(Avail_Data)))     
-    Used_Prob_Pool<- sum(na.omit(Used_Data_i$Mesohabitat== 'Pool')/nrow(Used_Data_i))
+    Avail_Pool <- ifelse(Avail_Data$Mesohabitat == 'Pool', (na.omit(Avail_Data$StreamWidth)),0)
+    Avail_Prob_Pool <- (sum(na.omit(Avail_Pool)/sum(na.omit(Avail_Data$StreamWidth))))     
+    Used_Prob_Pool<- sum(na.omit(Used_Data_i$Mesohabitat == "Pool")/sum(!is.na(Used_Data_i$Mesohabitat)))
     Storage$Ratio_Pool[i] <- Used_Prob_Pool/Avail_Prob_Pool
     
     #Riffle
-    Avail_Prob_Riffle <- sum(na.omit(Avail_Data$Mesohabitat== 'Riffle')/nrow(Avail_Data)) 
-    Used_Prob_Riffle<- sum(na.omit(Used_Data_i$Mesohabitat=='Riffle')/nrow(Used_Data_i))
+    Avail_Riffle <- ifelse(Avail_Data$Mesohabitat == 'Riffle', (na.omit(Avail_Data$StreamWidth)),0)
+    Avail_Prob_Riffle <- (sum(na.omit(Avail_Riffle)/sum(na.omit(Avail_Data$StreamWidth))))     
+    Used_Prob_Riffle<- sum(na.omit(Used_Data_i$Mesohabitat == "Riffle")/sum(!is.na(Used_Data_i$Mesohabitat)))
     Storage$Ratio_Riffle[i] <- Used_Prob_Riffle/Avail_Prob_Riffle
     
     #Run
-    Avail_Prob_Run <- sum(na.omit(Avail_Data$Mesohabitat== 'Run')/nrow(Avail_Data)) 
-    Used_Prob_Run<- sum(na.omit(Used_Data_i$Mesohabitat== 'Run')/nrow(Used_Data_i))
+    Avail_Run <- ifelse(Avail_Data$Mesohabitat == 'Run', (na.omit(Avail_Data$StreamWidth)),0)
+    Avail_Prob_Run <- (sum(na.omit(Avail_Run)/sum(na.omit(Avail_Data$StreamWidth))))     
+    Used_Prob_Run<- sum(na.omit(Used_Data_i$Mesohabitat == "Run")/sum(!is.na(Used_Data_i$Mesohabitat)))
     Storage$Ratio_Run[i] <- Used_Prob_Run/Avail_Prob_Run
-    }  
+  }  
     
   
   
@@ -681,96 +684,33 @@ if(Meso == 0){
       
      
   ###Canopy
-     #Find suitable ranges 
-      HSC_Canopy <- HSC_data[,c('Presence','Canopy')]                           #replaced y with Presence
-      HSC_Canopy <- HSC_Canopy[order(HSC_Canopy$Canopy),]                       #organizes Canopy in ascending order
-      HSC_Canopy$Rank <- seq(1,nrow(HSC_Canopy))                                #assigns rank  
-      HSC_Canopy$Prob <- HSC_Canopy$Rank/(nrow(HSC_Canopy)+1)                   #determine probability: rank/ n+1.  N = number occupied 
-      Canopy_25 <- quantile(HSC_Canopy$Canopy, 0.25, na.rm = TRUE)              #quantiles to determine ends of percentage range
-      Canopy_75 <- quantile(HSC_Canopy$Canopy, 0.75, na.rm = TRUE)          
-      Canopy_5 <- quantile(HSC_Canopy$Canopy, 0.05, na.rm = TRUE)            
-      Canopy_95 <- quantile(HSC_Canopy$Canopy, 0.95, na.rm = TRUE)
+     #Count of each category 
+      Occupied_Canopy <- sum(na.omit(Used_Data_i$Canopy > 0))      
+      Available_Canopy <- sum(na.omit(Avail_Data$Canopy > 0))      
+      Occupied_NoCanopy <- sum(na.omit(Used_Data_i$Canopy == 0))   
+      Available_NoCanopy <- sum(na.omit(Avail_Data$Canopy == 0))   
       
-      HSC_Canopy$Suitable <- ifelse(HSC_Canopy$Canopy                           #determine central 50% of observations (between 25 and 75% probability)
-                                      >= Canopy_25 & HSC_Canopy$Canopy 
-                                      <= Canopy_75, 1, 0) 
-      HSC_Canopy$Suitable_90 <- ifelse(HSC_Canopy$Canopy                        #determine central 90% of observations
-                                         >= Canopy_5 & HSC_Canopy$Canopy    
-                                         <= Canopy_95, 1, 0) 
+     #Restructure into a matrix 
+      Canopy_Matrix <- matrix(c(Occupied_Canopy,   Available_Canopy,            #Occupied (observed) should be in left column, Available (expected) should be in right column
+                                Occupied_NoCanopy, Available_NoCanopy), 
+                              byrow = T, nrow = 2)
       
-     #Classify each available point as suitable or unsuitable
-      Avail_Data$Canopy_Suitable <- ifelse(Avail_Data$Canopy >= Canopy_25 
-                                             & Avail_Data$Canopy <= Canopy_75, 
-                                             1, 0) 
-      Avail_Data$Canopy_Suitable_90 <- ifelse(Avail_Data$Canopy >= Canopy_5 
-                                                & Avail_Data$Canopy <= Canopy_95, 
-                                                1, 0) 
+     #Store Chi square value and p value 
+      Chi_df <- as.data.frame(t(unlist(chisq.test(Canopy_Matrix, 
+                                                  correct = FALSE))), 
+                                quote=FALSE)                                    #run chi square, separate each value (unlist), place into dataframe (as.data.frame), transpose rows into columns (t), remove quotations (quote = false), don't apply continuity correction (correct = False) 
       
-    ##Central 50%
-      Storage$Canopy_25_Suit_Used[i] <- sum(HSC_Canopy$Suitable == 1, na.rm = T)
-      Storage$Canopy_25_UnSuit_Used[i] <- sum(HSC_Canopy$Suitable == 0, na.rm = T)
-      
-      Storage$Canopy_25_Suit_Avail[i] <- sum(Avail_Data$Canopy_Suitable == 1, na.rm = T)
-      Storage$Canopy_25_UnSuit_Avail[i] <- sum(Avail_Data$Canopy_Suitable == 0, na.rm = T)
-      
-      Storage$Canopy_25[i] <- Canopy_25
-      Storage$Canopy_75[i] <- Canopy_75
-      
-      con_tab_Suit50_c <- matrix(c(Storage[i,c("Canopy_25_Suit_Used",
-                                               "Canopy_25_UnSuit_Used",
-                                               "Canopy_25_Suit_Avail",
-                                               "Canopy_25_UnSuit_Avail")]),
-                                   byrow=T,
-                                   nrow=2)
-      
-      used_suit_c <- Storage$Canopy_25_Suit_Used[i]
-      avail_unsuit_c <- Storage$Canopy_25_UnSuit_Avail[i]
-      used_unsuit_c <- Storage$Canopy_25_UnSuit_Used[i]
-      avail_suit_c <- Storage$Canopy_25_Suit_Avail[i]
-      
-      t_stat_c <- ((sum(unlist(con_tab_Suit50_c)))^0.5)*
-                  ((used_suit_c*avail_unsuit_c) - (used_unsuit_c*avail_suit_c))/
-                  (((used_suit_c+avail_suit_c)*
-                    (used_unsuit_c+avail_unsuit_c)*
-                    (used_unsuit_c+used_suit_c)*
-                    (avail_suit_c+avail_unsuit_c))^0.5)
-      
-      Storage$Canopy_t_stat_50[i] <- t_stat_c 
-      
-      Storage$Canopy_p_50[i] <- ifelse(t_stat_c > 1.6449,1,0)                   #1.6449 is the critical value for t-statistic when alpha = 0.05
-      
-    ##Central 90%
-      Storage$Canopy_5_Suit_Used[i] <- sum(HSC_Canopy$Suitable_90==1,na.rm=T)
-      Storage$Canopy_5_UnSuit_Used[i] <- sum(HSC_Canopy$Suitable_90==0,na.rm=T)
-      
-      Storage$Canopy_5_Suit_Avail[i] <- sum(Avail_Data$Canopy_Suitable_90==1,na.rm=T)
-      Storage$Canopy_5_UnSuit_Avail[i] <- sum(Avail_Data$Canopy_Suitable_90==0,na.rm=T)
-      
-      Storage$Canopy_5[i] <- Canopy_5
-      Storage$Canopy_95[i] <- Canopy_95
-      
-      con_tab_Suit90_c <- matrix(c(Storage[i,c("Canopy_5_Suit_Used",
-                                               "Canopy_5_UnSuit_Used",
-                                               "Canopy_5_Suit_Avail",
-                                               "Canopy_5_UnSuit_Avail")]),
-                                   byrow=T,
-                                   nrow=2)
-      
-      used_suit_c_90 <- Storage$Canopy_5_Suit_Used[i]
-      avail_unsuit_c_90 <- Storage$Canopy_5_UnSuit_Avail[i]
-      used_unsuit_c_90 <- Storage$Canopy_5_UnSuit_Used[i]
-      avail_suit_c_90 <- Storage$Canopy_5_Suit_Avail[i]
-      
-      t_stat_c_90 <-((sum(unlist(con_tab_Suit90_c)))^0.5)*
-                    ((used_suit_c_90*avail_unsuit_c_90)-(used_unsuit_c_90*avail_suit_c_90))/
-                    (((used_suit_c_90+avail_suit_c_90)*
-                      (used_unsuit_c_90+avail_unsuit_c_90)*
-                      (used_unsuit_c_90+used_suit_c_90)*
-                      (avail_suit_c_90+avail_unsuit_c_90))^0.5)
-      
-      Storage$Canopy_t_stat_90[i] <- t_stat_c_90 
-      
-      Storage$Canopy_p_90[i] <- ifelse(t_stat_c_90 > 1.6449, 1, 0)              #1.6449 is the critical value for t-statistic when alpha = 0.05
+      Storage$Canopy_Chi[i] <- as.numeric(Chi_df$`statistic.X-squared`)
+      Storage$Canopy_P[i]   <- as.numeric(Chi_df$p.value)
+      Storage$OccCan[i]     <- Occupied_Canopy
+      Storage$OccNoCan[i]   <- Occupied_NoCanopy
+      Storage$AvailCan[i]   <- Available_Canopy
+      Storage$AvailNoCan[i] <- Available_NoCanopy
+
+     #Setup for percent support
+      #Compare 0.05 alpha and 0.1 alpha
+      Storage$Canopy_0.05[i] <- ifelse(Storage$Canopy_P > 0.05, 0, 1)           #0 shows occupied is not different from available 
+      Storage$Canopy_0.1[i] <- ifelse(Storage$Canopy_P > 0.1, 0, 1)             #compare 0.05 alpha and 0.1 alpha
  }  
     }
    
@@ -782,7 +722,7 @@ if(Meso == 0){
   Results_File <- paste0(Species_Abb, "_",                           
                          Stream_Abb, "_",
                          Group_Abb, "_",
-                         Mesohabitat_Abb, "_HighLowCombo.csv")                   #Change _Storage.csv if distinguishing between different test runs
+                         Mesohabitat_Abb, "_HighLow_ModifiedCanopy.csv")                   #Change _Storage.csv if distinguishing between different test runs
   
   write.csv(x = Storage, file = Results_File)
   
@@ -796,7 +736,8 @@ if(Meso == 0){
   if (Meso == 1) {
    
   Storage_Means <- Storage %>%
-      summarize(across(c(70:74), mean))                                         #create and pull out means of Mesohabitat storage columns
+      summarize(across(c(Ratio_Pool, Ratio_Riffle, Ratio_Run,
+                         Mesohabitat_Riffle, Mesohabitat_Run), mean))                                         #create and pull out means of Mesohabitat storage columns
 
   #Mesohabitat Ratio and RSF Quantiles
     #Pool Ratio
@@ -851,16 +792,26 @@ if(Meso == 0){
       }
 ##VDS
   else{
-   
+
+    mean(Storage$Canopy_Chi)
+    
     Storage_Means <- Storage %>%
-      summarize(across(-c(8,9,10,11,  16,17,18,19,  24,25,26,27,                        #one row with means from Storage columns
-                          32,33,34,35,  40,41,42,43,  48,49,50,51), mean)) %>%
+      summarize(across(-c(Velocity_5_Suit_Used, Velocity_5_Suit_Avail, Velocity_5_UnSuit_Used, Velocity_5_UnSuit_Avail, 
+                          Substrate_5_Suit_Used, Substrate_5_Suit_Avail, Substrate_5_UnSuit_Used, Substrate_5_UnSuit_Avail,
+                          Depth_5_Suit_Used, Depth_5_Suit_Avail, Depth_5_UnSuit_Used, Depth_5_UnSuit_Avail,
+                          Instream_5_Suit_Used, Instream_5_Suit_Avail, Instream_5_UnSuit_Used, Instream_5_UnSuit_Avail, 
+                          Velocity_25_Suit_Used, Velocity_25_Suit_Avail, Velocity_25_UnSuit_Used, Velocity_25_UnSuit_Avail, 
+                          Substrate_25_Suit_Used, Substrate_25_Suit_Avail, Substrate_25_UnSuit_Used, Substrate_25_UnSuit_Avail,
+                          Depth_25_Suit_Used, Depth_25_Suit_Avail, Depth_25_UnSuit_Used, Depth_25_UnSuit_Avail,
+                          Instream_25_Suit_Used, Instream_25_Suit_Avail, Instream_25_UnSuit_Used, Instream_25_UnSuit_Avail, 
+                          OccCan, OccNoCan, AvailCan, AvailNoCan), mean)) %>%
       rename('Velocity Coef' = Velocity, 'Depth Coef' = Depth, 'Sub Coef' = Substrate,        
              'VelFull Coef' = Velocity_full, 'DepthFull Coef' = Depth_full,
              'Instream Coef' = Instream, 'Canopy Coef' = Canopy) %>%
       bind_cols(MinMax)                                                                 #Add Min/Max columns to database
-               
-    #VDS RSF Quantiles
+            
+
+   #VDS RSF Quantiles
     #Velocity RSF
     Storage_Means$Velocity_95L <- quantile(Storage$Velocity, probs = 0.025)             #95 CI (2.5 to 97.5)
     Storage_Means$Velocity_95H <- quantile(Storage$Velocity, probs = 0.975)
@@ -917,9 +868,18 @@ if(Meso == 0){
     Storage_Means$C_Percent_Support <- ifelse(mean(Storage$Canopy)>0,
                                               mean(Storage$Canopy>0),
                                               mean(Storage$Canopy<0))
+    
+   #Canopy ChiSquare
+    Storage_Means$C_Percent_Support0.05 <- ifelse(mean(Storage$Canopy)>0,
+                                                  mean(Storage$Canopy>0),
+                                                  mean(Storage$Canopy<0))
+    Storage_Means$C_Percent_Support0.1 <- ifelse(mean(Storage$Canopy)>0,
+                                                 mean(Storage$Canopy>0),
+                                                 mean(Storage$Canopy<0))
+    
 
- #Organize and round dataframe
-  Storage_Means = Storage_Means %>%                                                                                             #Use  dput(colnames(Storage_Means))  to print all column namesr 
+   #Organize and round dataframe
+    Storage_Means = Storage_Means %>%                                                                                             #Use  dput(colnames(Storage_Means))  to print all column namesr 
     select("Velocity Coef", "Velocity_95L", "Velocity_95H", "Velocity_80L", "Velocity_80H", "V_Percent_Support",                #RSF
            "Depth Coef", "Depth_95L", "Depth_95H", "Depth_80L", "Depth_80H", "D_Percent_Support",
            "Sub Coef", "Sub_95L", "Sub_95H", "Sub_80L", "Sub_80H", "S_Percent_Support",
@@ -936,12 +896,12 @@ if(Meso == 0){
            "Substrate_5", "Substrate_95", "Substrate_t_stat_90", "Substrate_p_90", 'Substrate_Min', 'Substrate_Max',
            "Instream_25", "Instream_75", "Instream_t_stat_50", "Instream_p_50",                                                 
            "Instream_5", "Instream_95", "Instream_t_stat_90", "Instream_p_90", 'Instream_Min', 'Instream_Max',
-           "Canopy_25", "Canopy_75", "Canopy_t_stat_50", "Canopy_p_50",                                                 
-           "Canopy_5", "Canopy_95", "Canopy_t_stat_90", "Canopy_p_90", 'Canopy_Min', 'Canopy_Max') %>%
+           "Canopy_Chi", "Canopy_P", "Canopy_0.05", "C_Percent_Support0.05", "Canopy_0.1", "C_Percent_Support0.1", 
+           'Canopy_Min', 'Canopy_Max') %>%
     
     mutate(across(c("Velocity_t_stat_50", "Velocity_t_stat_90", "Depth_t_stat_50", "Depth_t_stat_90",                       #round to match critical tstat
                     "Substrate_t_stat_50", "Substrate_t_stat_90", "Instream_t_stat_50", "Instream_t_stat_90",
-                    "Instream_t_stat_50",  "Instream_t_stat_90", "Canopy_t_stat_50", "Canopy_t_stat_90"
+                    "Instream_t_stat_50",  "Instream_t_stat_90", "Canopy_Chi"
                     ), round, 4)) %>%
     
     mutate(across(c("Velocity Coef", "Depth Coef", "Sub Coef", "VelFull Coef", "DepthFull Coef", "Instream Coef", "Canopy Coef",             #regression results (coefficients) commonly rounded 2 places, add 1 because it's a mean
@@ -954,7 +914,7 @@ if(Meso == 0){
                     "Velocity_25", "Velocity_75", "Velocity_5", "Velocity_95",                                                                
                     "Depth_25", "Depth_75", "Depth_5", "Depth_95", "Substrate_25", "Substrate_75", 
                     "Substrate_5", "Substrate_95", "Instream_25", "Instream_75",
-                    "Instream_5", "Instream_95", "Canopy_25", "Canopy_75", "Canopy_5", "Canopy_95",
+                    "Instream_5", "Instream_95", "Canopy_P",
 
                     'Velocity_Min', 'Velocity_Max', 'Instream_Min', 'Instream_Max', 'Canopy_Min', 'Canopy_Max'                             #round 1 place beyond raw data (velocity, instream, canopy are all 2 places)
                      ), round, 3))
@@ -983,7 +943,6 @@ if(Meso == 0){
 #RUN ME BEFORE YOU FORGET (please)
    
 #Output to File
-write.csv(x = All_Rows, file = "HighLowCombo.csv")
-
+write.csv(x = All_Rows, file = "HighLow_ModifiedCanopy.csv")
 
 

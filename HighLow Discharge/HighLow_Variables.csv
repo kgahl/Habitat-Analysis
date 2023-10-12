@@ -1,4 +1,12 @@
 Species,Species_Abb,Stream,Stream_Abb,Group,Group_Abb,Mesohabitat,Mesohabitat_Abb
+Black Bass,BB,Beaver,WB,"December,January,February,March",High,None,Meso
+Black Bass,BB,Beaver,WB,"April,May,June,July,September,October,November",Low,None,Meso
+Black Bass,BB,Clear,WC,"December,January,February,March",High,None,Meso
+Black Bass,BB,Clear,WC,"April,May,June,July,September,October,November",Low,None,Meso
+Desert Sucker,DS,Beaver,WB,"December,January,February,March",High,None,Meso
+Desert Sucker,DS,Beaver,WB,"April,May,June,July,September,October,November",Low,None,Meso
+Desert Sucker,DS,Clear,WC,"December,January,February,March",High,None,Meso
+Desert Sucker,DS,Clear,WC,"April,May,June,July,September,October,November",Low,None,Meso
 Black Bass,BB,Beaver,WB,"December,January,February,March",High,Riffle,RI
 Black Bass,BB,Beaver,WB,"December,January,February,March",High,Pool,PO
 Black Bass,BB,Beaver,WB,"December,January,February,March",High,Run,RU
@@ -23,11 +31,3 @@ Desert Sucker,DS,Clear,WC,"December,January,February,March",High,Run,RU
 Desert Sucker,DS,Clear,WC,"April,May,June,July,September,October,November",Low,Riffle,RI
 Desert Sucker,DS,Clear,WC,"April,May,June,July,September,October,November",Low,Pool,PO
 Desert Sucker,DS,Clear,WC,"April,May,June,July,September,October,November",Low,Run,RU
-Black Bass,BB,Beaver,WB,"December,January,February,March",High,None,Meso
-Black Bass,BB,Beaver,WB,"April,May,June,July,September,October,November",Low,None,Meso
-Black Bass,BB,Clear,WC,"December,January,February,March",High,None,Meso
-Black Bass,BB,Clear,WC,"April,May,June,July,September,October,November",Low,None,Meso
-Desert Sucker,DS,Beaver,WB,"December,January,February,March",High,None,Meso
-Desert Sucker,DS,Beaver,WB,"April,May,June,July,September,October,November",Low,None,Meso
-Desert Sucker,DS,Clear,WC,"December,January,February,March",High,None,Meso
-Desert Sucker,DS,Clear,WC,"April,May,June,July,September,October,November",Low,None,Meso
