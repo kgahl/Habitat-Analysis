@@ -140,7 +140,7 @@ library(readr)
  ##Create data frame to store coefficients
   Prop_Sample <- 0.75                                                           #specify the proportion of point resampled (75%)  
   
-  N_reps <- 100
+  N_reps <- 10000
     
   Storage <- data.frame(Velocity = rep(NA,N_reps), Substrate = NA,
                           Depth = rep(NA,N_reps), Velocity_full = NA, 
