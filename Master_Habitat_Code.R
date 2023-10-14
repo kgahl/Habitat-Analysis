@@ -20,7 +20,7 @@ library(readr)
    NotAsFishy <- read_csv("Output/NotAsFishy.csv")
   
   #Read in data file with variable combinations 
-   Variable_Combos <- read.csv("HighLow Discharge/HighLow_Variables.csv")
+   Variable_Combos <- read.csv("Discharge/HighLow_Variables.csv")
 
 ##Output 
   #Dataframe to write to file
@@ -69,7 +69,15 @@ library(readr)
     Meso = 0
     }
 
-  
+#   if number of available < 1 skip
+#   if number of occupied <1 skip
+#   
+#   if()
+  if(length(which(Select_Data$Presence == 1)) >= 1){
+    if(length(which(Select_Data$Presence == 0)) >=1){
+      
+    } 
+
 ##Reality Check
   message("running ", Species_Name, ", ", Stream_Name, ", ",                    #Shows which combination is running in console when loop is started
           Group_Abb, ", ", Mesohabitat_Name, " (n = ", nrow(Select_Data), ")")
@@ -132,7 +140,7 @@ library(readr)
  ##Create data frame to store coefficients
   Prop_Sample <- 0.75                                                           #specify the proportion of point resampled (75%)  
   
-  N_reps <- 10000
+  N_reps <- 100
     
   Storage <- data.frame(Velocity = rep(NA,N_reps), Substrate = NA,
                           Depth = rep(NA,N_reps), Velocity_full = NA, 
@@ -310,12 +318,18 @@ for(i in 1:N_reps){                                                             
 if(Meso == 0){
   
   HSC_data <- filter(Data_i, Presence == 1)                                     #isolate occupied site data
-      
+  
   ###Velocity
     #Find suitable ranges 
       HSC_Velocity <- HSC_data[,c('Presence','Velocity')]                       #replaced y with Presence
-      HSC_Velocity <- HSC_Velocity[order(HSC_Velocity$Velocity),]               #organizes velocity in ascending order
-      HSC_Velocity$Rank <- seq(1,nrow(HSC_Velocity))                            #assigns rank  
+      HSC_Velocity <- HSC_Velocity[order(HSC_Velocity$Velocity),] 
+      
+      # if(nrow(HSC_Velocity)<=0){
+      #   HSC_Velocity$Rank <- seq(1,0.001)
+      # }else{
+      HSC_Velocity$Rank <- seq(1,nrow(HSC_Velocity))
+      
+      #assigns rank  
       HSC_Velocity$Prob <- HSC_Velocity$Rank/(nrow(HSC_Velocity)+1)             #determine probability: rank/ n+1.  N = number occupied 
       Velocity_25 <- quantile(HSC_Velocity$Velocity, 0.25, na.rm = TRUE)        #quantiles to determine ends of percentage range
       Velocity_75 <- quantile(HSC_Velocity$Velocity, 0.75, na.rm = TRUE)          
@@ -720,7 +734,7 @@ if(Meso == 0){
   Results_File <- paste0(Species_Abb, "_",                           
                          Stream_Abb, "_",
                          Group_Abb, "_",
-                         Mesohabitat_Abb, "_HighLow_ModifiedCanopy.csv")                   #Change _Storage.csv if distinguishing between different test runs
+                         Mesohabitat_Abb, "_DischargeTest100.csv")                   #Change _Storage.csv if distinguishing between different test runs
   
   write.csv(x = Storage, file = Results_File)
   
@@ -739,42 +753,42 @@ if(Meso == 0){
 
   #Mesohabitat Ratio and RSF Quantiles
     #Pool Ratio
-    Storage_Means$RPool_95L <- quantile(Storage$Ratio_Pool, probs = 0.025)      #95 CI (2.5 to 97.5)
-    Storage_Means$RPool_95H <- quantile(Storage$Ratio_Pool, probs = 0.975)
-    Storage_Means$RPool_80L <- quantile(Storage$Ratio_Pool, probs = 0.1)                                                       
-    Storage_Means$RPool_80H <- quantile(Storage$Ratio_Pool, probs = 0.9)
+    Storage_Means$RPool_95L <- quantile(Storage$Ratio_Pool, probs = 0.025, na.rm = TRUE)      #95 CI (2.5 to 97.5)
+    Storage_Means$RPool_95H <- quantile(Storage$Ratio_Pool, probs = 0.975, na.rm = TRUE)
+    Storage_Means$RPool_80L <- quantile(Storage$Ratio_Pool, probs = 0.1, na.rm = TRUE)                                                       
+    Storage_Means$RPool_80H <- quantile(Storage$Ratio_Pool, probs = 0.9, na.rm = TRUE)
     Storage_Means$RPool_Percent_Support <- ifelse(mean(Storage$Ratio_Pool)>1,   #for Selection Ratio 1 is the measure of proportional use (<1 = avoid, >1 = select)
                                                   mean(Storage$Ratio_Pool>1),
                                                   mean(Storage$Ratio_Pool<1))   #gives percentage of re-sampled slopes that match the charge(+/-) of the mean estimate 
     #Riffle Ratio
-    Storage_Means$RRiffle_95L <- quantile(Storage$Ratio_Riffle, probs = 0.025)                                                       
-    Storage_Means$RRiffle_95H <- quantile(Storage$Ratio_Riffle, probs = 0.975)
-    Storage_Means$RRiffle_80L <- quantile(Storage$Ratio_Riffle, probs = 0.1)                                                       
-    Storage_Means$RRiffle_80H <- quantile(Storage$Ratio_Riffle, probs = 0.9)
+    Storage_Means$RRiffle_95L <- quantile(Storage$Ratio_Riffle, probs = 0.025, na.rm = TRUE)                                                       
+    Storage_Means$RRiffle_95H <- quantile(Storage$Ratio_Riffle, probs = 0.975, na.rm = TRUE)
+    Storage_Means$RRiffle_80L <- quantile(Storage$Ratio_Riffle, probs = 0.1, na.rm = TRUE)                                                       
+    Storage_Means$RRiffle_80H <- quantile(Storage$Ratio_Riffle, probs = 0.9, na.rm = TRUE)
     Storage_Means$RRiffle_Percent_Support <- ifelse(mean(Storage$Ratio_Riffle)>1,
                                                     mean(Storage$Ratio_Riffle>1),
                                                     mean(Storage$Ratio_Riffle<1))
     #Run Ratio
-    Storage_Means$RRun_95L <- quantile(Storage$Ratio_Run, probs = 0.025)                                                       
-    Storage_Means$RRun_95H <- quantile(Storage$Ratio_Run, probs = 0.975)
-    Storage_Means$RRun_80L <- quantile(Storage$Ratio_Run, probs = 0.1)                                                       
-    Storage_Means$RRun_80H <- quantile(Storage$Ratio_Run, probs = 0.9)
+    Storage_Means$RRun_95L <- quantile(Storage$Ratio_Run, probs = 0.025, na.rm = TRUE)                                                       
+    Storage_Means$RRun_95H <- quantile(Storage$Ratio_Run, probs = 0.975, na.rm = TRUE)
+    Storage_Means$RRun_80L <- quantile(Storage$Ratio_Run, probs = 0.1, na.rm = TRUE)                                                       
+    Storage_Means$RRun_80H <- quantile(Storage$Ratio_Run, probs = 0.9, na.rm = TRUE)
     Storage_Means$RRun_Percent_Support <- ifelse(mean(Storage$Ratio_Run)>1,
                                                  mean(Storage$Ratio_Run>1),
                                                  mean(Storage$Ratio_Run<1))
     #Riffle RSF
-    Storage_Means$MesoRiffle_95L <- quantile(Storage$Mesohabitat_Riffle, probs = 0.025)                                                       
-    Storage_Means$MesoRiffle_95H <- quantile(Storage$Mesohabitat_Riffle, probs = 0.975)
-    Storage_Means$MesoRiffle_80L <- quantile(Storage$Mesohabitat_Riffle, probs = 0.1)                                                       
-    Storage_Means$MesoRiffle_80H <- quantile(Storage$Mesohabitat_Riffle, probs = 0.9)
+    Storage_Means$MesoRiffle_95L <- quantile(Storage$Mesohabitat_Riffle, probs = 0.025, na.rm = TRUE)                                                       
+    Storage_Means$MesoRiffle_95H <- quantile(Storage$Mesohabitat_Riffle, probs = 0.975, na.rm = TRUE)
+    Storage_Means$MesoRiffle_80L <- quantile(Storage$Mesohabitat_Riffle, probs = 0.1, na.rm = TRUE)                                                       
+    Storage_Means$MesoRiffle_80H <- quantile(Storage$Mesohabitat_Riffle, probs = 0.9, na.rm = TRUE)
     Storage_Means$MesoRiffle_Percent_Support <- ifelse(mean(Storage$Mesohabitat_Riffle)>0,       #For GLM RSFs 0 is the divide, - equals avoid, + equals selection
                                                  mean(Storage$Mesohabitat_Riffle>0),
                                                  mean(Storage$Mesohabitat_Riffle<0))
     #Run RSF
-    Storage_Means$MesoRun_95L <- quantile(Storage$Mesohabitat_Run, probs = 0.025)                                                       
-    Storage_Means$MesoRun_95H <- quantile(Storage$Mesohabitat_Run, probs = 0.975)
-    Storage_Means$MesoRun_80L <- quantile(Storage$Mesohabitat_Run, probs = 0.1)                                                       
-    Storage_Means$MesoRun_80H <- quantile(Storage$Mesohabitat_Run, probs = 0.9)
+    Storage_Means$MesoRun_95L <- quantile(Storage$Mesohabitat_Run, probs = 0.025, na.rm = TRUE)                                                       
+    Storage_Means$MesoRun_95H <- quantile(Storage$Mesohabitat_Run, probs = 0.975, na.rm = TRUE)
+    Storage_Means$MesoRun_80L <- quantile(Storage$Mesohabitat_Run, probs = 0.1, na.rm = TRUE)                                                       
+    Storage_Means$MesoRun_80H <- quantile(Storage$Mesohabitat_Run, probs = 0.9, na.rm = TRUE)
     Storage_Means$MesoRun_Percent_Support <- ifelse(mean(Storage$Mesohabitat_Run)>0,                   
                                                        mean(Storage$Mesohabitat_Run>0),
                                                        mean(Storage$Mesohabitat_Run<0))
@@ -811,58 +825,58 @@ if(Meso == 0){
 
    #VDS RSF Quantiles
     #Velocity RSF
-    Storage_Means$Velocity_95L <- quantile(Storage$Velocity, probs = 0.025)             #95 CI (2.5 to 97.5)
-    Storage_Means$Velocity_95H <- quantile(Storage$Velocity, probs = 0.975)
-    Storage_Means$Velocity_80L <- quantile(Storage$Velocity, probs = 0.1)               #80 CI (10 to 90)
-    Storage_Means$Velocity_80H <- quantile(Storage$Velocity, probs = 0.9)
+    Storage_Means$Velocity_95L <- quantile(Storage$Velocity, probs = 0.025, na.rm = TRUE)             #95 CI (2.5 to 97.5)
+    Storage_Means$Velocity_95H <- quantile(Storage$Velocity, probs = 0.975, na.rm = TRUE)
+    Storage_Means$Velocity_80L <- quantile(Storage$Velocity, probs = 0.1, na.rm = TRUE)               #80 CI (10 to 90)
+    Storage_Means$Velocity_80H <- quantile(Storage$Velocity, probs = 0.9, na.rm = TRUE)
     Storage_Means$V_Percent_Support <- ifelse(mean(Storage$Velocity)>0,
                                               mean(Storage$Velocity>0),
                                               mean(Storage$Velocity<0))                 #gives percentage of re-sampled slopes that match the charge(+/-) of the mean estimate 
     #Depth RSF
-    Storage_Means$Depth_95L <- quantile(Storage$Depth, probs = 0.025)
-    Storage_Means$Depth_95H <- quantile(Storage$Depth, probs = 0.975)
-    Storage_Means$Depth_80L <- quantile(Storage$Depth, probs = 0.1)
-    Storage_Means$Depth_80H <- quantile(Storage$Depth, probs = 0.9)
+    Storage_Means$Depth_95L <- quantile(Storage$Depth, probs = 0.025, na.rm = TRUE)
+    Storage_Means$Depth_95H <- quantile(Storage$Depth, probs = 0.975, na.rm = TRUE)
+    Storage_Means$Depth_80L <- quantile(Storage$Depth, probs = 0.1, na.rm = TRUE)
+    Storage_Means$Depth_80H <- quantile(Storage$Depth, probs = 0.9, na.rm = TRUE)
     Storage_Means$D_Percent_Support <- ifelse(mean(Storage$Depth)>0,
                                               mean(Storage$Depth>0),
                                               mean(Storage$Depth<0))
     #Substrate RSF 
-    Storage_Means$Sub_95L <- quantile(Storage$Substrate, probs = 0.025)
-    Storage_Means$Sub_95H <- quantile(Storage$Substrate, probs = 0.975)
-    Storage_Means$Sub_80L <- quantile(Storage$Substrate, probs = 0.1)
-    Storage_Means$Sub_80H <- quantile(Storage$Substrate, probs = 0.9)
+    Storage_Means$Sub_95L <- quantile(Storage$Substrate, probs = 0.025, na.rm = TRUE)
+    Storage_Means$Sub_95H <- quantile(Storage$Substrate, probs = 0.975, na.rm = TRUE)
+    Storage_Means$Sub_80L <- quantile(Storage$Substrate, probs = 0.1, na.rm = TRUE)
+    Storage_Means$Sub_80H <- quantile(Storage$Substrate, probs = 0.9, na.rm = TRUE)
     Storage_Means$S_Percent_Support <- ifelse(mean(Storage$Substrate)>0,
                                               mean(Storage$Substrate>0),
                                               mean(Storage$Substrate<0))
     #Velocity Full RSF
-    Storage_Means$VelFull_95L <- quantile(Storage$Velocity_full, probs = 0.025)
-    Storage_Means$VelFull_95H <- quantile(Storage$Velocity_full, probs = 0.975)
-    Storage_Means$VelFull_80L <- quantile(Storage$Velocity_full, probs = 0.1)
-    Storage_Means$VelFull_80H <- quantile(Storage$Velocity_full, probs = 0.9)
+    Storage_Means$VelFull_95L <- quantile(Storage$Velocity_full, probs = 0.025, na.rm = TRUE)
+    Storage_Means$VelFull_95H <- quantile(Storage$Velocity_full, probs = 0.975, na.rm = TRUE)
+    Storage_Means$VelFull_80L <- quantile(Storage$Velocity_full, probs = 0.1, na.rm = TRUE)
+    Storage_Means$VelFull_80H <- quantile(Storage$Velocity_full, probs = 0.9, na.rm = TRUE)
     Storage_Means$VF_Percent_Support <- ifelse(mean(Storage$Velocity_full)>0,
                                                mean(Storage$Velocity_full>0),
                                                mean(Storage$Velocity_full<0))
     #Depth Full RSF
-    Storage_Means$DepthFull_95L <- quantile(Storage$Depth_full, probs = 0.025)
-    Storage_Means$DepthFull_95H <- quantile(Storage$Depth_full, probs = 0.975)
-    Storage_Means$DepthFull_80L <- quantile(Storage$Depth_full, probs = 0.1)
-    Storage_Means$DepthFull_80H <- quantile(Storage$Depth_full, probs = 0.9)
+    Storage_Means$DepthFull_95L <- quantile(Storage$Depth_full, probs = 0.025, na.rm = TRUE)
+    Storage_Means$DepthFull_95H <- quantile(Storage$Depth_full, probs = 0.975, na.rm = TRUE)
+    Storage_Means$DepthFull_80L <- quantile(Storage$Depth_full, probs = 0.1, na.rm = TRUE)
+    Storage_Means$DepthFull_80H <- quantile(Storage$Depth_full, probs = 0.9, na.rm = TRUE)
     Storage_Means$DF_Percent_Support <- ifelse(mean(Storage$Depth_full)>0,
                                                mean(Storage$Depth_full>0),
                                                mean(Storage$Depth_full<0))
     #Instream RSF
-    Storage_Means$Instream_95L <- quantile(Storage$Instream, probs = 0.025)
-    Storage_Means$Instream_95H <- quantile(Storage$Instream, probs = 0.975)
-    Storage_Means$Instream_80L <- quantile(Storage$Instream, probs = 0.1)
-    Storage_Means$Instream_80H <- quantile(Storage$Instream, probs = 0.9)
+    Storage_Means$Instream_95L <- quantile(Storage$Instream, probs = 0.025, na.rm = TRUE)
+    Storage_Means$Instream_95H <- quantile(Storage$Instream, probs = 0.975, na.rm = TRUE)
+    Storage_Means$Instream_80L <- quantile(Storage$Instream, probs = 0.1, na.rm = TRUE)
+    Storage_Means$Instream_80H <- quantile(Storage$Instream, probs = 0.9, na.rm = TRUE)
     Storage_Means$I_Percent_Support <- ifelse(mean(Storage$Instream)>0,
                                               mean(Storage$Instream>0),
                                               mean(Storage$Instream<0))
     #Canopy RSF
-    Storage_Means$Canopy_95L <- quantile(Storage$Canopy, probs = 0.025)
-    Storage_Means$Canopy_95H <- quantile(Storage$Canopy, probs = 0.975)
-    Storage_Means$Canopy_80L <- quantile(Storage$Canopy, probs = 0.1)
-    Storage_Means$Canopy_80H <- quantile(Storage$Canopy, probs = 0.9)
+    Storage_Means$Canopy_95L <- quantile(Storage$Canopy, probs = 0.025, na.rm = TRUE)
+    Storage_Means$Canopy_95H <- quantile(Storage$Canopy, probs = 0.975, na.rm = TRUE)
+    Storage_Means$Canopy_80L <- quantile(Storage$Canopy, probs = 0.1, na.rm = TRUE)
+    Storage_Means$Canopy_80H <- quantile(Storage$Canopy, probs = 0.9, na.rm = TRUE)
     Storage_Means$C_Percent_Support <- ifelse(mean(Storage$Canopy)>0,
                                               mean(Storage$Canopy>0),
                                               mean(Storage$Canopy<0))
@@ -930,10 +944,13 @@ if(Meso == 0){
    }
 }
 
+  }
+   
+  
   ##### Print #####
 #RUN ME BEFORE YOU FORGET (please)
    
 #Output to File
-write.csv(x = All_Rows, file = "HighLow_ModifiedCanopy.csv")
+write.csv(x = All_Rows, file = "DischargeTest100.csv")
 
 
