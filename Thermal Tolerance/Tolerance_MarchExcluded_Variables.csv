@@ -1,4 +1,5 @@
 Species,Species_Abb,Stream,Stream_Abb,Group,Group_Abb,Mesohabitat,Mesohabitat_Abb
+Black Bass,BB,Clear,WC,"November,December,January,February",Inactive,Pool,PO
 Black Bass,BB,Beaver,WB,"April,May,June,July,September,October",Active,None,Meso
 Black Bass,BB,Beaver,WB,"November,December,January,February",Inactive,None,Meso
 Black Bass,BB,Beaver,WB,March,March,None,Meso
@@ -24,7 +25,7 @@ Black Bass,BB,Clear,WC,"April,May,June,July,September,October",Active,Riffle,RI
 Black Bass,BB,Clear,WC,"April,May,June,July,September,October",Active,Pool,PO
 Black Bass,BB,Clear,WC,"April,May,June,July,September,October",Active,Run,RU
 Black Bass,BB,Clear,WC,"November,December,January,February",Inactive,Riffle,RI
-Black Bass,BB,Clear,WC,"November,December,January,February",Inactive,Pool,PO
+,,,,,,,
 Black Bass,BB,Clear,WC,"November,December,January,February",Inactive,Run,RU
 Black Bass,BB,Clear,WC,March,March,Riffle,RI
 Black Bass,BB,Clear,WC,March,March,Pool,PO

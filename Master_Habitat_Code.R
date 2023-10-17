@@ -20,7 +20,7 @@ library(readr)
    NotAsFishy <- read_csv("Output/NotAsFishy.csv")
   
   #Read in data file with variable combinations 
-   Variable_Combos <- read.csv("Thermal Tolerance/Tolerance_Variables.csv")
+   Variable_Combos <- read.csv("Thermal Tolerance/Thermal Tolerance March Excluded/Tolerance_MarchExcluded_Variables.csv")
 
 ##Output 
   #Dataframe to write to file
@@ -69,13 +69,9 @@ library(readr)
     Meso = 0
     }
 
-#   if number of available < 1 skip
-#   if number of occupied <1 skip
-#   
-#   if()
-  if(length(which(Select_Data$Presence == 1)) >= 1){
-    if(length(which(Select_Data$Presence == 0)) >=1){
-      
+  #Only run if there is data
+  if(length(which(Select_Data$Presence == 1)) > 1){
+    if(length(which(Select_Data$Presence == 0)) > 1){
     } 
 
 ##Reality Check
@@ -734,7 +730,7 @@ if(Meso == 0){
   Results_File <- paste0(Species_Abb, "_",                           
                          Stream_Abb, "_",
                          Group_Abb, "_",
-                         Mesohabitat_Abb, "_Tolerance.csv")                   #Change _Storage.csv if distinguishing between different test runs
+                         Mesohabitat_Abb, "_Tolerance_March.csv")                   #Change _Storage.csv if distinguishing between different test runs
   
   write.csv(x = Storage, file = Results_File)
   
@@ -951,6 +947,6 @@ if(Meso == 0){
 #RUN ME BEFORE YOU FORGET (please)
    
 #Output to File
-write.csv(x = All_Rows, file = "Tolerance.csv")
+write.csv(x = All_Rows, file = "Tolerance_March.csv")
 
 
