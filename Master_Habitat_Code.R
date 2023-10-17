@@ -20,7 +20,7 @@ library(readr)
    NotAsFishy <- read_csv("Output/NotAsFishy.csv")
   
   #Read in data file with variable combinations 
-   Variable_Combos <- read.csv("Discharge/HighLow_Variables.csv")
+   Variable_Combos <- read.csv("Spawning/Spawning_Variables.csv")
 
 ##Output 
   #Dataframe to write to file
@@ -734,7 +734,7 @@ if(Meso == 0){
   Results_File <- paste0(Species_Abb, "_",                           
                          Stream_Abb, "_",
                          Group_Abb, "_",
-                         Mesohabitat_Abb, "_DischargeTest100.csv")                   #Change _Storage.csv if distinguishing between different test runs
+                         Mesohabitat_Abb, "_SpawningTest100.csv")                   #Change _Storage.csv if distinguishing between different test runs
   
   write.csv(x = Storage, file = Results_File)
   
@@ -951,6 +951,6 @@ if(Meso == 0){
 #RUN ME BEFORE YOU FORGET (please)
    
 #Output to File
-write.csv(x = All_Rows, file = "DischargeTest100.csv")
+write.csv(x = All_Rows, file = "SpawningTest100.csv")
 
 
