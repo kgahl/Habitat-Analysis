@@ -1,0 +1,17 @@
+Species,Species_Abb,Stream,Stream_Abb,Group,Group_Abb,Mesohabitat,Mesohabitat_Abb
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,None,Meso
+Black Bass,BB,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,None,Meso
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,None,Meso
+Desert Sucker,DS,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,None,Meso
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,Riffle,RI
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,Pool,PO
+Black Bass,BB,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,Run,RU
+Black Bass,BB,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,Riffle,RI
+Black Bass,BB,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,Pool,PO
+Black Bass,BB,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,Run,RU
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,Riffle,RI
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,Pool,PO
+Desert Sucker,DS,Beaver,WB,"January,February,March,April,May,June,July,September,October,November,December",All,Run,RU
+Desert Sucker,DS,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,Riffle,RI
+Desert Sucker,DS,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,Pool,PO
+Desert Sucker,DS,Clear,WC,"January,February,March,April,May,June,July,September,October,November,December",All,Run,RU
