@@ -77,7 +77,7 @@ for (row_i in 1:nrow(Variable_Combos)) {
     ##Create data frame to store coefficients
     Prop_Sample <- 0.75                                                           #specify the proportion of point resampled (75%)  
     
-    N_reps <- 100
+    N_reps <- 10000
     
     Storage <- data.frame(Mean_VelocityU = NA, Velocity_25U = rep(NA,N_reps), Velocity_75U = NA, Velocity_5U = NA, Velocity_95U = NA, 
                           Mean_VelocityA = NA, Velocity_25A = NA, Velocity_75A = NA, Velocity_5A = NA, Velocity_95A = NA,
@@ -124,10 +124,7 @@ for (row_i in 1:nrow(Variable_Combos)) {
       Avail_Data <- All_Avail_Data[sample(1:nrow(All_Avail_Data),                    #Randomly select Prop_Sample (75) percent of available points
                                           floor(nrow(All_Avail_Data)*Prop_Sample)),]   
       
-      ##Combine available with loop-created used
-      Data_i <- rbind(Used_Data_i, Avail_Data)                                         
-     
-      
+
        
   ##Means
       Storage$Mean_VelocityU[i] <- mean(Used_Data_i$Velocity, na.rm = TRUE)
@@ -148,9 +145,9 @@ for (row_i in 1:nrow(Variable_Combos)) {
         
   ###Velocity
     ##Used ranges
-        Used_Velocity <- Used_Data_i[order(Used_Data_i$Velocity),] 
-        Used_Velocity$Rank <- seq(1,nrow(Used_Velocity))
-        
+      Used_Velocity <- Used_Data_i[,c('Presence','Velocity')]  
+      Used_Velocity <- Used_Velocity[order(Used_Velocity$Velocity),] 
+
       #Rank and Quantiles  
         Storage$Velocity_25U[i] <- quantile(Used_Velocity$Velocity, 0.25, na.rm = TRUE)        
         Storage$Velocity_75U[i] <- quantile(Used_Velocity$Velocity, 0.75, na.rm = TRUE)          
@@ -158,8 +155,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         Storage$Velocity_95U[i] <- quantile(Used_Velocity$Velocity, 0.95, na.rm = TRUE)
     
     ##Available ranges
-        Avail_Velocity <- Avail_Data[order(Avail_Data$Velocity),] 
-        Avail_Velocity$Rank <- seq(1,nrow(Avail_Velocity))
+        Avail_Velocity <- Avail_Data[,c('Presence','Velocity')]  
+        Avail_Velocity <- Avail_Velocity[order(Avail_Velocity$Velocity),] 
         
       #Rank and Quantiles  
         Storage$Velocity_25A[i] <- quantile(Avail_Velocity$Velocity, 0.25, na.rm = TRUE)        
@@ -169,8 +166,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         
   ###Depth
     ##Used ranges
-        Used_Depth <- Used_Data_i[order(Used_Data_i$Depth),] 
-        Used_Depth$Rank <- seq(1,nrow(Used_Depth))
+        Used_Depth <- Used_Data_i[,c('Presence','Depth')]  
+        Used_Depth <- Used_Depth[order(Used_Depth$Depth),] 
         
         #Rank and Quantiles  
         Storage$Depth_25U[i] <- quantile(Used_Depth$Depth, 0.25, na.rm = TRUE)        
@@ -179,9 +176,9 @@ for (row_i in 1:nrow(Variable_Combos)) {
         Storage$Depth_95U[i] <- quantile(Used_Depth$Depth, 0.95, na.rm = TRUE)
         
      ##Available ranges
-        Avail_Depth <- Avail_Data[order(Avail_Data$Depth),] 
-        Avail_Depth$Rank <- seq(1,nrow(Avail_Depth))
-        
+        Avail_Depth <- Avail_Data[,c('Presence','Depth')]  
+        Avail_Depth <- Avail_Depth[order(Avail_Depth$Depth),] 
+
         #Rank and Quantiles  
         Storage$Depth_25A[i] <- quantile(Avail_Depth$Depth, 0.25, na.rm = TRUE)        
         Storage$Depth_75A[i] <- quantile(Avail_Depth$Depth, 0.75, na.rm = TRUE)          
@@ -191,8 +188,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         
   ###Substrate
     ##Used ranges
-        Used_Substrate <- Used_Data_i[order(Used_Data_i$Substrate),] 
-        Used_Substrate$Rank <- seq(1,nrow(Used_Substrate))
+        Used_Substrate <- Used_Data_i[,c('Presence','Substrate')]  
+        Used_Substrate <- Used_Substrate[order(Used_Substrate$Substrate),] 
         
         #Rank and Quantiles  
         Storage$Substrate_25U[i] <- quantile(Used_Substrate$Substrate, 0.25, na.rm = TRUE)        
@@ -201,8 +198,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         Storage$Substrate_95U[i] <- quantile(Used_Substrate$Substrate, 0.95, na.rm = TRUE)
         
     ##Available ranges
-        Avail_Substrate <- Avail_Data[order(Avail_Data$Substrate),] 
-        Avail_Substrate$Rank <- seq(1,nrow(Avail_Substrate))
+        Avail_Substrate <- Avail_Data[,c('Presence','Substrate')]  
+        Avail_Substrate <- Avail_Substrate[order(Avail_Substrate$Substrate),] 
         
         #Rank and Quantiles  
         Storage$Substrate_25A[i] <- quantile(Avail_Substrate$Substrate, 0.25, na.rm = TRUE)        
@@ -212,8 +209,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         
   ###Instream
     ##Used ranges
-        Used_Instream <- Used_Data_i[order(Used_Data_i$Instream),] 
-        Used_Instream$Rank <- seq(1,nrow(Used_Instream))
+        Used_Instream <- Used_Data_i[,c('Presence','Instream')]  
+        Used_Instream <- Used_Instream[order(Used_Instream$Instream),] 
         
         #Rank and Quantiles  
         Storage$Instream_25U[i] <- quantile(Used_Instream$Instream, 0.25, na.rm = TRUE)        
@@ -222,8 +219,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         Storage$Instream_95U[i] <- quantile(Used_Instream$Instream, 0.95, na.rm = TRUE)
         
     ##Available ranges
-        Avail_Instream <- Avail_Data[order(Avail_Data$Instream),] 
-        Avail_Instream$Rank <- seq(1,nrow(Avail_Instream))
+        Avail_Instream <- Avail_Data[,c('Presence','Instream')]  
+        Avail_Instream <- Avail_Instream[order(Avail_Instream$Instream),] 
         
         #Rank and Quantiles  
         Storage$Instream_25A[i] <- quantile(Avail_Instream$Instream, 0.25, na.rm = TRUE)        
@@ -233,8 +230,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         
   ###Canopy
     ##Used ranges
-        Used_Canopy <- Used_Data_i[order(Used_Data_i$Canopy),] 
-        Used_Canopy$Rank <- seq(1,nrow(Used_Canopy))
+        Used_Canopy <- Used_Data_i[,c('Presence','Canopy')]  
+        Used_Canopy <- Used_Canopy[order(Used_Canopy$Canopy),] 
         
         #Rank and Quantiles  
         Storage$Canopy_25U[i] <- quantile(Used_Canopy$Canopy, 0.25, na.rm = TRUE)        
@@ -243,8 +240,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         Storage$Canopy_95U[i] <- quantile(Used_Canopy$Canopy, 0.95, na.rm = TRUE)
         
     ##Available ranges
-        Avail_Canopy <- Avail_Data[order(Avail_Data$Canopy),] 
-        Avail_Canopy$Rank <- seq(1,nrow(Avail_Canopy))
+        Avail_Canopy <- Avail_Data[,c('Presence','Canopy')]  
+        Avail_Canopy <- Avail_Canopy[order(Avail_Canopy$Canopy),] 
         
         #Rank and Quantiles  
         Storage$Canopy_25A[i] <- quantile(Avail_Canopy$Canopy, 0.25, na.rm = TRUE)        
@@ -252,6 +249,8 @@ for (row_i in 1:nrow(Variable_Combos)) {
         Storage$Canopy_5A[i] <- quantile(Avail_Canopy$Canopy, 0.05, na.rm = TRUE)            
         Storage$Canopy_95A[i] <- quantile(Avail_Canopy$Canopy, 0.95, na.rm = TRUE)  
         
+
+  }    
 #### Storage Database ####
     #for each variable combo
         Results_File <- paste0(Species_Abb, "_",                           
@@ -263,14 +262,11 @@ for (row_i in 1:nrow(Variable_Combos)) {
           
 #### Storage Means ####
       #Summarize and save results into one master file
-
         
     ##VDS
-
       Storage_Means <- Storage %>%
           summarize(across(c(1:50), mean)) %>%
           mutate(across(c(1:50), round, 3))
-  }              
       
       #Add variable combination to Dataframe
       One_Row <- data.frame(Species = Species_Abb,
