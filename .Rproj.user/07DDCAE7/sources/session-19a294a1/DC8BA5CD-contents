@@ -1,0 +1,165 @@
+#KGahl 3-16-23
+#Create charts that show use vs availability across streams/variables for WA BC presentation 
+
+library(tidyverse)
+library(ggplot2)
+library(ggpubr)
+
+#### Data ####
+AllData <- read_csv("~/School/Bonar Lab/Project/Data/Analysis/Data Ready for HSC/Data-Ready-for-HSC/Output/AllData.csv") 
+
+AllData <- AllData %>%
+  mutate(Depth = recode(Depth, ">150" = "151")) %>%   #Change >150cm of depth to be 151 
+  mutate_at(c('Velocity', 'Depth', 'Stream Width'), as.numeric) %>% 
+  rename(SiteType = 'Site Type', InstreamCover = 'Instream Cover', CanopyCover = 'Canopy Cover') 
+  
+AllData$Velocity[AllData$Species=="Black Bass" & is.na(AllData$Velocity)] <- 0
+AllData$Velocity[AllData$Species=="Desert Sucker" & is.na(AllData$Velocity)] <- 0
+  
+Species <- factor(AllData$Species)
+
+################################################################################
+##Winter
+Winter <- AllData %>%
+  filter(Month %in% c('November', 'December', 'January', 'February'))
+
+WPool <- Winter %>%
+    filter(Mesohabitat %in% c('Pool'))
+  
+    WPoolWC <- WPool %>% filter(Stream %in% c('Clear'))
+    WPoolWB <- WPool %>% filter(Stream %in% c('Beaver'))
+  
+WRiffle <- Winter %>%
+    filter(Mesohabitat %in% c('Riffle'))
+  
+  WRiffleWC <- WRiffle %>% filter(Stream %in% c('Clear'))
+  WRiffleWB <- WRiffle %>% filter(Stream %in% c('Beaver'))
+  
+WRun <- Winter %>%
+    filter(Mesohabitat %in% c('Run'))
+  
+  WRunWC <- WRun %>% filter(Stream %in% c('Clear'))
+  WRunWB <- WRun %>% filter(Stream %in% c('Beaver'))
+    
+#### Velocity Winter####
+#West Clear  
+
+WWCPoolVel<- ggplot(WPoolWC, aes(x = Velocity, color = Species)) +
+      geom_density() +
+      labs(y="Density") +
+      scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+WWCPoolVel 
+ 
+WWCRiffVel<- ggplot(WRiffleWC, aes(x = Velocity, color = Species)) +
+    geom_density() +
+    labs(y="Density") +
+    scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+WWCRiffVel  
+
+WWCRunVel<- ggplot(WRunWC, aes(x = Velocity, color = Species)) +
+          geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+WWCRunVel 
+
+ggarrange(WWCPoolVel, WWCRiffVel, WWCRunVel, nrow =3, ncol =1)
+
+#Wet Beaver
+WWBPoolVel<- ggplot(WPoolWB, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+WWBPoolVel 
+
+WWBRiffVel<- ggplot(WRiffleWB, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+WWBRiffVel  
+
+WWBRunVel<- ggplot(WRunWB, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+WWBRunVel 
+
+ggarrange(WWBPoolVel, WWBRiffVel, WWBRunVel, nrow =3, ncol =1)
+
+
+################################################################################
+
+##Spawn
+Spawn <- AllData %>%
+  filter(Month %in% c('March', 'April', 'May', 'June'))
+
+SPool <- Spawn %>%
+  filter(Mesohabitat %in% c('Pool'))
+
+SPoolWC <- SPool %>% filter(Stream %in% c('Clear'))
+SPoolWB <- SPool %>% filter(Stream %in% c('Beaver'))
+
+SRiffle <- Spawm %>%
+  filter(Mesohabitat %in% c('Riffle'))
+
+SRiffleWC <- SRiffle %>% filter(Stream %in% c('Clear'))
+SRiffleWB <- SRiffle %>% filter(Stream %in% c('Beaver'))
+
+SRun <- Spawn %>%
+  filter(Mesohabitat %in% c('Run'))
+
+SRunWC <- SRun %>% filter(Stream %in% c('Clear'))
+SRunWB <- SRun %>% filter(Stream %in% c('Beaver'))
+
+#### Velocity Spawn####
+#West Clear  
+
+SWCPoolVel<- ggplot(SPoolWC, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+SWCPoolVel 
+
+SWCRiffVel<- ggplot(SRiffleWC, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+SWCRiffVel  
+
+SWCRunVel<- ggplot(SRunWC, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+SWCRunVel 
+
+ggarrange(SWCPoolVel, SWCRiffVel, SWCRunVel, nrow =3, ncol =1)
+
+#Wet Beaver
+SWBPoolVel<- ggplot(SPoolWB, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+SWBPoolVel 
+
+SWBRiffVel<- ggplot(SRiffleWB, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+SWBRiffVel  
+
+SWBRunVel<- ggplot(SRunWB, aes(x = Velocity, color = Species)) +
+  geom_density() +
+  labs(y="Density") +
+  scale_color_hue(labels = c('Black Bass', 'Desert Sucker', 'Available'))
+SWBRunVel 
+
+ggarrange(SWBPoolVel, SWBRiffVel, SWBRunVel, nrow =3, ncol =1)
+
+
+################################################################################
+
+
+Active <- AllData %>%
+  filter(Month %in% c('July', 'August', 'September', 'October'))
+
+# WCActive <- Active %>% filter(Stream %in% c('Clear'))
+# WBActive <- Active %>% filter(Stream %in% c('Beaver'))

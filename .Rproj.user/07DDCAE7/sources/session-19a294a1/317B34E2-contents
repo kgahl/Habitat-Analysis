@@ -1,0 +1,604 @@
+#Create horizontal Boxplot of microhabitat analysis
+#depth, flow, velocity
+#Upper and lower whiskers extend to the 5th and 95th percentiles 
+#and the box represents the central 50% of observations 
+#with the vertical line showing the mean value.
+
+library(tidyverse)
+library(ggplot2)
+library(gridExtra)
+
+#Data
+VDS <- read_csv("~/School/Bonar Lab/Project/Data/Analysis/Data Ready for HSC/Data-Ready-for-HSC/Data/VDS_RSF.csv")
+
+VDS$Season = factor(VDS$Season, levels=c("Spring - Summer","Fall","Fall - Winter","Winter"), 
+                    ordered = TRUE)
+
+#Colorblind Color Pallete:
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+############ VELOCITY ############
+####### Desert Sucker Wet Beaver 
+WB_DS <- VDS %>%
+  filter(Stream == 'WB')%>%
+  filter(Species == 'DS')
+
+
+WB_DS_PLOT <- ggplot(data = WB_DS,
+                     aes(x = Mesohabitat,
+                         y = Velocity_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Velocity_L,
+                    ymax = Velocity_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.7,1.7)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "Resource Selection",
+       x = "",
+       title = "Desert Sucker")+
+  geom_hline(yintercept = 0, color = "black")
+
+WB_DS_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+######## Black Bass Wet Beaver
+WB_BB <- VDS %>%
+  filter(Stream == 'WB')%>%
+  filter(Species == 'BB')
+
+
+WB_BB_PLOT <- ggplot(data = WB_BB,
+                     aes(x = Mesohabitat,
+                         y = Velocity_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Velocity_L,
+                    ymax = Velocity_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.7,1.7)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "",
+       x = "",
+       title = "Black Bass")+
+  geom_hline(yintercept = 0, color = "black")
+
+WB_BB_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+#########   Desert Sucker West Clear
+WC_DS <- VDS %>%
+  filter(Stream == 'WC')%>%
+  filter(Species == 'DS')
+
+
+WC_DS_PLOT <- ggplot(data = WC_DS,
+                     aes(x = Mesohabitat,
+                         y = Velocity_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Velocity_L,
+                    ymax = Velocity_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.5,1.5)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "Resource Selection",
+       x = "",
+       title = "Desert Sucker")+
+  geom_hline(yintercept = 0, color = "black")
+
+WC_DS_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+
+##### Black Bass West Clear
+WC_BB <- VDS %>%
+  filter(Stream == 'WC')%>%
+  filter(Species == 'BB')
+
+
+WC_BB_PLOT <- ggplot(data = WC_BB,
+                     aes(x = Mesohabitat,
+                         y = Velocity_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Velocity_L,
+                    ymax = Velocity_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.5,1.5)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "",
+       x = "",
+       title = "Black Bass")+
+  geom_hline(yintercept = 0, color = "black")
+
+WC_BB_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+
+############ DEPTH ############
+####### Desert Sucker Wet Beaver 
+WB_DS <- VDS %>%
+  filter(Stream == 'WB')%>%
+  filter(Species == 'DS')
+
+
+WB_DS_PLOT <- ggplot(data = WB_DS,
+                     aes(x = Mesohabitat,
+                         y = Depth_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Depth_L,
+                    ymax = Depth_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.0,2)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "Resource Selection",
+       x = "",
+       title = "Desert Sucker")+
+  geom_hline(yintercept = 0, color = "black")
+
+WB_DS_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+
+######## Black Bass Wet Beaver
+WB_BB <- VDS %>%
+  filter(Stream == 'WB')%>%
+  filter(Species == 'BB')
+
+
+WB_BB_PLOT <- ggplot(data = WB_BB,
+                     aes(x = Mesohabitat,
+                         y = Depth_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Depth_L,
+                    ymax = Depth_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.0,2)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "",
+       x = "",
+       title = "Black Bass")+
+  geom_hline(yintercept = 0, color = "black")
+
+WB_BB_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+#########   Desert Sucker West Clear
+WC_DS <- VDS %>%
+  filter(Stream == 'WC')%>%
+  filter(Species == 'DS')
+
+
+WC_DS_PLOT <- ggplot(data = WC_DS,
+                     aes(x = Mesohabitat,
+                         y = Depth_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Depth_L,
+                    ymax = Depth_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1,1.5)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "Resource Selection",
+       x = "",
+       title = "Desert Sucker")+
+  geom_hline(yintercept = 0, color = "black")
+
+WC_DS_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+
+  ##### Black Bass West Clear
+
+WC_BB <- VDS %>%
+  filter(Stream == 'WC')%>%
+  filter(Species == 'BB')
+
+
+WC_BB_PLOT <- ggplot(data = WC_BB,
+                     aes(x = Mesohabitat,
+                         y = Depth_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Depth_L,
+                    ymax = Depth_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1,1.5)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "",
+       x = "",
+       title = "Black Bass")+
+  geom_hline(yintercept = 0, color = "black")
+
+WC_BB_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+########### SUBSTRATE #############
+####### Desert Sucker Wet Beaver 
+WB_DS <- VDS %>%
+  filter(Stream == 'WB')%>%
+  filter(Species == 'DS')
+
+
+WB_DS_PLOT <- ggplot(data = WB_DS,
+                     aes(x = Mesohabitat,
+                         y = Substrate_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Substrate_L,
+                    ymax = Substrate_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-.2,.2)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "Resource Selection",
+       x = "",
+       title = "Desert Sucker")+
+  geom_hline(yintercept = 0, color = "black")
+
+WB_DS_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+
+######## Black Bass Wet Beaver
+WB_BB <- VDS %>%
+  filter(Stream == 'WB')%>%
+  filter(Species == 'BB')
+
+
+WB_BB_PLOT <- ggplot(data = WB_BB,
+                     aes(x = Mesohabitat,
+                         y = Substrate_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Substrate_L,
+                    ymax = Substrate_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.0,1.0)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "",
+       x = "",
+       title = "Black Bass")+
+  geom_hline(yintercept = 0, color = "black")
+
+WB_BB_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+#########   Desert Sucker West Clear
+WC_DS <- VDS %>%
+  filter(Stream == 'WC')%>%
+  filter(Species == 'DS')
+
+
+WC_DS_PLOT <- ggplot(data = WC_DS,
+                     aes(x = Mesohabitat,
+                         y = Substrate_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Substrate_L,
+                    ymax = Substrate_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.1,1.1)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "Resource Selection",
+       x = "",
+       title = "Desert Sucker")+
+  geom_hline(yintercept = 0, color = "black")
+
+WC_DS_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
+
+
+##### Black Bass West Clear
+
+WC_BB <- VDS %>%
+  filter(Stream == 'WC')%>%
+  filter(Species == 'BB')
+
+
+WC_BB_PLOT <- ggplot(data = WC_BB,
+                     aes(x = Mesohabitat,
+                         y = Substrate_Mean,
+                         fill = Season))+
+  geom_bar(width = .7, position = "dodge", stat = "identity", color = "black")+
+  geom_errorbar(aes(ymin = Substrate_L,
+                    ymax = Substrate_H),
+                position = position_dodge(.7),
+                color = "black", width = .1)+
+  ylim(-1.1,1.1)+
+  scale_fill_manual("Season", values = c(cbPalette))+
+  theme_minimal()+
+  labs(y = "",
+       x = "",
+       title = "Black Bass")+
+  geom_hline(yintercept = 0, color = "black")
+
+WC_BB_PLOT + theme(
+  
+  #Titles
+  plot.title = element_text(size = 18, margin = margin(b = 20), hjust = 1),
+  axis.title = element_text(size = 18),
+  axis.text = element_text(size = 16, color = "#22292F"),
+  axis.text.y = element_text(margin = margin(r = 5)),
+  axis.text.x = element_text(margin = margin(t = 5)),
+  axis.title.y = element_text(margin = margin(r = 15)),
+  plot.caption = element_text(size = 12, face = "italic", 
+                              color = "#606F7B", margin = margin(t = 15)),
+  
+  #Grid
+  axis.line = element_line(color = "#3D4852"),
+  axis.ticks = element_line(color = "#3D4852"),
+  panel.grid.major.y = element_line(color = "#DAE1E7"),
+  panel.grid.major.x = element_blank(),
+  panel.grid.minor.y = element_blank(),
+  
+  #Legend
+  legend.direction="horizontal",
+  legend.position = "top",
+  legend.justification = c("right", "top")
+)
