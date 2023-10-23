@@ -77,7 +77,7 @@ for (row_i in 1:nrow(Variable_Combos)) {
     ##Create data frame to store coefficients
     Prop_Sample <- 0.75                                                           #specify the proportion of point resampled (75%)  
     
-    N_reps <- 10000
+    N_reps <- 100
     
     Storage <- data.frame(Mean_VelocityU = NA, Velocity_25U = rep(NA,N_reps), Velocity_75U = NA, Velocity_5U = NA, Velocity_95U = NA, 
                           Mean_VelocityA = NA, Velocity_25A = NA, Velocity_75A = NA, Velocity_5A = NA, Velocity_95A = NA,

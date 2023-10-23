@@ -20,7 +20,7 @@ library(readr)
    NotAsFishy <- read_csv("Output/NotAsFishy.csv")
   
   #Read in data file with variable combinations 
-   Variable_Combos <- read.csv("Thermal Tolerance/Thermal Tolerance March Excluded/Tolerance_MarchExcluded_Variables.csv")
+   Variable_Combos <- read.csv("Discharge/HighLow_Variables.csv")
 
 ##Output 
   #Dataframe to write to file
